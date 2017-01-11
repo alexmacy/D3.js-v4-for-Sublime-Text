@@ -10,8 +10,7 @@ A collection of code dompletions and snippets to make working with D3.js a littl
 	* Accessible from the command pallette (Mac: Cmd+Shift+P, Windows: Ctrl+Shift+P)
 	* Typing a v3 command or partial string will suggest the v4 equivalent.
 
-* coming soon... convenience snippets of common d3 
-
+* convenience snippets of commonly used features of D3.js 
 
 Please let me of any typos, if anything is missing, or of any requests for convenience snippets to be added.
 
