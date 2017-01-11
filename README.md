@@ -22,4 +22,4 @@ This will be accessible from within Sublime Text via Package Control, but for no
 
 * To find the packages folder:
 	* Mac: ~/Library/Application Support/Sublime Text 3/Packages/ 
-	* Windows: C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages/ 
+	* Windows: C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages
