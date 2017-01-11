@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoLength(${1:feature})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.length ↦ d3.geoLength</description>
+</snippet>

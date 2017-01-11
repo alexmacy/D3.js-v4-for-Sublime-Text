@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[d3.text(${1:url}, function(err, data) {
+  if (error) throw error;
+  $2
+})]]></content>
+  <tabTrigger>text()</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.text(snippet)</description>
+</snippet>

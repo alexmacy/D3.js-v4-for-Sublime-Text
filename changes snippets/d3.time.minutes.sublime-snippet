@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.timeMinutes${1:start}, ${2:stop})]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.minutes ↦ d3.timeMinutes</description>
+</snippet>

@@ -1,0 +1,53 @@
+//////////////////////////////////////////////////////////////////////
+//Paths (d3-path)
+//Serialize Canvas path commands to SVG.
+//////////////////////////////////////////////////////////////////////
+
+{
+
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.path - create a new path serializer.
+			"trigger": "path()\td3.path()",
+			"contents": "d3.path()"
+		}, {
+			//path.moveTo - move to the given point.
+			"trigger": "moveTo()\td3.path.moveTo()",
+			"contents": "moveTo(${1:x}, ${2:y})"
+		}, {
+			//path.closePath - close the current subpath.
+			"trigger": "closePath()\td3.path.closePath()",
+			"contents": "closePath()"
+		}, {
+			//path.lineTo - draw a straight line segment.
+			"trigger": "lineTo()\td3.path.lineTo()",
+			"contents": "lineTo(${1:x}, ${2:y})"
+		}, {
+			//path.quadraticCurveTo - draw a quadratic Bézier segment.
+			"trigger": "quadraticCurveTo()\td3.path.quadraticCurveTo()",
+			"contents": "quadraticCurveTo(${1:cpx}, ${2:cpy}, ${3:x}, ${4:y})"
+		}, {
+			//path.bezierCurveTo - draw a cubic Bézier segment.
+			"trigger": "bezierCurveTo()\td3.path.bezierCurveTo()",
+			"contents": "bezierCurveTo(${1:cpx1}, ${2:cpy1}, ${3:cpx2}, ${4:cpy2}, ${5:x}, ${6:y})"
+		}, {
+			//path.arcTo - draw a circular arc segment.
+    		"trigger": "arcTo()\td3.path.arcTo()",
+    		"contents": "arcTo(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:radius})"
+    	}, {
+			//path.arc - draw a circular arc segment.
+    		"trigger": "arc()\td3.path.arc()",
+    		"contents": "arc(${1:x}, ${2:y}, ${3:radius}, ${4:startAngle}, ${5:endAngle})"
+		}, {
+			//path.rect - draw a rectangle.
+			"trigger": "rect()\td3.path.rect()",
+			"contents": "rect(${1:x}, ${2:y}, ${3:w}, ${4:h})"
+    	}, {
+			//path.toString - serialize to an SVG path data string.
+			"trigger": "toString()\td3.path.toString()",
+			"contents": "toString()"
+		},
+	]
+}

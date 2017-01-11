@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleUtc()]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.scale.utc ↦ d3.scaleUtc</description>
+</snippet>

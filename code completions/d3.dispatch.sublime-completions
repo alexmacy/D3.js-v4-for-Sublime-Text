@@ -1,0 +1,32 @@
+//////////////////////////////////////////////////////////////////////
+//Dispatches (d3-dispatch)
+//Separate concerns using named callbacks.
+//////////////////////////////////////////////////////////////////////
+
+{
+	"scope": "source.js",
+	"completions":
+	[
+		{
+			//d3.dispatch - create a custom event dispatcher.
+			"trigger": "dispatch()\td3.dispatch()",
+			"contents": "d3.dispatch(${1:types...})"
+		}, {
+			//dispatch.on - register or unregister an event listener.
+			"trigger": "on()\td3.dispatch.on()",
+			"contents": "on(${1:typenames})"
+		}, {
+			//dispatch.copy - create a copy of a dispatcher.
+			"trigger": "copy()\td3.dispatch.copy()",
+			"contents": "copy()"
+		}, {
+			//dispatch.call - dispatch an event to registered listeners.
+			"trigger": "call()\td3.dispatch.call()",
+			"contents": "call(${1:type})"
+		}, {
+			//dispatch.apply - dispatch an event to registered listeners.
+			"trigger": "apply()\td3.dispatch.apply()",
+			"contents": "apply(${1:type})"
+		}
+	]
+}

@@ -1,0 +1,52 @@
+//////////////////////////////////////////////////////////////////////
+//Number Formats (d3-format)
+//Format numbers for human consumption.
+//////////////////////////////////////////////////////////////////////
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.format - alias for locale.format on the default locale.
+			"trigger": "format()\td3.format()",
+			"contents": "d3.format(${1:specifier})"
+		}, {
+			//d3.formatPrefix - alias for locale.formatPrefix on the default locale.
+			"trigger": "formatPrefix()\td3.formatPrefix()",
+			"contents": "d3.formatPrefix(${1:specifier}, ${2:value})"
+		}, {
+			//d3.formatSpecifier - parse a number format specifier.
+			"trigger": "formatSpecifier()\td3.formatSpecifier()",
+			"contents": "d3.formatSpecifier(${1:specifier})"
+		}, {
+			//d3.formatLocale - define a custom locale.
+			"trigger": "formatLocale()\td3.formatLocale()",
+			"contents": "d3.formatLocale(${1:definition})"
+		}, {
+			//d3.formatDefaultLocale - define the default locale.
+			"trigger": "formatDefaultLocale()\td3.formatDefaultLocale()",
+			"contents": "d3.formatDefaultLocale(${1:definition})"
+		}, {
+			//locale.format - create a number format.
+			"trigger": "format()\td3.locale.format()",
+			"contents": "format(${1:specifier})"
+		}, {
+			//locale.formatPrefix - create a SI-prefix number format.
+			"trigger": "formatPrefix()\td3.locale.formatPrefix()",
+			"contents": "formatPrefix(${1:specifier}, ${2:value})"
+		}, {
+			//d3.precisionFixed - compute decimal precision for fixed-point notation.
+			"trigger": "precisionFixed()\td3.precisionFixed()",
+			"contents": "d3.precisionFixed(${1:step})"
+		}, {
+			//d3.precisionPrefix - compute decimal precision for SI-prefix notation.
+			"trigger": "precisionPrefix()\td3.precisionPrefix()",
+			"contents": "d3.precisionPrefix(${1:step}, ${2:value})"
+		}, {
+			//d3.precisionRound - compute significant digits for rounded notation.
+			"trigger": "precisionRound()\td3.precisionRound()",
+			"contents": "d3.precisionRound(${1:step}, ${2:max})"
+		}
+	]
+}

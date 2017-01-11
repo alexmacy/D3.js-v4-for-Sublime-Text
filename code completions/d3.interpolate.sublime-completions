@@ -1,0 +1,108 @@
+//////////////////////////////////////////////////////////////////////
+//Interpolators (d3-interpolate)
+//Interpolate numbers, colors, strings, arrays, objects, whatever!
+//////////////////////////////////////////////////////////////////////
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.interpolate - interpolate arbitrary values.
+			"trigger": "interpolate()\td3.interpolate()",
+			"contents": "d3.interpolate(${1:a}, ${2:b})"
+		}, {
+			//d3.interpolateArray - interpolate arrays of arbitrary values.
+			"trigger": "interpolateArray\td3.interpolateArray()",
+			"contents": "d3.interpolateArray({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateDate - interpolate dates.
+			"trigger": "interpolateDate\td3.interpolateDate()",
+			"contents": "d3.interpolateDate({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateNumber - interpolate numbers.
+			"trigger": "interpolateNumber\td3.interpolateNumber()",
+			"contents": "d3.interpolateNumber({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateObject - interpolate arbitrary objects.
+			"trigger": "interpolateObject\td3.interpolateObject()",
+			"contents": "d3.interpolateObject({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateRound - interpolate integers.
+			"trigger": "interpolateRound\td3.interpolateRound()",
+			"contents": "d3.interpolateRound({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateString - interpolate strings with embedded numbers.
+			"trigger": "interpolateString\td3.interpolateString()",
+			"contents": "d3.interpolateString({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateTransformCss - interpolate 2D CSS transforms.
+			"trigger": "interpolateTransformCss\td3.interpolateTransformCss()",
+			"contents": "d3.interpolateTransformCss({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateTransformSvg - interpolate 2D SVG transforms.
+			"trigger": "interpolateTransformSvg\td3.interpolateTransformSvg()",
+			"contents": "d3.interpolateTransformSvg({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateZoom - zoom and pan between two views.
+			"trigger": "interpolateZoom\td3.interpolateZoom()",
+			"contents": "d3.interpolateZoom({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateRgb - interpolate RGB colors.
+			"trigger": "interpolateRgb\td3.interpolateRgb()",
+			"contents": "d3.interpolateRgb({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateRgbBasis - generate a B-spline through a set of colors.
+			"trigger": "interpolateRgbBasis\td3.interpolateRgbBasis()",
+			"contents": "d3.interpolateRgbBasis({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateRgbBasisClosed - generate a closed B-spline through a set of colors.
+			"trigger": "interpolateRgbBasisClosed\td3.interpolateRgbBasisClosed()",
+			"contents": "d3.interpolateRgbBasisClosed({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateHsl - interpolate HSL colors.
+			"trigger": "interpolateHsl\td3.interpolateHsl()",
+			"contents": "d3.interpolateHsl({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateHslLong - interpolate HSL colors, the long way.
+			"trigger": "interpolateHslLong\td3.interpolateHslLong()",
+			"contents": "d3.interpolateHslLong({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateLab - interpolate Lab colors.
+			"trigger": "interpolateLab\td3.interpolateLab()",
+			"contents": "d3.interpolateLab({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateHcl - interpolate HCL colors.
+			"trigger": "interpolateHcl\td3.interpolateHcl()",
+			"contents": "d3.interpolateHcl({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateHclLong - interpolate HCL colors, the long way.
+			"trigger": "interpolateHclLong\td3.interpolateHclLong()",
+			"contents": "d3.interpolateHclLong({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateCubehelix - interpolate Cubehelix colors.
+			"trigger": "interpolateCubehelix\td3.interpolateCubehelix()",
+			"contents": "d3.interpolateCubehelix({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateCubehelixLong - interpolate Cubehelix colors, the long way.
+			"trigger": "interpolateCubehelixLong\td3.interpolateCubehelixLong()",
+			"contents": "d3.interpolateCubehelixLong({1:a}, ${2:b})"
+		}, {
+			//interpolate.gamma - apply gamma correction during interpolation.
+			"trigger": "gamma\td3.interpolate.gamma()",
+			"contents": "gamma({1:gamma})"
+		}, {
+			//d3.interpolateBasis - generate a B-spline through a set of values.
+			"trigger": "interpolateBasis\td3.interpolateBasis()",
+			"contents": "d3.interpolateBasis({1:a}, ${2:b})"
+		}, {
+			//d3.interpolateBasisClosed - generate a closed B-spline through a set of values.
+			"trigger": "interpolateBasisClosed\td3.interpolateBasisClosed()",
+			"contents": "d3.interpolateBasisClosed({1:a}, ${2:b})"
+		}, {
+			//d3.quantize - generate uniformly-spaced samples from an interpolator.
+			"trigger": "quantize\td3.quantize()",
+			"contents": "d3.quantize(${1:interpolator}, ${2:n})"
+		}
+	]
+}

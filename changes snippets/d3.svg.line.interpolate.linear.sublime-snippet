@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.curveLinear(${1:context})]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.interpolation linear ↦ d3.curveLinear</description>
+</snippet>

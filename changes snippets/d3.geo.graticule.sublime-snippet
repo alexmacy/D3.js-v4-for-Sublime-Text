@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoGraticule()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.graticule ↦ d3.geoGraticule</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.randomIrwinHall(${1:n})]]></content>
+	<scope>source.js</scope>
+	<description>d3.random.irwinHall ↦ d3.randomIrwinHall</description>
+</snippet>

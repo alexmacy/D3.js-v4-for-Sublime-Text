@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoStream(${1:object}, ${2:stream})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.stream ↦ d3.geoStream</description>
+</snippet>

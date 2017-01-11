@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeCubicIn]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("cubic-in") ↦ d3.easeCubicIn</description>
+</snippet>

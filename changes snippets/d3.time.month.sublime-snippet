@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.timeMonth]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.month ↦ d3.timeMonth</description>
+</snippet>

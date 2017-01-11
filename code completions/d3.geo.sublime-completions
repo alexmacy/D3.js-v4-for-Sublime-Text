@@ -1,0 +1,318 @@
+//////////////////////////////////////////////////////////////////////
+//Geographies (d3-geo)
+//Geographic projections, shapes and math.
+//////////////////////////////////////////////////////////////////////
+
+{
+  "scope": "source.js",
+  "completions":
+  [
+  		//Paths
+
+		{
+			//d3.geoPath - create a new geographic path generator.
+			"trigger": "geoPath()\td3.geoPath()",
+			"contents": "d3.geoPath(${1:[projection]})"
+		}, {
+			//path.area - compute the projected planar area of a given feature.
+			"trigger": "area()\td3.geoPath.area()",
+			"contents": "area(${1:object})"
+		}, {
+			//path.bounds - compute the projected planar bounding box of a given feature.
+			"trigger": "bounds()\td3.geoPath.bounds()",
+			"contents": "bounds(${1:object})"
+		}, {
+			//path.centroid - compute the projected planar centroid of a given feature.
+			"trigger": "centroid()\td3.geoPath.centroid()",
+			"contents": "centroid(${1:object})"
+		}, {
+			//path.projection - set the geographic projection.
+			"trigger": "projection()\td3.geoPath.projection()",
+			"contents": "projection(${1:[projection]})"
+		}, {
+			//path.context - set the render context.
+			"trigger": "context()\td3.geoPath.context()",
+			"contents": "context(${1:[context]})"
+		}, {
+			//path.pointRadius - set the radius to display point features.
+			"trigger": "pointRadius()\td3.geoPath.pointRadius()",
+			"contents": "pointRadius(${1:[radius]})"
+		}, 
+
+		//Projections
+
+		{
+			//projection.invert - unproject the specified point from the plane to the sphere.
+			"trigger": "invert()\td3.projection.invert()",
+			"contents": "invert(${1:point})"
+		}, {
+			//projection.stream - wrap the specified stream to project geometry.
+			"trigger": "stream()\td3.projection.stream()",
+			"contents": "stream(${1:stream})"
+		}, {
+			//projection.clipAngle - set the radius of the clip circle.
+			"trigger": "clipAngle()\td3.projection.clipAngle()",
+			"contents": "clipAngle(${1:[angle]})"
+		}, {
+			//projection.clipExtent - set the viewport clip extent, in pixels.
+			"trigger": "clipExtent()\td3.projection.clipExtent()",
+			"contents": "clipExtent(${1:[extent]})"
+		}, {
+			//projection.scale - set the scale factor.
+			"trigger": "scale()\td3.projection.scale()",
+			"contents": "scale(${1:[scale]})"
+		}, {
+			//projection.translate - set the translation offset.
+			"trigger": "translate()\td3.projection.translate()",
+			"contents": "translate(${1:[translate]})"
+		}, {
+			//projection.center - set the center point.
+			"trigger": "center()\td3.projection.center()",
+			"contents": "center(${1:[center]})"
+		}, {
+			//projection.rotate - set the three-axis spherical rotation angles.
+			"trigger": "rotate()\td3.projection.rotate()",
+			"contents": "rotate(${1:[angles]})"
+		}, {
+			//projection.precision - set the precision threshold for adaptive sampling.
+			"trigger": "precision()\td3.projection.precision()",
+			"contents": "precision(${1:[precision]})"
+		}, {
+			//projection.fitExtent - set the scale and translate to fit a GeoJSON object.
+			"trigger": "fitExtent()\td3.projection.fitExtent()",
+			"contents": "fitExtent(${1:extent}, ${2:object})"
+		}, {
+			//projection.fitSize - set the scale and translate to fit a GeoJSON object.
+			"trigger": "fitSize()\td3.projection.fitSize()",
+			"contents": "fitSize(${1:size}, ${2:object})"
+		}, {
+			//d3.geoAzimuthalEqualArea - the azimuthal equal-area projection.
+			"trigger": "geoAzimuthalEqualArea()\td3.geoAzimuthalEqualArea()",
+			"contents": "d3.geoAzimuthalEqualArea()"
+		}, {
+			//d3.geoAzimuthalEquidistant - the azimuthal equidistant projection.
+			"trigger": "geoAzimuthalEquidistant()\td3.geoAzimuthalEquidistant()",
+			"contents": "d3.geoAzimuthalEquidistant()"
+		}, {
+			//d3.geoGnomonic - the gnomonic projection.
+			"trigger": "geoGnomonic()\td3.geoGnomonic()",
+			"contents": "d3.geoGnomonic()"
+		}, {
+			//d3.geoOrthographic - the azimuthal orthographic projection.
+			"trigger": "geoOrthographic()\td3.geoOrthographic()",
+			"contents": "d3.geoOrthographic()"
+		}, {
+			//d3.geoStereographic - the azimuthal stereographic projection.
+			"trigger": "geoStereographic()\td3.geoStereographic()",
+			"contents": "d3.geoStereographic()"
+		}, {
+			//d3.geoAlbersUsa - a composite Albers projection for the United States.
+			"trigger": "geoAlbersUsa()\td3.geoAlbersUsa()",
+			"contents": "d3.geoAlbersUsa()"
+		}, {
+			//d3.geoAlbers - the Albers equal-area conic projection.
+			"trigger": "geoAlbersUsa()\td3.geoAlbersUsa()",
+			"contents": "d3.geoAlbersUsa()"
+		}, {
+			//conic.parallels - set the two standard parallels.
+			"trigger": "parallels()\td3.conicProjection.parallels()",
+			"contents": "parallels(${1:[parallels]})"
+		}, {			
+			//d3.geoConicConformal - the conic conformal projection.
+			"trigger": "geoConicConformal()\td3.geoConicConformal()",
+			"contents": "d3.geoConicConformal()"
+		}, {
+			//d3.geoConicEqualArea - the conic equal-area (Albers) projection.
+			"trigger": "geoConicEqualArea()\td3.geoConicEqualArea()",
+			"contents": "d3.geoConicEqualArea()"
+		}, {
+			//d3.geoConicEquidistant - the conic equidistant projection.
+			"trigger": "geoConicEquidistant()\td3.geoConicEquidistant()",
+			"contents": "d3.geoConicEquidistant()"
+		}, {
+			//d3.geoEquirectangular - the equirectangular (plate carreé) projection.
+			"trigger": "geoEquirectangular()\td3.geoEquirectangular()",
+			"contents": "d3.geoEquirectangular()"
+		}, {
+			//d3.geoMercator - the spherical Mercator projection.
+			"trigger": "geoMercator()\td3.geoMercator()",
+			"contents": "d3.geoMercator()"
+		}, {
+			//d3.geoTransverseMercator - the transverse spherical Mercator projection.
+			"trigger": "geoTransverseMercator()\td3.geoTransverseMercator()",
+			"contents": "d3.geoTransverseMercator()"
+		}, {
+			//project - project the specified point from the sphere to the plane.
+			"trigger": "project()\td3.projection(lambda, phi)",
+			"contents": "project(${1:lambda}, ${2:phi})"
+		}, {
+			//project.invert - unproject the specified point from the plane to the sphere.
+			"trigger": "invert()\td3.projection.invert()",
+			"contents": "invert(${1:x}, ${2:y})"
+		}, {
+			//d3.geoProjection - create a custom projection.
+			"trigger": "geoProjection()\td3.geoProjection()",
+			"contents": "d3.geoProjection(${1:project})"
+		}, {
+			//d3.geoProjectionMutator - create a custom configurable projection.
+			"trigger": "geoProjectionMutator()\td3.geoProjectionMutator()",
+			"contents": "d3.geoProjectionMutator($1)"
+		}, {
+			//d3.geoAzimuthalEqualAreaRaw -
+			"trigger": "geoProjectionMutator()\td3.geoProjectionMutator()",
+			"contents": "d3.geoProjectionMutator($1)"
+		},
+
+		//Spherical Math
+
+		{
+			//d3.geoArea - compute the spherical area of a given feature.
+			"trigger": "geoArea()\td3.geoArea()",
+			"contents": "d3.geoArea(${1:feature})"
+		}, {
+			//d3.geoBounds - compute the latitude-longitude bounding box for a given feature.
+			"trigger": "geoBounds()\td3.geoBounds()",
+			"contents": "d3.geoBounds(${1:feature})"
+		}, {
+			//d3.geoCentroid - compute the spherical centroid of a given feature.
+			"trigger": "geoCentroid()\td3.geoCentroid()",
+			"contents": "d3.geoCentroid(${1:feature})"
+		}, {
+			//d3.geoDistance - compute the great-arc distance between two points.
+			"trigger": "geoDistance()\td3.geoDistance()",
+			"contents": "d3.geoDistance(${1:a}, ${2:b})"
+		}, {
+			//d3.geoLength - compute the length of a line string or the perimeter of a polygon.
+			"trigger": "geoLength()\td3.geoLength()",
+			"contents": "d3.geoLength(${1:feature})"
+		}, {
+			//d3.geoInterpolate - interpolate between two points along a great arc.
+			"trigger": "geoInterpolate()\td3.geoInterpolate()",
+			"contents": "d3.geoInterpolate(${1:a}, ${2:b})"
+		}, {
+			//d3.geoRotation - create a rotation function for the specified angles.
+			"trigger": "geoRotation()\td3.geoRotation()",
+			"contents": "d3.geoRotation(${1:angles})"
+		}, {
+			//rotation.invert - unrotate the given point around the sphere.
+			"trigger": "invert()\td3.geoRotation.invert()",
+			"contents": "invert(${1:point})"
+		},
+
+		//Spherical Shapes
+
+		{
+			//d3.geoCircle - create a circle generator.
+			"trigger": "geoCircle()\td3.geoCircle()",
+			"contents": "d3.geoCircle()"
+		}, {
+			//circle.center - specify the circle center in latitude and longitude.
+			"trigger": "center()\td3.geoCircle.center()",
+			"contents": "center(${1:[center]})"
+		}, {
+			//circle.radius - specify the angular radius in degrees.
+			"trigger": "radius()\td3.geoCircle.radius()",
+			"contents": "radius(${1:[radius]})"
+		}, {
+			//circle.precision - specify the precision of the piecewise circle.
+			"trigger": "precision()\td3.geoCircle.precision()",
+			"contents": "precision(${1:[angle]})"
+		}, {
+			//d3.geoGraticule - create a graticule generator.
+			"trigger": "geoGraticule()\td3.geoGraticule()",
+			"contents": "d3.geoGraticule()"
+		}, {
+			//graticule.lines - generate an array of LineStrings of meridians and parallels.
+			"trigger": "lines()\td3.geoGraticule.lines()",
+			"contents": "lines()"
+		}, {
+			//graticule.outline - generate a Polygon of the graticule’s extent.
+			"trigger": "outline()\td3.geoGraticule.outline()",
+			"contents": "outline()"
+		}, {
+			//graticule.extent - get or set the major & minor extents.
+			"trigger": "extent()\td3.geoGraticule.extent()",
+			"contents": "extent(${1:[extent]})"
+		}, {
+			//graticule.extentMajor - get or set the major extent.
+			"trigger": "extentMajor()\td3.geoGraticule.extentMajor()",
+			"contents": "extentMajor(${1:[extent]})"
+		}, {
+			//graticule.extentMinor - get or set the minor extent.
+			"trigger": "extentMinor()\td3.geoGraticule.extentMinor()",
+			"contents": "extentMinor(${1:[extent]})"
+		}, {
+			//graticule.step - get or set the major & minor step intervals.
+			"trigger": "step()\td3.geoGraticule.step()",
+			"contents": "step(${1:[step]})"
+		}, {
+			//graticule.stepMajor - get or set the major step intervals.
+			"trigger": "stepMajor()\td3.geoGraticule.stepMajor()",
+			"contents": "stepMajor(${1:[step]})"
+		}, {
+			//graticule.stepMinor - get or set the minor step intervals.
+			"trigger": "stepMinor()\td3.geoGraticule.stepMinor()",
+			"contents": "stepMinor(${1:[step]})"
+		}, {
+			//graticule.precision - get or set the latitudinal precision.
+			"trigger": "precision()\td3.geoGraticule.precision()",
+			"contents": "precision(${1:[angle]})"
+		}, {
+			//d3.geoGraticule10 - generate the default 10° global graticule.
+			"trigger": "geoGraticule10()\td3.geoGraticule10()",
+			"contents": "d3.geoGraticule10()"
+		},
+
+		//Streams
+
+		{
+			//d3.geoStream - convert a GeoJSON object to a geometry stream.
+			"trigger": "geoStream()\td3.geoStream()",
+			"contents": "geoStream(${1:object}, ${2:stream})"
+		}, {
+			//stream.point -
+			"trigger": "point()\td3.geoStream.point()",
+			"contents": "point(${1:x}, ${2:y})"
+		}, {
+			//stream.lineStart -
+			"trigger": "lineStart()\td3.geoStream.lineStart()",
+			"contents": "lineStart()"
+		}, {
+			//stream.lineEnd -
+			"trigger": "lineEnd()\td3.geoStream.lineEnd()",
+			"contents": "lineEnd()"
+		}, {
+			//stream.polygonStart -
+			"trigger": "polygonStart()\td3.geoStream.polygonStart()",
+			"contents": "polygonStart()"
+		}, {
+			//stream.polygonEnd -
+			"trigger": "polygonEnd()\td3.geoStream.polygonEnd()",
+			"contents": "polygonEnd()"
+		}, {
+			//stream.sphere -
+			"trigger": "sphere()\td3.geoStream.sphere()",
+			"contents": "sphere()"
+		},
+
+		//Transforms
+
+		{
+			//d3.geoTransform - define a custom geometry transform.	
+			"trigger": "geoTransform()\td3.geoTransform()",
+			"contents": "d3.geoTransform(${1:methods})"
+		}, {
+			//d3.geoIdentity - scale, translate or clip planar geometry.
+			"trigger": "geoIdentity()\td3.geoIdentity()",
+			"contents": "geoIdentity()"
+		}, {
+			//geoIdentity.reflectX
+			"trigger": "reflectX()\td3.geoIdentity.reflectX()",
+			"contents": "reflectX(${[reflect]})"
+		}, {
+			//geoIdentity.reflectY
+			"trigger": "reflectY()\td3.geoIdentity.reflectY()",
+			"contents": "reflectY(${[reflect]})"
+		}
+	]
+}

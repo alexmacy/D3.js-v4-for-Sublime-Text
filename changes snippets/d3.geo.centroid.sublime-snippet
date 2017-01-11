@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoCentroid(${1:feature})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.centroid ↦ d3.geoCentroid</description>
+</snippet>

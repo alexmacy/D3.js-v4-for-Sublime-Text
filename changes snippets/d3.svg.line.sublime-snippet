@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.line()]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line ↦ d3.line</description>
+</snippet>

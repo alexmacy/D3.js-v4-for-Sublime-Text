@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeLinear]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("linear-out") ↦ d3.easeLinear</description>
+</snippet>

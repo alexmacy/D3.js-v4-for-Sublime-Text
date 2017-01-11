@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.hierarchy(${1:data})]]></content>
+	<scope>source.js</scope>
+	<description>d3.layout.hierarchy ↦ d3.hierarchy</description>
+</snippet>

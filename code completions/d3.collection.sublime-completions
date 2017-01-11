@@ -1,0 +1,158 @@
+//////////////////////////////////////////////////////////////////////
+//Collections (d3-collection)
+//Handy data structures for elements keyed by string.
+//////////////////////////////////////////////////////////////////////
+
+{
+	"scope": "source.js",
+	"completions":
+	[
+		//Objects
+		//Methods for converting associative arrays (objects) to arrays.
+
+		{  
+			//d3.keys - list the keys of an associative array.
+			"trigger": "keys()\td3.keys()",
+			"contents": "d3.keys(${1:object})"
+		}, {
+			//d3.values - list the values of an associated array.
+			"trigger": "values()\td3.values()",
+			"contents": "d3.values(${1:object})"
+		}, {
+			//d3.entries - list the key-value entries of an associative array.
+			"trigger": "entries()\td3.entries()",
+			"contents": "d3.entries(${1:object})"
+		}, 
+
+		//Maps
+		//Like ES6 Map, but with string keys and a few other differences.
+
+		{
+			//d3.map - create a new, empty map.
+			"trigger": "map()\td3.map()",
+			"contents": "d3.map(${1:object})"
+		}, {
+			//map.has - returns true if the map contains the given key.
+			"trigger": "has()\td3.map.has()",
+			"contents": "has(${1:key})"
+		}, {
+			//map.get - get the value for the given key.
+			"trigger": "get()\td3.map.get()",
+			"contents": "get(${1:key})"
+		}, {
+			//map.set - set the value for the given key.
+			"trigger": "set()\td3.map.set()",
+			"contents": "set(${1:key}, ${2:value})"
+		}, {
+			//map.remove - remove the entry for given key.
+			"trigger": "remove()\td3.map.remove()",
+			"contents": "remove(${1:key})"
+		}, {
+			//map.clear - remove all entries.
+			"trigger": "clear()\td3.map.clear()",
+			"contents": "clear()"
+		}, {
+			//map.keys - get the array of keys.
+			"trigger": "keys()\td3.map.keys()",
+			"contents": "keys()"
+		}, {
+			//map.values - get the array of values.
+			"trigger": "values()\td3.map.values()",
+			"contents": "values()"
+		}, {
+			//map.entries - get the array of entries (key-values objects).
+			"trigger": "entries()\td3.map.entries()",
+			"contents": "entries()"
+		}, {
+			//map.each - call a function for each entry.
+			"trigger": "each()\td3.map.each()",
+			"contents": "each(function(d, i) {return $1})"
+		}, {
+			//map.empty - returns false if the map has at least one entry.
+			"trigger": "empty()\td3.map.empty()",
+			"contents": "empty()"
+		}, {
+			//map.size - compute the number of entries.
+			"trigger": "size()\td3.map.size()",
+			"contents": "size()"
+		}, 
+
+		//Sets
+		//Like ES6 Set, but with string keys and a few other differences.
+
+		{
+			//d3.set - create a new, empty set.
+			"trigger": "set()\td3.set()",
+			"contents": "set(${1:array})"
+		}, {
+			//set.has - returns true if the set contains the given value.
+			"trigger": "has()\td3.set.has()",
+			"contents": "has(${1:value})"
+		}, {
+			//set.add - add the given value.
+			"trigger": "add()\td3.set.add()",
+			"contents": "add(${1:value})"
+		}, {
+			//set.remove - remove the given value.
+			"trigger": "remove()\td3.set.remove()",
+			"contents": "remove(${1:value})"
+		}, {
+			//set.clear - remove all values.
+			"trigger": "clear()\td3.set.clear()",
+			"contents": "clear()"
+		}, {
+			//set.values - get the array of values.
+			"trigger": "values()\td3.set.values()",
+			"contents": "values()"
+		}, {
+			//set.each - call a function for each value.
+			"trigger": "each()\td3.set.each()",
+			"contents": "each(function(d, i) {return $1})"
+		}, {
+			//set.empty - returns true if the set has at least one value.
+			"trigger": "empty()\td3.set.empty()",
+			"contents": "empty()"
+		}, {
+			//set.size - compute the number of values.
+			"trigger": "size()\td3.set.size()",
+			"contents": "size()"
+		}, 
+
+		//Nests
+		//Group data into arbitrary hierarchies.
+
+		{
+			//d3.nest - create a new nest generator.
+			"trigger": "nest()\td3.nest()",
+			"contents": "nest()"
+		}, {
+			//nest.key - add a level to the nest hierarchy.
+			"trigger": "key()\td3.nest.key()",
+			"contents": "key(${1:key})"
+		}, {
+			//nest.sortKeys - sort the current nest level by key.
+			"trigger": "sortKeys()\td3.nest.sortKeys()",
+			"contents": "sortKeys(${1:comparator})"
+		}, {
+			//nest.sortValues - sort the leaf nest level by value.
+			"trigger": "sortValues()\td3.nest.sortValues()",
+			"contents": "sortValues(${1:comparator})"
+		}, {
+			//nest.rollup - specify a rollup function for leaf values.
+			"trigger": "rollup()\td3.nest.rollup()",
+			"contents": "rollup(function(d, i) {return $1})"
+		}, {
+			//nest.map - generate the nest, returning a map.
+			"trigger": "map()\td3.nest.map()",
+			"contents": "map(${1:array})"
+		}, {
+			//nest.object - generate the nest, returning an associative array.
+			"trigger": "object()\td3.nest.object()",
+			"contents": "object(${1:array})"
+		}, {
+			//nest.entries - generate the nest, returning an array of key-values tuples.
+			"trigger": "entries()\td3.nest.entries()",
+			"contents": "entries(${1:array})"
+		}
+	]
+}

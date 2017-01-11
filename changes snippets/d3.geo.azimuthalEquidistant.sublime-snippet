@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoAzimuthalEquidistant()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.azimuthalEquidistant ↦ d3.geoAzimuthalEquidistant</description>
+</snippet>

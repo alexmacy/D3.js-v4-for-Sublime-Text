@@ -1,0 +1,64 @@
+//////////////////////////////////////////////////////////////////////
+//Delimiter-Separated Values (d3-dsv)
+//Parse and format delimiter-separated values, most commonly CSV and TSV.
+//////////////////////////////////////////////////////////////////////
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.csvParse - parse the given CSV string, returning an array of objects.
+			"trigger": "csvParse()\td3.csvParse()",
+			"contents": "d3.csvParse(${1:string})"
+		}, {
+			//d3.csvParseRows - parse the given CSV string, returning an array of rows.
+			"trigger": "csvParseRows()\td3.csvParseRows()",
+			"contents": "d3.csvParseRows(${1:string})"
+		}, {
+			//d3.csvFormat - format the given array of objects as CSV.
+			"trigger": "csvFormat()\td3.csvFormat()",
+			"contents": "d3.csvFormat(${1:rows})"
+		}, {
+			//d3.csvFormatRows - format the given array of rows as CSV.
+			"trigger": "csvFormatRows()\td3.csvFormatRows()",
+			"contents": "d3.csvFormatRows(${1:rows})"
+		}, {
+			//d3.tsvParse - parse the given TSV string, returning an array of objects.
+			"trigger": "tsvParse()\td3.tsvParse()",
+			"contents": "d3.tsvParse(${1:string})"
+		}, {
+			//d3.tsvParseRows - parse the given TSV string, returning an array of rows.
+			"trigger": "tsvParseRows()\td3.tsvParseRows()",
+			"contents": "d3.tsvParseRows(${1:string})"
+		}, {
+			//d3.tsvFormat - format the given array of objects as TSV.
+			"trigger": "tsvFormat()\td3.tsvFormat()",
+			"contents": "d3.tsvFormat(${1:rows})"
+		}, {
+			//d3.tsvFormatRows - format the given array of rows as TSV.
+			"trigger": "tsvFormatRows()\td3.tsvFormatRows()",
+			"contents": "d3.tsvFormatRows(${1:rows})"
+		}, {
+			//d3.dsvFormat - create a new parser and formatter for the given delimiter.
+			"trigger": "dsvFormat()\td3.dsvFormat()",
+			"contents": "d3.dsvFormat(${1:delimiter})"
+		}, {
+			//dsv.parse - parse the given string, returning an array of objects.
+			"trigger": "parse()\td3.dsv.parse()",
+			"contents": "parse(${1:string})"
+		}, {
+			//dsv.parseRows - parse the given string, returning an array of rows.
+			"trigger": "parseRows()\td3.dsv.parseRows()",
+			"contents": "d3.parseRows(${1:string})"
+		}, {
+			//dsv.format - format the given array of objects.
+			"trigger": "format()\td3.dsv.format()",
+			"contents": "d3.format(${1:rows})"
+		}, {
+			//dsv.formatRows - format the given array of rows.
+			"trigger": "formatRows()\td3.dsv.formatRows()",
+			"contents": "d3.formatRows(${1:rows})"
+		}			
+	]
+}

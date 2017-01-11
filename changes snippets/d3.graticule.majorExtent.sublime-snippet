@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[extentMajor(${1:[extent]})]]></content>
+	<scope>source.js</scope>
+	<description>graticule.majorExtent ↦ graticule.extentMajor</description>
+</snippet>

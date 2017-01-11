@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.chord()]]></content>
+	<scope>source.js</scope>
+	<description>d3.layout.chord ↦ d3.chord</description>
+</snippet>

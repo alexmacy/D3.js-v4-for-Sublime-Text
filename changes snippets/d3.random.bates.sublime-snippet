@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.randomBates(${1:n})]]></content>
+	<scope>source.js</scope>
+	<description>d3.random.bates ↦ d3.randomBates</description>
+</snippet>

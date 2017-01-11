@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeElasticInOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("elastic-out-in") ↦ d3.easeElasticInOut</description>
+</snippet>

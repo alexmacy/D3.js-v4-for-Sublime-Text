@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.symbolCircle]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.symbol.type circle ↦ d3.symbolCircle</description>
+</snippet>

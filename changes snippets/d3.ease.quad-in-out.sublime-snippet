@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeQuadInOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("quad-in-out") ↦ d3.easeQuadInOut</description>
+</snippet>

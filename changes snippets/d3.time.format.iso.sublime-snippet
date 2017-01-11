@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.isoFormat(${1:specifier})]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.format.iso ↦ d3.isoFormat</description>
+</snippet>

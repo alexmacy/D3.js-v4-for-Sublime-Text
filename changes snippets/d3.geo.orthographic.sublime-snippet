@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoOrthographic()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.orthographic ↦ d3.geoOrthographic</description>
+</snippet>

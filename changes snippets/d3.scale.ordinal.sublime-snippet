@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleOrdinal(${1:[range]})]]></content>
+	<scope>source.js</scope>
+	<description>d3.scale.ordinal ↦ d3.scaleOrdinal</description>
+</snippet>

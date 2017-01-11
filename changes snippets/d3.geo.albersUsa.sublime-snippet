@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoAlbersUsa()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.albersUsa ↦ d3.geoAlbersUsa</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.randomNormal()]]></content>
+	<scope>source.js</scope>
+	<description>d3.random.normal ↦ d3.randomNormal</description>
+</snippet>

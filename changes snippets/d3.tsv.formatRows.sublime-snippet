@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.tsvFormatRows(${1:rows})]]></content>
+	<scope>source.js</scope>
+	<description>d3.tsv.formatRows ↦ d3.tsvFormatRows</description>
+</snippet>

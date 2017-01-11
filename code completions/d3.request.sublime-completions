@@ -1,0 +1,88 @@
+//////////////////////////////////////////////////////////////////////
+//Requests (d3-request)
+//A convenient alternative to asynchronous XMLHttpRequest.
+//////////////////////////////////////////////////////////////////////
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.request - make an asynchronous request.
+			"trigger": "request()\td3.request()",
+			"contents": "d3.request(${1:url})"
+		}, {
+			//request.header - set a request header.
+			"trigger": "header()\td3.request.header()",
+			"contents": "header(${1:name})"
+		}, {
+			//request.mimeType - set the MIME type.
+			"trigger": "mimeType()\td3.request.mimeType()",
+			"contents": "mimeType(${1:type})"
+		}, {
+			//request.user - set the user for authentication.
+			"trigger": "user()\td3.request.user()",
+			"contents": "user(${1:value})"
+		}, {
+			//request.password - set the password for authentication.
+			"trigger": "password()\td3.request.password()",
+			"contents": "password(${1:value})"
+		}, {
+			//request.timeout - set the timeout in milliseconds.
+			"trigger": "timeout()\td3.request.timeout()",
+			"contents": "timeout(${1:timeout})"
+		}, {
+			//request.responseType - set the response type.
+			"trigger": "responseType()\td3.request.responseType()",
+			"contents": "responseType(${1:type})"
+		}, {
+			//request.response - set the response function.
+			"trigger": "response()\td3.request.response()",
+			"contents": "response(${1:value})"
+		}, {
+			//request.get - send a GET request.
+			"trigger": "get()\td3.request.get()",
+			"contents": "get(${1:[data]})"
+		}, {
+			//request.post - send a POST request.
+			"trigger": "post()\td3.request.post()",
+			"contents": "post(${1:[data]})"
+		}, {
+			//request.send - set the request.
+			"trigger": "send()\td3.request.send()",
+			"contents": "send(${1:method})"
+		}, {
+			//request.abort - abort the request.
+			"trigger": "abort()\td3.request.abort()",
+			"contents": "abort()"
+		}, {
+			//request.on - listen for a request event.
+			"trigger": "on()\td3.request.on()",
+			"contents": "on(${1:type})"
+		}, {
+			//d3.csv - get a comma-separated values (CSV) file.
+			"trigger": "csv()\td3.csv()",
+			"contents": "csv(${1:url})"
+		}, {
+			//d3.html - get an HTML file.
+			"trigger": "html()\td3.html()",
+			"contents": "html(${1:url})"
+		}, {
+			//d3.json - get a JSON file.
+			"trigger": "json()\td3.json()",
+			"contents": "json(${1:url})"
+		}, {
+			//d3.text - get a plain text file.
+			"trigger": "text()\td3.text()",
+			"contents": "text(${1:url})"
+		}, {
+			//d3.tsv - get a tab-separated values (TSV) file.
+			"trigger": "tsv()\td3.tsv()",
+			"contents": "tsv(${1:url})"
+		}, {
+			//d3.xml - get an XML file.
+			"trigger": "xml()\td3.xml()",
+			"contents": "xml(${1:url})"
+		}
+	]
+}

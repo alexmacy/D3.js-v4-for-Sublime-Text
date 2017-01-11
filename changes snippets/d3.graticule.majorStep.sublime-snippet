@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[stepMajor(${1:[step]})]]></content>
+	<scope>source.js</scope>
+	<description>graticule.majorStep ↦ graticule.stepMajor</description>
+</snippet>

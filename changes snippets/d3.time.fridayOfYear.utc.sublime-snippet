@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.utcFriday.count(${1:start}, ${2:stop})]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.fridayOfYear.utc ↦ d3.utcFriday.count</description>
+</snippet>

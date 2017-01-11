@@ -1,0 +1,171 @@
+//////////////////////////////////////////////////////////////////////
+//Forces (d3-force)
+//Force-directed graph layout using velocity Verlet integration.
+//////////////////////////////////////////////////////////////////////
+
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	//Simulation
+
+    	{
+			//d3.forceSimulation - create a new force simulation.
+			"trigger": "forceSimulation()\td3.forceSimulation()",
+			"contents": "d3.forceSimulation(${1:[nodes]})"
+		}, {
+			//simulation.restart - reheat and restart the simulation’s timer.
+			"trigger": "restart()\td3.simulation.restart()",
+			"contents": "restart()"
+		}, {
+			//simulation.stop - stop the simulation’s timer.
+			"trigger": "stop()\td3.simulation.stop()",
+			"contents": "stop()"
+		}, {
+			//simulation.tick - advance the simulation one step.
+			"trigger": "tick()\td3.simulation.tick()",
+			"contents": "tick()"
+		}, {
+			//simulation.nodes - set the simulation’s nodes.
+			"trigger": "nodes()\td3.simulation.nodes()",
+			"contents": "nodes(${1:[nodes]})"
+		}, {
+			//simulation.alpha - set the current alpha.
+			"trigger": "alpha()\td3.simulation.alpha()",
+			"contents": "alpha(${1:[alpha]})"
+		}, {
+			//simulation.alphaMin - set the minimum alpha threshold.
+			"trigger": "alphaMin()\td3.simulation.alphaMin()",
+			"contents": "alphaMin(${1:[min]})"
+		}, {
+			//simulation.alphaDecay - set the alpha exponential decay rate.
+			"trigger": "alphaDecay()\td3.simulation.alphaDecay()",
+			"contents": "alphaDecay(${1:[decay]})"
+		}, {
+			//simulation.alphaTarget - set the target alpha.
+			"trigger": "alphaTarget()\td3.simulation.alphaTarget()",
+			"contents": "alphaTarget(${1:[target]})"
+		}, {
+			//simulation.velocityDecay - set the velocity decay rate.
+			"trigger": "velocityDecay()\td3.simulation.velocityDecay()",
+			"contents": "velocityDecay(${1:[decay]})"
+		}, {
+			//simulation.force - add or remove a force.
+			"trigger": "force()\td3.simulation.force()",
+			"contents": "force(${1:[name]})"
+		}, {
+			//simulation.find - find the closest node to the given position.
+			"trigger": "find()\td3.simulation.find()",
+			"contents": "find(${1:[x], ${2:y}})"
+		}, {
+			//simulation.on - add or remove an event listener.
+			"trigger": "on()\td3.simulation.on()",
+			"contents": "on(${1:[typenames]})"
+		},
+
+		//Forces
+
+		{
+			//force.initialize - initialize the force with the given nodes.
+			"trigger": "initialize()\td3.force.initialize()",
+			"contents": "initialize(${1:[nodes]})"
+		}, {
+			//d3.forceCenter - create a centering force.
+			"trigger": "forceCenter()\td3.forceCenter()",
+			"contents": "d3.forceCenter(${1:[x], ${2:y}})"
+		}, {
+			//center.x - set the center x-coordinate.
+			"trigger": "x()\td3.force.x()",
+			"contents": "x(${1:[x]})"
+		}, {
+			//center.y - set the center y-coordinate.
+			"trigger": "y()\td3.force.y()",
+			"contents": "y(${1:[y]})"
+		}, {
+			//d3.forceCollide - create a circle collision force.
+			"trigger": "forceCollide()\td3.forceCollide()",
+			"contents": "d3.forceCollide(${1:[radius]})"
+		}, {
+			//collide.radius - set the circle radius.
+			"trigger": "radius()\td3.collide.radius()",
+			"contents": "radius(${1:[radius]})"
+		}, {
+			//collide.strength - set the collision resolution strength.
+			"trigger": "strength()\td3.collide.strength()",
+			"contents": "strength(${1:[strength]})"
+		}, {
+			//collide.iterations - set the number of iterations.
+			"trigger": "iterations()\td3.collide.iterations()",
+			"contents": "iterations(${1:[iterations]})"
+		}, {
+			//d3.forceLink - create a link force.
+			"trigger": "forceLink()\td3.forceLink()",
+			"contents": "d3.forceLink(${1:[links]})"
+		}, {
+			//link.links - set the array of links.
+			"trigger": "links()\td3.link.links()",
+			"contents": "links(${1:[links]})"
+		}, {
+			//link.id - link nodes by numeric index or string identifier.
+			"trigger": "id()\td3.link.id()",
+			"contents": "id(${1:[id]})"
+		}, {
+			//link.distance - set the link distance.
+			"trigger": "distance()\td3.link.distance()",
+			"contents": "distance(${1:[distance]})"
+		}, {
+			//link.strength - set the link strength.
+			"trigger": "strength()\td3.link.strength()",
+			"contents": "strength(${1:[strength]})"
+		}, {
+			//link.iterations - set the number of iterations.
+			"trigger": "iterations()\td3.link.iterations()",
+			"contents": "iterations(${1:[iterations]})"
+		}, {
+			//d3.forceManyBody - create a many-body force.
+			"trigger": "forceManyBody()\td3.forceManyBody()",
+			"contents": "d3.forceManyBody()"
+		}, {
+			//manyBody.strength - set the force strength.
+			"trigger": "strength()\td3.manyBody.strength()",
+			"contents": "strength(${1:[strength]})"
+		}, {
+			//manyBody.theta - set the Barnes–Hut approximation accuracy.
+			"trigger": "theta()\td3.manyBody.theta()",
+			"contents": "theta(${1:[theta]})"
+		}, {
+			//manyBody.distanceMin - limit the force when nodes are close.
+			"trigger": "distanceMin()\td3.manyBody.distanceMin()",
+			"contents": "distanceMin(${1:[distance]})"
+		}, {
+			//manyBody.distanceMax - limit the force when nodes are far.
+			"trigger": "distanceMax()\td3.manyBody.distanceMax()",
+			"contents": "distanceMax(${1:[distance]})"
+		}, {
+			//d3.forceX - create an x-positioning force.
+			"trigger": "forceX()\td3.forceX()",
+			"contents": "d3.forceX(${1:[x]})"
+		}, {
+			//x.strength - set the force strength.
+			"trigger": "strength()\td3.forceX.strength()",
+			"contents": "strength(${1:[strength]})"
+		}, {
+			//x.x - set the target x-coordinate.
+			"trigger": "x()\td3.forceX.x()",
+			"contents": "x(${1:[x]})"
+		}, {
+			//d3.forceY - create an y-positioning force.
+			"trigger": "forceY()\td3.forceY()",
+			"contents": "d3.forceY(${1:[y]})"
+		}, {
+			//y.strength - set the force strength.
+			"trigger": "strength()\td3.forceY.strength()",
+			"contents": "strength(${1:[strength]})"
+		}, {
+			//y.y - set the target y-coordinate.
+			"trigger": "y()\td3.forceY.y()",
+			"contents": "y(${1:[y]})"
+		}
+	]
+}

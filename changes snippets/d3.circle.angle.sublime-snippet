@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[radius(${1:[radius]})]]></content>
+	<scope>source.js</scope>
+	<description>circle.angle ↦ circle.radius</description>
+</snippet>

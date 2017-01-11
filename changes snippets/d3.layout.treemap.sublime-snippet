@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.treemap()]]></content>
+	<scope>source.js</scope>
+	<description>d3.layout.treemap ↦ d3.treemap</description>
+</snippet>

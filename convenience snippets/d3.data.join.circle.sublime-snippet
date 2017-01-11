@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[.selectAll("circle")
+  	.data(${1:array})
+  .enter().append("circle")
+    .attr("cx", $2)
+    .attr("cy", $3)
+    .attr("r", $4)
+    $5]]></content>
+  <tabTrigger>data-join-circle</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3 data-join(circle)</description>
+</snippet>

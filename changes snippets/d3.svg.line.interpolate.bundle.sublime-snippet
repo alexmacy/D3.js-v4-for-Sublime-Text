@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.curveBundle(${1:context})]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.interpolation bundle ↦ d3.curveBundle</description>
+</snippet>

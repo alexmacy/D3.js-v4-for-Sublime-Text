@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoConicEquidistant()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.conicEquidistant ↦ d3.geoConicEquidistant</description>
+</snippet>

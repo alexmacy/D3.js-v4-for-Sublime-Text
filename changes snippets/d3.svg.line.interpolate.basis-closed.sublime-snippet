@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.curveBasisClosed(${1:context})]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.interpolation basis-closed ↦ d3.curveBasisClosed</description>
+</snippet>

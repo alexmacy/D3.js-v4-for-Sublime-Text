@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoMercator()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.mercator ↦ d3.geoMercator</description>
+</snippet>

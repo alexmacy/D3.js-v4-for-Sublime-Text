@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleTime()]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.scale ↦ d3.scaleTime</description>
+</snippet>

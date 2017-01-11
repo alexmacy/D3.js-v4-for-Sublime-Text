@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoGnomonic()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.gnomonic ↦ d3.geoGnomonic</description>
+</snippet>

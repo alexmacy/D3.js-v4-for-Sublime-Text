@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[stepMinor(${1:[step]})]]></content>
+	<scope>source.js</scope>
+	<description>graticule.minorStep ↦ graticule.stepMinor</description>
+</snippet>

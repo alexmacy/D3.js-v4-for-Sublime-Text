@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoArea(${1:feature})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.area ↦ d3.geoArea</description>
+</snippet>

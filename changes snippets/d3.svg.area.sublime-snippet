@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.area()]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.area ↦ d3.area</description>
+</snippet>

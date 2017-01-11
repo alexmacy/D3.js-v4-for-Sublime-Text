@@ -1,0 +1,65 @@
+//////////////////////////////////////////////////////////////////////
+//Axes (d3-axis)
+//Human-readable reference marks for scales.
+//////////////////////////////////////////////////////////////////////
+
+{
+
+  "scope": "source.js",
+  "completions":
+  [
+		{
+			//d3.axisTop - create a new top-oriented axis generator.
+			"trigger": "axisTop()\td3.axisTop()",
+			"contents": "d3.axisTop(${1:scale})"
+		}, {
+			//d3.axisRight - create a new right-oriented axis generator.
+			"trigger": "axisRight()\td3.axisRight()",
+			"contents": "d3.axisRight(${1:scale})"
+		}, {
+			//d3.axisBottom - create a new bottom-oriented axis generator.
+			"trigger": "axisBottom()\td3.axisBottom()",
+			"contents": "d3.axisBottom(${1:scale})"
+		}, {
+			//d3.axisLeft - create a new left-oriented axis generator.
+			"trigger": "axisLeft()\td3.axisLeft()",
+			"contents": "d3.axisLeft(${1:scale})"
+		}, {
+			//axis.scale - set the scale.
+			"trigger": "scale()\td3.axis.scale()",
+			"contents": "scale(${1:[scale]})"
+		}, {
+			//axis.ticks - customize how ticks are generated and formatted.
+			"trigger": "ticks()\td3.axis.ticks()",
+			"contents": "ticks($1)"
+		}, {
+			//axis.tickArguments - customize how ticks are generated and formatted.
+			"trigger": "tickArguments()\td3.axis.tickArguments()",
+			"contents": "tickArguments(${1:[arguments]})"
+		}, {
+			//axis.tickValues - set the tick values explicitly.
+			"trigger": "tickValues()\td3.axis.tickValues()",
+			"contents": "tickValues(${1:[values]})"
+		}, {
+			//axis.tickFormat - set the tick format explicitly.
+			"trigger": "tickFormat()\td3.axis.tickFormat()",
+			"contents": "tickFormat(${1:[format]})"
+		}, {
+			//axis.tickSize - set the size of the ticks.
+			"trigger": "tickSize()\td3.axis.tickSize()",
+			"contents": "tickSize(${1:[size]})"
+		}, {
+			//axis.tickSizeInner - set the size of inner ticks.
+			"trigger": "tickSizeInner()\td3.axis.tickSizeInner()",
+			"contents": "tickSizeInner(${1:[size]})"
+		}, {
+			//axis.tickSizeOuter - set the size of outer (extent) ticks.
+			"trigger": "tickSizeOuter()\td3.axis.tickSizeOuter()",
+			"contents": "tickSizeOuter(${1:[size]})"
+		}, {
+			//axis.tickPadding - set the padding between ticks and labels.
+			"trigger": "tickPadding()\td3.axis.tickPadding()",
+			"contents": "tickPadding(${1:[padding]})"
+		}
+	]
+}

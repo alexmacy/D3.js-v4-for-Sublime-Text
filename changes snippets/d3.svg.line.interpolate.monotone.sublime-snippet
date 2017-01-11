@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.curveMonotoneX(${1:context})]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.interpolation monotone ↦ d3.curveMonotoneX</description>
+</snippet>

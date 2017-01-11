@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoRotation(${1:angles})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.rotation ↦ d3.geoRotation</description>
+</snippet>

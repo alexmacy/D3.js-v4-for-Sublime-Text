@@ -1,0 +1,41 @@
+//////////////////////////////////////////////////////////////////////
+//Timers (d3-timer)
+//An efficient queue for managing thousands of concurrent animations.
+//////////////////////////////////////////////////////////////////////
+
+{
+
+  "scope": "source.js",
+  "completions":
+  [
+		{
+			//d3.now - get the current high-resolution time.
+			"trigger": "now()\td3.now()",
+			"contents": "d3.now()"
+		}, {
+			//d3.timer - schedule a new timer.
+			"trigger": "timer()\td3.timer()",
+			"contents": "d3.timer(${1:callback})"
+		}, {
+			//timer.restart - reset the timer’s start time and callback.
+			"trigger": "restart()\td3.timer.restart()",
+			"contents": "restart(${1:callback})"
+		}, {
+			//timer.stop - stop the timer.
+			"trigger": "stop()\td3.timer.stop()",
+			"contents": "stop()"
+		}, {
+			//d3.timerFlush - immediately execute any eligible timers.
+			"trigger": "timerFlush()\td3.timer.timerFlush()",
+			"contents": "d3.timerFlush()"
+		}, {
+			//d3.timeout - schedule a timer that stops on its first callback.
+			"trigger": "timeout()\td3.timer.timeout()",
+			"contents": "d3.timeout(${1:callback})"
+		}, {
+			//d3.interval - schedule a timer that is called with a configurable period.
+			"trigger": "interval()\td3.timer.interval()",
+			"contents": "d3.interval(${1:callback})"
+		}
+	]
+}

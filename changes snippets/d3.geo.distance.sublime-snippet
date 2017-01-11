@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoDistance(${1:a}, ${2:b})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.distance ↦ d3.geoDistance</description>
+</snippet>

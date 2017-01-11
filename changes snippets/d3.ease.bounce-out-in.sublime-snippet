@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeBounceInOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("bounce-out-in") ↦ d3.easeBounceInOut</description>
+</snippet>

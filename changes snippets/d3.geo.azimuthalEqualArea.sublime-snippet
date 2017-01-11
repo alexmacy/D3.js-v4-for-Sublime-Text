@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoAzimuthalEqualArea()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.azimuthalEqualArea ↦ d3.geoAzimuthalEqualArea</description>
+</snippet>

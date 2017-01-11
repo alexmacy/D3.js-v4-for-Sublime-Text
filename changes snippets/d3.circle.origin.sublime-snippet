@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[center(${1:[center]})]]></content>
+	<scope>source.js</scope>
+	<description>d3.circle.origin ↦ d3.circle.center</description>
+</snippet>

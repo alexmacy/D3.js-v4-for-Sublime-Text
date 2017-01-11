@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easePolyOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("poly-out") ↦ d3.easePolyOut</description>
+</snippet>

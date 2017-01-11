@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[.selectAll("ellipse")
+    .data(${1:array})
+  .enter().append("ellipse")
+    .attr("cx", $2)
+    .attr("cy", $3)
+    .attr("rx", $4)
+    .attr("ry", $5)
+    $6]]></content>
+  <tabTrigger>data-join-ellipse</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3 data-join(ellipse)</description>
+</snippet>

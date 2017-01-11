@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoConicEqualArea()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.conicEqualArea ↦ d3.geoConicEqualArea</description>
+</snippet>

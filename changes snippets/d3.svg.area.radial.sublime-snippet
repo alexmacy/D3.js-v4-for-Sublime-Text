@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.radialArea()]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.area.radial ↦ d3.radialArea</description>
+</snippet>

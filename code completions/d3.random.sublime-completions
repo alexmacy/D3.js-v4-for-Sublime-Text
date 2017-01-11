@@ -1,0 +1,37 @@
+//////////////////////////////////////////////////////////////////////
+//Random Numbers (d3-random)
+//Generate random numbers from various distributions.
+//////////////////////////////////////////////////////////////////////
+
+{
+
+  "scope": "source.js",
+  "completions":
+  [
+		{
+			//d3.randomUniform - from a uniform distribution.
+			"trigger": "randomUniform()\td3.randomUniform()",
+			"contents": "d3.randomUniform()"
+		}, {
+			//d3.randomNormal - from a normal distribution.
+			"trigger": "randomNormal()\td3.randomNormal()",
+			"contents": "d3.randomNormal()"
+		}, {
+			//d3.randomLogNormal - from a log-normal distribution.
+			"trigger": "randomLogNormal()\td3.randomLogNormal()",
+			"contents": "d3.randomLogNormal()"
+		}, {
+			//d3.randomBates - from a Bates distribution.
+			"trigger": "randomBates()\td3.randomBates()",
+			"contents": "d3.randomBates(${1:n})"
+		}, {
+			//d3.randomIrwinHall - from an Irwin–Hall distribution.
+			"trigger": "randomIrwinHall()\td3.randomIrwinHall()",
+			"contents": "d3.randomIrwinHall(${1:n})"
+		}, {
+			//d3.randomExponential - from an exponential distribution.
+			"trigger": "randomExponential()\td3.randomExponential()",
+			"contents": "d3.randomExponential(${1:lambda})"
+		}
+	]
+}

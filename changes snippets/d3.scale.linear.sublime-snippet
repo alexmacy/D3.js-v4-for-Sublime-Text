@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleLinear()]]></content>
+	<scope>source.js</scope>
+	<description>d3.scale.linear ↦ d3.scaleLinear</description>
+</snippet>

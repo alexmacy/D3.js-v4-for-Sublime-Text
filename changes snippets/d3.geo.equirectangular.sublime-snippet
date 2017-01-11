@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoEquirectangular()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.equirectangular ↦ d3.geoEquirectangular</description>
+</snippet>

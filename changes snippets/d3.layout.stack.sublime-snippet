@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.stack()]]></content>
+	<scope>source.js</scope>
+	<description>d3.layout.stack ↦ d3.stack</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.csvFormat(${1:rows})]]></content>
+	<scope>source.js</scope>
+	<description>d3.csv.format ↦ d3.csvFormat</description>
+</snippet>

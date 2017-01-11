@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[d3.csv(${1:url}, function(err, data) {
+  if (error) throw error;
+  $2
+})]]></content>
+  <tabTrigger>csv()</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.csv(snippet)</description>
+</snippet>

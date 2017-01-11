@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.timeWeek]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.week ↦ d3.timeWeek</description>
+</snippet>

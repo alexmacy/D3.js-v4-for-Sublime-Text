@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoPath(${1:[projection]})]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.path ↦ d3.geoPath</description>
+</snippet>

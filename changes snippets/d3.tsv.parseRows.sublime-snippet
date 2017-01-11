@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.tsvParseRows(${1:string})]]></content>
+	<scope>source.js</scope>
+	<description>d3.tsv.parseRows ↦ d3.tsvParseRows</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeSinOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("sin-out") ↦ d3.easeSinOut</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.pie()]]></content>
+	<scope>source.js</scope>
+	<description>d3.layout.pie ↦ d3.pie</description>
+</snippet>

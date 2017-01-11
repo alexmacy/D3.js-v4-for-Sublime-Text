@@ -1,0 +1,48 @@
+//////////////////////////////////////////////////////////////////////
+//Brushes (d3-brush)
+//Select a one- or two-dimensional region using the mouse or touch.
+//////////////////////////////////////////////////////////////////////
+
+{
+	"scope": "source.js",
+	"completions":
+	[
+		{ 
+			//d3.brush - create a new two-dimensional brush.
+			"trigger": "brush()\td3.brush()",
+			"contents": "d3.brush()"
+		}, {
+			//d3.brushX - create a brush along the x-dimension.
+			"trigger": "brushX()\td3.brushX()",
+			"contents": "d3.brushX()"
+		}, {
+			//d3.brushY - create a brush along the y-dimension.
+			"trigger": "brushY()\td3.brushY()",
+			"contents": "d3.brushY()"
+		}, {
+			//brush.move - move the brush selection.
+			"trigger": "move()\td3-brush.move()",
+			"contents": "move(${1:group}, ${2:selection})"
+		}, {
+			//brush.extent - define the brushable region.
+			"trigger": "extent()\td3-brush.extent()",
+			"contents": "extent(${1:[extent]})"
+		}, {
+			//brush.filter - control which input events initiate brushing.
+			"trigger": "filter()\td3-brush.filter()",
+			"contents": "filter(${1:[filter]})"
+		}, {
+			//brush.handleSize - set the size of the brush handles.
+			"trigger": "handleSize()\td3-brush.handleSize()",
+			"contents": "handleSize(${1:[size]})"
+		}, {
+			//brush.on - listen for brush events.
+			"trigger": "on()\td3-brush.on()",
+			"contents": "on(${1:typenames})"
+		}, {
+			//d3.brushSelection - get the brush selection for a given node.
+			"trigger": "brushSelection()\td3.brushSelection()",
+			"contents": "d3.brushSelection(${1:node})"
+		}
+	]
+}

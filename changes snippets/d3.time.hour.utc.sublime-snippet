@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.utcHour]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.hour.utc ↦ d3.utcHour</description>
+</snippet>

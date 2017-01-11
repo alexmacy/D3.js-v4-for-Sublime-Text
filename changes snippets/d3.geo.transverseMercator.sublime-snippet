@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoTransverseMercator()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.transverseMercator ↦ d3.geoTransverseMercator</description>
+</snippet>

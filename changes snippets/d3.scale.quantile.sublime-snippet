@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleQuantile()]]></content>
+	<scope>source.js</scope>
+	<description>d3.scale.quantile ↦ d3.scaleQuantile</description>
+</snippet>

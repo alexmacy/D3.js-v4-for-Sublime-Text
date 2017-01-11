@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleLog()]]></content>
+	<scope>source.js</scope>
+	<description>d3.scale.log ↦ d3.scaleLog</description>
+</snippet>

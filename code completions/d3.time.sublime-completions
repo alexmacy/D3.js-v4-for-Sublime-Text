@@ -1,0 +1,292 @@
+//////////////////////////////////////////////////////////////////////
+//Time Intervals (d3-time)
+//A calculator for humanity’s peculiar conventions of time.
+//////////////////////////////////////////////////////////////////////
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.timeInterval - implement a new custom time interval.
+			"trigger": "timeInterval()\td3.timeInterval()",
+			"contents": "d3.timeInterval(${1:floor}, ${2:offset})"
+		}, {
+			//interval - alias for interval.floor.
+			"trigger": "interval()\td3.interval()",
+			"contents": "d3.interval(${1:date})"
+		}, {
+			//interval.floor - round down to the nearest boundary.
+			"trigger": "floor()\td3.interval.floor()",
+			"contents": "floor(${1:date})"
+		}, {
+			//interval.round - round to the nearest boundary.
+			"trigger": "round()\td3.interval.round()",
+			"contents": "round(${1:date})"
+		}, {
+			//interval.ceil - round up to the nearest boundary.
+			"trigger": "ceil()\td3.interval.ceil()",
+			"contents": "ceil(${1:date})"
+		}, {
+			//interval.offset - offset a date by some number of intervals.
+			"trigger": "offset()\td3.interval.offset()",
+			"contents": "offset(${1:date})"
+		}, {
+			//interval.range - generate a range of dates at interval boundaries.
+			"trigger": "range()\td3.interval.range()",
+			"contents": "range(${1:start}, ${2:stop})"
+		}, {
+			//interval.filter - create a filtered subset of this interval.
+			"trigger": "filter()\td3.interval.filter()",
+			"contents": "filter(function(d, i) {return $1})"
+		}, {
+			//interval.every - create a filtered subset of this interval.
+			"trigger": "every()\td3.interval.every()",
+			"contents": "every(${1:step})"
+		}, {
+			//interval.count - count interval boundaries between two dates.
+			"trigger": "count()\td3.interval.count()",
+			"contents": "count(${1:start}, ${2:end})"
+		}, {
+			//d3.timeMillisecond - the millisecond interval.
+			"trigger": "timeMillisecond\td3.timeMillisecond",
+			"contents": "d3.timeMillisecond"
+		}, {
+			//d3.utcMillisecond - the millisecond interval.
+			"trigger": "utcMillisecond\td3.utcMillisecond",
+			"contents": "d3.utcMillisecond"
+		}, {
+			//d3.timeMilliseconds - aliases for millisecond.range.
+			"trigger": "timeMilliseconds\td3.timeMilliseconds",
+			"contents": "d3.timeMilliseconds"
+		}, {
+			//d3.utcMilliseconds - aliases for millisecond.range.
+			"trigger": "utcMilliseconds\td3.utcMilliseconds",
+			"contents": "d3.utcMilliseconds"
+		}, {
+			//d3.timeSecond - the second interval.
+			"trigger": "timeSecond\td3.timeSecond",
+			"contents": "d3.timeSecond"
+		}, {
+			//d3.utcSecond - the second interval.
+			"trigger": "utcSecond\td3.utcSecond",
+			"contents": "d3.utcSecond"
+		}, {
+			//d3.timeSeconds - aliases for second.range.
+			"trigger": "timeSeconds\td3.timeSeconds",
+			"contents": "d3.timeSeconds"
+		}, {
+			//d3.utcSeconds - aliases for second.range.
+			"trigger": "utcSeconds\td3.utcSeconds",
+			"contents": "d3.utcSeconds"
+		}, {
+			//d3.timeMinute - the minute interval.
+			"trigger": "timeMinute\td3.timeMinute",
+			"contents": "d3.timeMinute"
+		}, {
+			//d3.utcMinute - the minute interval.
+			"trigger": "utcMinute\td3.utcMinute",
+			"contents": "d3.utcMinute"
+		}, {
+			//d3.timeMinutes - aliases for minute.range.
+			"trigger": "timeMinutes\td3.timeMinutes",
+			"contents": "d3.timeMinutes"
+		}, {
+			//d3.utcMinutes - aliases for minute.range.
+			"trigger": "utcMinutes\td3.utcMinutes",
+			"contents": "d3.utcMinutes"
+		}, {
+			//d3.timeHour - the hour interval.
+			"trigger": "timeHour\td3.timeHour",
+			"contents": "d3.timeHour"
+		}, {
+			//d3.utcHour - the hour interval.
+			"trigger": "utcHour\td3.utcHour",
+			"contents": "d3.utcHour"
+		}, {
+			//d3.timeHours - aliases for hour.range.
+			"trigger": "timeHours\td3.timeHours",
+			"contents": "d3.timeHours"
+		}, {
+			//d3.utcHours - aliases for hour.range.
+			"trigger": "utcHours\td3.utcHours",
+			"contents": "d3.utcHours"
+		}, {
+			//d3.timeDay - the day interval.
+			"trigger": "timeDay\td3.timeDay",
+			"contents": "d3.timeDay"
+		}, {
+			//d3.utcDay - the day interval.
+			"trigger": "utcDay\td3.utcDay",
+			"contents": "d3.utcDay"
+		}, {
+			//d3.timeDays - aliases for day.range.
+			"trigger": "timeDays\td3.timeDays",
+			"contents": "d3.timeDays"
+		}, {
+			//d3.utcDays - aliases for day.range.
+			"trigger": "utcDays\td3.utcDays",
+			"contents": "d3.utcDays"
+		}, {
+			//d3.timeWeek - aliases for sunday.
+			"trigger": "timeWeek\td3.timeWeek",
+			"contents": "d3.timeWeek"
+		}, {
+			//d3.utcWeek - aliases for sunday.
+			"trigger": "utcWeek\td3.utcWeek",
+			"contents": "d3.utcWeek"
+		}, {
+			//d3.timeWeeks - aliases for week.range.
+			"trigger": "timeWeeks\td3.timeWeeks",
+			"contents": "d3.timeWeeks"
+		}, {
+			//d3.utcWeeks - aliases for week.range.
+			"trigger": "utcWeeks\td3.utcWeeks",
+			"contents": "d3.utcWeeks"
+		}, {
+			//d3.timeSunday - the week interval, starting on Sunday.
+			"trigger": "timeSunday\td3.timeSunday",
+			"contents": "d3.timeSunday"
+		}, {
+			//d3.utcSunday - the week interval, starting on Sunday.
+			"trigger": "utcSunday\td3.utcSunday",
+			"contents": "d3.utcSunday"
+		}, {
+			//d3.timeSundays - aliases for sunday.range.
+			"trigger": "timeSundays\td3.timeSundays",
+			"contents": "d3.timeSundays"
+		}, {
+			//d3.utcSundays - aliases for sunday.range.
+			"trigger": "utcSundays\td3.utcSundays",
+			"contents": "d3.utcSundays"
+		}, {
+			//d3.timeMonday - the week interval, starting on Monday.
+			"trigger": "timeMonday\td3.timeMonday",
+			"contents": "d3.timeMonday"
+		}, {
+			//d3.utcMonday - the week interval, starting on Monday.
+			"trigger": "utcMonday\td3.utcMonday",
+			"contents": "d3.utcMonday"
+		}, {
+			//d3.timeMondays - aliases for monday.range.
+			"trigger": "timeMondays\td3.timeMondays",
+			"contents": "d3.timeMondays"
+		}, {
+			//d3.utcMondays - aliases for monday.range.
+			"trigger": "utcMondays\td3.utcMondays",
+			"contents": "d3.utcMondays"
+		}, {
+			//d3.timeTuesday - the week interval, starting on Tuesday.
+			"trigger": "timeTuesday\td3.timeTuesday",
+			"contents": "d3.timeTuesday"
+		}, {
+			//d3.utcTuesday - the week interval, starting on Tuesday.
+			"trigger": "utcTuesday\td3.utcTuesday",
+			"contents": "d3.utcTuesday"
+		}, {
+			//d3.timeTuesdays - aliases for tuesday.range.
+			"trigger": "timeTuesdays\td3.timeTuesdays",
+			"contents": "d3.timeTuesdays"
+		}, {
+			//d3.utcTuesdays - aliases for tuesday.range.
+			"trigger": "utcTuesdays\td3.utcTuesdays",
+			"contents": "d3.utcTuesdays"
+		}, {
+			//d3.timeWednesday - the week interval, starting on Wednesday.
+			"trigger": "timeWednesday\td3.timeWednesday",
+			"contents": "d3.timeWednesday"
+		}, {
+			//d3.utcWednesday - the week interval, starting on Wednesday.
+			"trigger": "utcWednesday\td3.utcWednesday",
+			"contents": "d3.utcWednesday"
+		}, {
+			//d3.timeWednesdays - aliases for wednesday.range.
+			"trigger": "timeWednesdays\td3.timeWednesdays",
+			"contents": "d3.timeWednesdays"
+		}, {
+			//d3.utcWednesdays - aliases for wednesday.range.
+			"trigger": "utcWednesdays\td3.utcWednesdays",
+			"contents": "d3.utcWednesdays"
+		}, {
+			//d3.timeThursday - the week interval, starting on Thursday.
+			"trigger": "timeThursday\td3.timeThursday",
+			"contents": "d3.timeThursday"
+		}, {
+			//d3.utcThursday - the week interval, starting on Thursday.
+			"trigger": "utcThursday\td3.utcThursday",
+			"contents": "d3.utcThursday"
+		}, {
+			//d3.timeThursdays - aliases for thursday.range.
+			"trigger": "timeThursdays\td3.timeThursdays",
+			"contents": "d3.timeThursdays"
+		}, {
+			//d3.utcThursdays - aliases for thursday.range.
+			"trigger": "utcThursdays\td3.utcThursdays",
+			"contents": "d3.utcThursdays"
+		}, {
+			//d3.timeFriday - the week interval, starting on Friday.
+			"trigger": "timeFriday\td3.timeFriday",
+			"contents": "d3.timeFriday"
+		}, {
+			//d3.utcFriday - the week interval, starting on Friday.
+			"trigger": "utcFriday\td3.utcFriday",
+			"contents": "d3.utcFriday"
+		}, {
+			//d3.timeFridays - aliases for friday.range.
+			"trigger": "timeFridays\td3.timeFridays",
+			"contents": "d3.timeFridays"
+		}, {
+			//d3.utcFridays - aliases for friday.range.
+			"trigger": "utcFridays\td3.utcFridays",
+			"contents": "d3.utcFridays"
+		}, {
+			//d3.timeSaturday - the week interval, starting on Saturday.
+			"trigger": "timeSaturday\td3.timeSaturday",
+			"contents": "d3.timeSaturday"
+		}, {
+			//d3.utcSaturday - the week interval, starting on Saturday.
+			"trigger": "utcSaturday\td3.utcSaturday",
+			"contents": "d3.utcSaturday"
+		}, {
+			//d3.timeSaturdays - aliases for saturday.range.
+			"trigger": "timeSaturdays\td3.timeSaturdays",
+			"contents": "d3.timeSaturdays"
+		}, {
+			//d3.utcSaturdays - aliases for saturday.range.
+			"trigger": "utcSaturdays\td3.utcSaturdays",
+			"contents": "d3.utcSaturdays"
+		}, {
+			//d3.timeMonth - the month interval.
+			"trigger": "timeMonth\td3.timeMonth",
+			"contents": "d3.timeMonth"
+		}, {
+			//d3.utcMonth - the month interval.
+			"trigger": "utcMonth\td3.utcMonth",
+			"contents": "d3.utcMonth"
+		}, {
+			//d3.timeMonths - aliases for month.range.
+			"trigger": "timeMonths\td3.timeMonths",
+			"contents": "d3.timeMonths"
+		}, {
+			//d3.utcMonths - aliases for month.range.
+			"trigger": "utcMonths\td3.utcMonths",
+			"contents": "d3.utcMonths"
+		}, {
+			//d3.timeYear - the year interval.
+			"trigger": "timeYear\td3.timeYear",
+			"contents": "d3.timeYear"
+		}, {
+			//d3.utcYear - the year interval.
+			"trigger": "utcYear\td3.utcYear",
+			"contents": "d3.utcYear"
+		}, {
+			//d3.timeYears - aliases for year.range.
+			"trigger": "timeYears\td3.timeYears",
+			"contents": "d3.timeYears"
+		}, {
+			//d3.utcYears - aliases for year.range.
+			"trigger": "utcYears\td3.utcYears",
+			"contents": "d3.utcYears"
+		}
+	]
+}

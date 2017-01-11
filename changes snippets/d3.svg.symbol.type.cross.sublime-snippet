@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.symbolCross]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.symbol.type cross ↦ d3.symbolCross</description>
+</snippet>

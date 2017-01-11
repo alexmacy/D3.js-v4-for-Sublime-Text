@@ -1,0 +1,234 @@
+//////////////////////////////////////////////////////////////////////
+//Selections (d3-selection)
+//Transform the DOM by selecting elements and joining to data.
+//////////////////////////////////////////////////////////////////////
+
+{
+  "scope": "source.js",
+  "completions":
+  [
+		//Selecting Elements
+
+		{
+			//d3.selection - select the root document element.
+			"trigger": "selection()\td3.selection()",
+			"contents": "d3.selection()"
+		}, {
+			//d3.select - select an element from the document.
+			"trigger": "select()\td3.select()",
+			"contents": "d3.select(${1:selector})"
+		}, {
+			//d3.selectAll - select multiple elements from the document.
+			"trigger": "selectAll()\td3.selectAll()",
+			"contents": "d3.selectAll(${1:selector})"
+		}, {
+			//selection.select - select a descendant element for each selected element.
+			"trigger": "select()\td3.selection.select()",
+			"contents": "select(${1:selector})"
+		}, {
+			//selection.selectAll - select multiple descendants for each selected element.
+			"trigger": "selectAll()\td3.selection.selectAll()",
+			"contents": "selectAll(${1:selector})"
+		}, {
+			//selection.filter - filter elements based on data.
+			"trigger": "filter()\td3.selection.filter()",
+			"contents": "filter(${1:filter})"
+		}, {
+			//selection.merge - merge this selection with another.
+			"trigger": "merge()\td3.selection.merge()",
+			"contents": "merge(${1:other selection})"
+		}, {
+			//d3.matcher - test whether an element matches a selector.
+			"trigger": "merge()\td3.selection.merge()",
+			"contents": "merge(${1:other selection})"
+		}, {
+			//d3.selector - select an element.
+			"trigger": "selector()\td3.selector()",
+			"contents": "d3.selector(${1:selector})"
+		}, {
+			//d3.selectorAll - select elements.
+			"trigger": "selectorAll()\td3.selectorAll()",
+			"contents": "d3.selectorAll(${1:selector})"
+		}, {
+			//d3.window - get a node’s owner window.
+			"trigger": "window()\td3.window()",
+			"contents": "d3.window(${1:node})"
+		},
+
+		//Modifying Elements
+
+		{
+			//selection.attr - get or set an attribute.
+			"trigger": "attr()\td3.selection.merge()",
+			"contents": "attr(${1:name}${2:[, value]})"
+		}, {
+			//selection.classed - get, add or remove CSS classes.
+			"trigger": "classed()\td3.selection.classed()",
+			"contents": "classed(${1:names}${2:[, value]})"
+		}, {
+			//selection.style - get or set a style property.
+			"trigger": "style()\td3.selection.style()",
+			"contents": "style(${1:name}${2:[, value]})"
+		}, {
+			//selection.property - get or set a (raw) property.
+			"trigger": "property()\td3.selection.property()",
+			"contents": "property(${1:name}${2:[, value]})"
+		}, {
+			//selection.text - get or set the text content.
+			"trigger": "text()\td3.selection.text()",
+			"contents": "text(${1:[value]})"
+		}, {
+			//selection.html - get or set the inner HTML.
+			"trigger": "html()\td3.selection.html()",
+			"contents": "html(${1:[value]})"
+		}, {
+			//selection.append - create, append and select new elements.
+			"trigger": "append()\td3.selection.append()",
+			"contents": "append(${1:type})"
+		}, {
+			//selection.insert - create, insert and select new elements.
+			"trigger": "insert()\td3.selection.insert()",
+			"contents": "insert(${1:type})"
+		}, {
+			//selection.remove - remove elements from the document.
+			"trigger": "remove()\td3.selection.remove()",
+			"contents": "remove()"
+		}, {
+			//selection.sort - sort elements in the document based on data.
+			"trigger": "sort()\td3.selection.sort()",
+			"contents": "sort(${1:compare})"
+		}, {
+			//selection.order - reorders elements in the document to match the selection.
+			"trigger": "order()\td3.selection.order()",
+			"contents": "order()"
+		}, {
+			//selection.raise - reorders each element as the last child of its parent.
+			"trigger": "raise()\td3.selection.raise()",
+			"contents": "raise()"
+		}, {
+			//selection.lower - reorders each element as the first child of its parent.
+			"trigger": "lower()\td3.selection.lower()",
+			"contents": "lower()"
+		}, {
+			//d3.creator - create an element by name.
+			"trigger": "creator()\td3.creator()",
+			"contents": "d3.creator(${1:compare})"
+		},
+
+		//Joining Data
+
+		{
+			//selection.data - join elements to data.
+			"trigger": "data()\td3.selection.data()",
+			"contents": "data(${1:[data]})"
+		}, {
+			//selection.enter - get the enter selection (data missing elements).
+			"trigger": "enter()\td3.selection.enter()",
+			"contents": "enter()"
+		}, {
+			//selection.exit - get the exit selection (elements missing data).
+			"trigger": "exit()\td3.selection.exit()",
+			"contents": "exit()"
+		}, {
+			//selection.datum - get or set element data (without joining).
+			"trigger": "datum()\td3.selection.datum()",
+			"contents": "datum(${1:[value]})"
+		},
+
+		//Handling Events
+
+		{
+			//selection.on - add or remove event listeners.
+			"trigger": "on()\td3.selection.on()",
+			"contents": "on(${1:[typenames]})"
+		}, {
+			//selection.dispatch - dispatch a custom event.
+			"trigger": "dispatch()\td3.selection.dispatch()",
+			"contents": "dispatch(${1:[typen]})"
+		}, {
+			//d3.event - the current user event, during interaction.
+			"trigger": "event\td3.event",
+			"contents": "d3.event"
+		}, {
+			//d3.customEvent - temporarily define a custom event.
+			"trigger": "customEvent()\td3.customEvent()",
+			"contents": "d3.customEvent(${1:event}, ${2:listener})"
+		}, {
+			//d3.mouse - get the mouse position relative to a given container.
+			"trigger": "mouse()\td3.mouse()",
+			"contents": "d3.mouse(${1:container})"
+		}, {
+			//d3.touch - get a touch position relative to a given container.
+			"trigger": "touch()\td3.touch()",
+			"contents": "d3.touch(${1:container} ${2:[, touches]}, ${3:identifier})"
+		}, {
+			//d3.touches - get the touch positions relative to a given container.
+			"trigger": "touches()\td3.touches()",
+			"contents": "d3.touches(${1:container} ${2:[, touches]})"
+		},
+
+		//Control Flow
+
+		{
+			//selection.each - call a function for each element.
+			"trigger": "each()\td3.selection.each()",
+			"contents": "each(${1:function})"
+		}, {
+			//selection.call - call a function with this selection.
+			"trigger": "call()\td3.selection.call()",
+			"contents": "call(${1:function})"
+		}, {
+			//selection.empty - returns true if this selection is empty.
+			"trigger": "empty()\td3.selection.empty()",
+			"contents": "empty()"
+		}, {
+			//selection.nodes - returns an array of all selected elements.
+			"trigger": "nodes()\td3.selection.nodes()",
+			"contents": "nodes()"
+		}, {
+			//selection.node - returns the first (non-null) element.
+			"trigger": "node()\td3.selection.node()",
+			"contents": "node()"
+		}, {
+			//selection.size - returns the count of elements.
+			"trigger": "size()\td3.selection.size()",
+			"contents": "size()"
+		},
+
+		//Local Variables
+
+		{
+			//d3.local - declares a new local variable.
+			"trigger": "local()\td3.local()",
+			"contents": "local()"
+		}, {
+			//local.set - set a local variable’s value.
+			"trigger": "set()\td3.local.set()",
+			"contents": "set(${1:node}, ${2:value})"
+		}, {
+			//local.get - get a local variable’s value.
+			"trigger": "get()\td3.local.get()",
+			"contents": "get(${1:node})"
+		}, {
+			//local.remove - delete a local variable.
+			"trigger": "remove()\td3.local.remove()",
+			"contents": "remove(${1:node})"
+		}, {
+			//local.toString - get the property identifier of a local variable.
+			"trigger": "toString()\td3.local.toString()",
+			"contents": "toString()"
+		},
+
+		//Namespaces
+
+		{
+			//d3.namespace - qualify a prefixed XML name, such as “xlink:href”.
+			"trigger": "namespace()\td3.namespace()",
+			"contents": "d3.namespace(${1:name})"
+		}, {
+			//d3.namespaces - the built-in XML namespaces.
+			"trigger": "namespaces()\td3.namespaces",
+			"contents": "d3.namespaces"
+		}
+	]
+}

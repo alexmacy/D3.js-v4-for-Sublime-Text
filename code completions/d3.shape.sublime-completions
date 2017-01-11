@@ -1,0 +1,485 @@
+//////////////////////////////////////////////////////////////////////
+//Shapes (d3-shape)
+//Graphical primitives for visualization.
+//////////////////////////////////////////////////////////////////////
+
+{
+  "scope": "source.js",
+  "completions":
+  [
+		//Arcs
+		//Circular or annular sectors, as in a pie or donut chart.
+
+		{
+			//d3.arc - create a new arc generator.
+			"trigger": "arc()\td3.arc()",
+			"contents": "d3.arc()"
+		}, {
+			//arc.centroid - compute an arc’s midpoint.
+			"trigger": "centroid()\td3.arc.centroid()",
+			"contents": "centroid(${1:arguements})"
+		}, {
+			//arc.innerRadius - set the inner radius.
+			"trigger": "innerRadius()\td3.arc.innerRadius()",
+			"contents": "innerRadius(${1:[radius]})"
+		}, {
+			//arc.outerRadius - set the outer radius.
+			"trigger": "outerRadius()\td3.arc.outerRadius()",
+			"contents": "outerRadius(${1:[radius]})"
+		}, {
+			//arc.cornerRadius - set the corner radius, for rounded corners.
+			"trigger": "outerRadius()\td3.arc.outerRadius()",
+			"contents": "outerRadius(${1:[radius]})"
+		}, {
+			//arc.startAngle - set the start angle.
+			"trigger": "startAngle()\td3.arc.startAngle()",
+			"contents": "startAngle(${1:[angle]})"
+		}, {
+			//arc.endAngle - set the end angle.
+			"trigger": "endAngle()\td3.arc.endAngle()",
+			"contents": "endAngle(${1:[angle]})"
+		}, {
+			//arc.padAngle - set the angle between adjacent arcs, for padded arcs.
+			"trigger": "padAngle()\td3.arc.padAngle()",
+			"contents": "padAngle(${1:[angle]})"
+		}, {
+			//arc.padRadius - set the radius at which to linearize padding.
+			"trigger": "padRadius()\td3.arc.padRadius()",
+			"contents": "padRadius(${1:[radius]})"
+		}, {
+			//arc.context - set the rendering context.
+			"trigger": "context()\td3.arc.context()",
+			"contents": "context(${1:[context]})"
+		}, 
+
+		//Pies
+		//Compute the necessary angles to represent a tabular dataset as a pie or donut chart.
+
+		{
+			//d3.pie - create a new pie generator.
+			"trigger": "pie()\td3.pie()",
+			"contents": "d3.pie()"
+		}, {
+			//pie.value - set the value accessor.
+			"trigger": "value()\td3.pie.value()",
+			"contents": "value(${1:[value]})"
+		}, {
+			//pie.sort - set the sort order comparator.
+			"trigger": "sort()\td3.pie.sort()",
+			"contents": "sort(${1:[compare]})"
+		}, {
+			//pie.sortValues - set the sort order comparator.
+			"trigger": "sortValues()\td3.pie.sortValues()",
+			"contents": "sortValues(${1:[compare]})"
+		}, {
+			//pie.startAngle - set the overall start angle.
+			"trigger": "startAngle()\td3.pie.startAngle()",
+			"contents": "startAngle(${1:[angle]})"
+		}, {
+			//pie.endAngle - set the overall end angle.
+			"trigger": "endAngle()\td3.pie.endAngle()",
+			"contents": "endAngle(${1:[angle]})"
+		}, {
+			//pie.padAngle - set the pad angle between adjacent arcs.
+			"trigger": "padAngle()\td3.pie.padAngle()",
+			"contents": "padAngle(${1:[angle]})"
+		},
+
+		//Lines
+		//A spline or polyline, as in a line chart.
+
+		{
+			//d3.line - create a new line generator.
+			"trigger": "line()\td3.line()",
+			"contents": "d3.line()"
+		}, {
+			//line.x - set the x accessor.
+			"trigger": "x()\td3.line.x()",
+			"contents": "x(${1:[x]})"
+		}, {
+			//line.y - set the y accessor.
+			"trigger": "y()\td3.line.y()",
+			"contents": "y(${1:[y]})"
+		}, {
+			//line.defined - set the defined accessor.
+			"trigger": "defined()\td3.line.defined()",
+			"contents": "defined(${1:[defined]})"
+		}, {
+			//line.curve - set the curve interpolator.
+			"trigger": "curve()\td3.line.curve()",
+			"contents": "curve(${1:[curve]})"
+		}, {
+			//line.context - set the rendering context.
+			"trigger": "context()\td3.line.context()",
+			"contents": "context(${1:[context]})"
+		}, {
+			//d3.radialLine - create a new radial line generator.
+			"trigger": "context()\td3.radialLine()",
+			"contents": "d3.radialLine()"
+		}, {
+			//radialLine.angle - set the angle accessor.
+			"trigger": "angle()\td3.radialLine.angle()",
+			"contents": "angle(${1:[angle]})"
+		}, {
+			//radialLine.radius - set the radius accessor.
+			"trigger": "radius()\td3.radialLine.radius()",
+			"contents": "radius(${1:[radius]})"
+		}, {
+			//radialLine.defined - set the defined accessor.
+			"trigger": "defined()\td3.radialLine.defined()",
+			"contents": "defined(${1:[defined]})"
+		}, {
+			//radialLine.curve - set the curve interpolator.
+			"trigger": "curve()\td3.radialLine.curve()",
+			"contents": "curve(${1:[curve]})"
+		}, {
+			//radialLine.context - set the rendering context.
+			"trigger": "context()\td3.radialLine.context()",
+			"contents": "context(${1:[context]})"
+		},
+
+		//Areas
+		//An area, defined by a bounding topline and baseline, as in an area chart.
+
+		{
+			//d3.area - create a new area generator.
+			"trigger": "area()\td3.area()",
+			"contents": "d3.area()"
+		}, {
+			//area.x - set the x0 and x1 accessors.
+			"trigger": "x()\td3.area.x()",
+			"contents": "x(${1:[x]})"
+		}, {
+			//area.x0 - set the baseline x accessor.
+			"trigger": "x0()\td3.area.x0()",
+			"contents": "x0(${1:[x]})"
+		}, {
+			//area.x1 - set the topline x accessor.
+			"trigger": "x1()\td3.area.x1()",
+			"contents": "x1(${1:[x]})"
+		}, {
+			//area.y - set the y0 and y1 accessors.
+			"trigger": "y()\td3.area.y()",
+			"contents": "y(${1:[y]})"
+		}, {
+			//area.y0 - set the baseline y accessor.
+			"trigger": "y1()\td3.area.y1()",
+			"contents": "y1(${1:[y]})"
+		}, {
+			//area.y1 - set the topline y accessor.
+			"trigger": "y2()\td3.area.y2()",
+			"contents": "y2(${1:[y]})"
+		}, {
+			//area.defined - set the defined accessor.
+			"trigger": "defined()\td3.area.defined()",
+			"contents": "defined(${1:[defined]})"
+		}, {
+			//area.curve - set the curve interpolator.
+			"trigger": "curve()\td3.area.curve()",
+			"contents": "curve(${1:[curve]})"
+		}, {
+			//area.context - set the rendering context.
+			"trigger": "context()\td3.area.context()",
+			"contents": "context(${1:[context]})"
+		}, {
+			//area.lineX0 - derive a line for the left edge of an area.
+			"trigger": "lineX0()\td3.area.lineX0()",
+			"contents": "lineX0()"
+		}, {
+			//area.lineX1 - derive a line for the right edge of an area.
+			"trigger": "lineX1()\td3.area.lineX1()",
+			"contents": "lineX1()"
+		}, {
+			//area.lineY0 - derive a line for the top edge of an area.
+			"trigger": "lineY0()\td3.area.lineY0()",
+			"contents": "lineY0()"
+		}, {
+			//area.lineY1 - derive a line for the bottom edge of an area.
+			"trigger": "lineY1()\td3.area.lineY1()",
+			"contents": "lineY1()"
+		}, {
+			//d3.radialArea - create a new radial area generator.
+			"trigger": "radialArea()\td3.radialArea()",
+			"contents": "d3.radialArea()"
+		}, {
+			//radialArea.angle - set the start and end angle accessors.
+			"trigger": "angle()\td3.radialArea.angle()",
+			"contents": "angle(${1:[angle]})"
+		}, {
+			//radialArea.startAngle - set the start angle accessor.
+			"trigger": "startAngle()\td3.radialArea.startAngle()",
+			"contents": "startAngle(${1:[angle]})"
+		}, {
+			//radialArea.endAngle - set the end angle accessor.
+			"trigger": "endAngle()\td3.radialArea.endAngle()",
+			"contents": "endAngle(${1:[angle]})"
+		}, {
+			//radialArea.radius - set the inner and outer radius accessors.
+			"trigger": "radius()\td3.radialArea.radius()",
+			"contents": "radius(${1:[radius]})"
+		}, {
+			//radialArea.innerRadius - set the inner radius accessor.
+			"trigger": "innerRadius()\td3.radialArea.innerRadius()",
+			"contents": "innerRadius(${1:[radius]})"
+		}, {
+			//radialArea.outerRadius - set the outer radius accessor.
+			"trigger": "outerRadius()\td3.radialArea.outerRadius()",
+			"contents": "outerRadius(${1:[radius]})"
+		}, {
+			//radialArea.defined - set the defined accessor.
+			"trigger": "defined()\td3.radialArea.defined()",
+			"contents": "defined(${1:[defined]})"
+		}, {
+			//radialArea.curve - set the curve interpolator.
+			"trigger": "curve()\td3.radialArea.curve()",
+			"contents": "curve(${1:[curve]})"
+		}, {
+			//radialArea.context - set the rendering context.
+			"trigger": "context()\td3.radialArea.context()",
+			"contents": "context(${1:[context]})"
+		}, {
+			//radialArea.lineStartAngle - derive a line for the start edge of an area.
+			"trigger": "lineStartAngle()\td3.radialArea.lineStartAngle()",
+			"contents": "lineStartAngle()"
+		}, {
+			//radialArea.lineEndAngle - derive a line for the end edge of an area.
+			"trigger": "lineEndAngle()\td3.radialArea.lineEndAngle()",
+			"contents": "lineEndAngle()"
+		}, {
+			//radialArea.lineInnerRadius - derive a line for the inner edge of an area.
+			"trigger": "lineInnerRadius()\td3.radialArea.lineInnerRadius()",
+			"contents": "lineInnerRadius()"
+		}, {
+			//radialArea.lineOuterRadius - derive a line for the outer edge of an area.
+			"trigger": "lineOuterRadius()\td3.radialArea.lineOuterRadius()",
+			"contents": "lineOuterRadius()"
+		},
+
+		//Curves
+		//Interpolate between points to produce a continuous shape.
+
+		{
+			//d3.curveBasis - a cubic basis spline, repeating the end points.
+			"trigger": "curveBasis()\td3.curveBasis()",
+			"contents": "d3.curveBasis(${1:context})"
+		}, {
+			//d3.curveBasisClosed - a closed cubic basis spline.
+			"trigger": "curveBasisClosed()\td3.curveBasisClosed()",
+			"contents": "d3.curveBasisClosed(${1:context})"
+		}, {
+			//d3.curveBasisOpen - a cubic basis spline.
+			"trigger": "curveBasisOpen()\td3.curveBasisOpen()",
+			"contents": "d3.curveBasisOpen(${1:context})"
+		}, {
+			//d3.curveBundle - a straightened cubic basis spline.
+			"trigger": "curveBundle()\td3.curveBundle()",
+			"contents": "d3.curveBundle(${1:context})"
+		}, {
+			//bundle.beta - set the bundle tension beta.
+			"trigger": "beta()\td3.curveBundle.beta()",
+			"contents": "beta(${1:beta})"
+		}, {
+			//d3.curveCardinal - a cubic cardinal spline, with one-sided difference at each end.
+			"trigger": "curveCardinal()\td3.curveCardinal()",
+			"contents": "d3.curveCardinal(${1:context})"
+		}, {
+			//d3.curveCardinalClosed - a closed cubic cardinal spline.
+			"trigger": "curveCardinalClosed()\td3.curveCardinalClosed()",
+			"contents": "d3.curveCardinalClosed(${1:context})"
+		}, {
+			//d3.curveCardinalOpen - a cubic cardinal spline.
+			"trigger": "curveCardinalOpen()\td3.curveCardinalOpen()",
+			"contents": "d3.curveCardinalOpen(${1:context})"
+		}, {
+			//cardinal.tension - set the cardinal spline tension.
+			"trigger": "tension()\td3.curveCardinal.tension()",
+			"contents": "tension(${1:tension})"
+		}, {
+			//d3.curveCatmullRom - a cubic Catmull–Rom spline, with one-sided difference at each end.
+			"trigger": "curveCatmullRom()\td3.curveCatmullRom()",
+			"contents": "d3.curveCatmullRom(${1:context})"
+		}, {
+			//d3.curveCatmullRomClosed - a closed cubic Catmull–Rom spline.
+			"trigger": "curveCatmullRomClosed()\td3.curveCatmullRomClosed()",
+			"contents": "d3.curveCatmullRomClosed(${1:context})"
+		}, {
+			//d3.curveCatmullRomOpen - a cubic Catmull–Rom spline.
+			"trigger": "curveCatmullRomOpen()\td3.curveCatmullRomOpen()",
+			"contents": "d3.curveCatmullRomOpen(${1:context})"
+		}, {
+			//catmullRom.alpha - set the Catmull–Rom parameter alpha.
+			"trigger": "alpha()\td3.curveCatmullRom.alpha()",
+			"contents": "alpha(${1:alpha})"
+		}, {
+			//d3.curveLinear - a polyline.
+			"trigger": "curveLinear()\td3.curveLinear()",
+			"contents": "d3.curveLinear(${1:context})"
+		}, {
+			//d3.curveLinearClosed - a closed polyline.
+			"trigger": "curveLinearClosed()\td3.curveLinearClosed()",
+			"contents": "d3.curveLinearClosed(${1:context})"
+		}, {
+			//d3.curveMonotoneX - a cubic spline that, given monotonicity in x, preserves it in y.
+			"trigger": "curveMonotoneX()\td3.curveMonotoneX()",
+			"contents": "d3.curveMonotoneX(${1:context})"
+		}, {
+			//d3.curveMonotoneY - a cubic spline that, given monotonicity in y, preserves it in x.
+			"trigger": "curveMonotoneY()\td3.curveMonotoneY()",
+			"contents": "d3.curveMonotoneY(${1:context})"
+		}, {
+			//d3.curveNatural - a natural cubic spline.
+			"trigger": "curveNatural()\td3.curveNatural()",
+			"contents": "d3.curveNatural(${1:context})"
+		}, {
+			//d3.curveStep - a piecewise constant function.
+			"trigger": "curveStep()\td3.curveStep()",
+			"contents": "d3.curveStep(${1:context})"
+		}, {
+			//d3.curveStepAfter - a piecewise constant function.
+			"trigger": "curveStepAfter()\td3.curveStepAfter()",
+			"contents": "d3.curveStepAfter(${1:context})"
+		}, {
+			//d3.curveStepBefore - a piecewise constant function.
+			"trigger": "curveStepBefore()\td3.curveStepBefore()",
+			"contents": "d3.curveStepBefore(${1:context})"
+		}, {
+			//curve.areaStart - start a new area segment.
+			"trigger": "areaStart()\td3.curve.areaStart()",
+			"contents": "areaStart()"
+		}, {
+			//curve.areaEnd - end the current area segment.
+			"trigger": "areaEnd()\td3.curve.areaEnd()",
+			"contents": "areaEnd()"
+		}, {
+			//curve.lineStart - start a new line segment.
+			"trigger": "lineStart()\td3.curve.lineStart()",
+			"contents": "lineStart()"
+		}, {
+			//curve.lineEnd - end the current line segment.
+			"trigger": "lineEnd()\td3.curve.lineEnd()",
+			"contents": "lineEnd()"
+		}, {
+			//curve.point - add a point to the current line segment.
+			"trigger": "point()\td3.curve.point()",
+			"contents": "point()"
+		},
+
+		//Symbols
+		//A categorical shape encoding, as in a scatterplot.
+
+		{
+			//d3.symbol - create a new symbol generator.
+			"trigger": "symbol()\td3.symbol()",
+			"contents": "d3.symbol()"
+		}, {
+			//symbol.type - set the symbol type.
+			"trigger": "type()\td3.symbol.type()",
+			"contents": "type(${1:[type]})"
+		}, {
+			//symbol.size - set the size of the symbol in square pixels.
+			"trigger": "size()\td3.symbol.size()",
+			"contents": "size(${1:[size]})"
+		}, {
+			//symbol.context - set the rendering context.
+			"trigger": "context()\td3.symbol.context()",
+			"contents": "context(${1:[context]})"
+		}, {
+			//d3.symbols - the array of built-in symbol types.
+			"trigger": "symbols\td3.symbols",
+			"contents": "d3.symbols"
+		}, {
+			//d3.symbolCircle - a circle.
+			"trigger": "symbolCircle\td3.symbolCircle",
+			"contents": "d3.symbolCircle"
+		}, {
+			//d3.symbolCross - a Greek cross with arms of equal length.
+			"trigger": "symbolCross\td3.symbolCross",
+			"contents": "d3.symbolCross"
+		}, {
+			//d3.symbolDiamond - a rhombus.
+			"trigger": "symbolDiamond\td3.symbolDiamond",
+			"contents": "d3.symbolDiamond"
+		}, {
+			//d3.symbolSquare - a square.
+			"trigger": "symbolSquare\td3.symbolSquare",
+			"contents": "d3.symbolSquare"
+		}, {
+			//d3.symbolStar - a pentagonal star (pentagram).
+			"trigger": "symbolStar\td3.symbolStar",
+			"contents": "d3.symbolStar"
+		}, {
+			//d3.symbolTriangle - an up-pointing triangle.
+			"trigger": "symbolTriangle\td3.symbolTriangle",
+			"contents": "d3.symbolTriangle"
+		}, {
+			//d3.symbolWye - a Y shape.
+			"trigger": "symbolWye\td3.symbolWye",
+			"contents": "d3.symbolWye"
+		}, {
+			//symbolType.draw - draw this symbol to the given context.
+			"trigger": "draw()\td3.symbolType.draw()",
+			"contents": "draw(${1:context}, ${2:size})"
+		},
+
+		//Stacks
+		//Stack shapes, placing one adjacent to another, as in a stacked bar chart.
+
+		{
+			//d3.stack - create a new stack generator.
+			"trigger": "stack\td3.stack()",
+			"contents": "d3.stack()"
+		}, {
+			//stack.keys - set the keys accessor.
+			"trigger": "keys\td3.stack.keys()",
+			"contents": "keys(${1:[keys]})"
+		}, {
+			//stack.value - set the value accessor.
+			"trigger": "value\td3.stack.value()",
+			"contents": "value(${1:[value]})"
+		}, {
+			//stack.order - set the order accessor.
+			"trigger": "order\td3.stack.order()",
+			"contents": "order(${1:[order]})"
+		}, {
+			//stack.offset - set the offset accessor.
+			"trigger": "offset\td3.stack.offset()",
+			"contents": "offset(${1:[offset]})"
+		}, {
+			//d3.stackOrderAscending - put the smallest series on bottom.
+			"trigger": "stackOrderAscending\td3.stackOrderAscending()",
+			"contents": "d3.stackOrderAscending(${1:series})"
+		}, {
+			//d3.stackOrderDescending - put the largest series on bottom.
+			"trigger": "stackOrderDescending\td3.stackOrderDescending()",
+			"contents": "d3.stackOrderDescending(${1:series})"
+		}, {
+			//d3.stackOrderInsideOut - put larger series in the middle.
+			"trigger": "stackOrderInsideOut\td3.stackOrderInsideOut()",
+			"contents": "d3.stackOrderInsideOut(${1:series})"
+		}, {
+			//d3.stackOrderNone - use the given series order.
+			"trigger": "stackOrderNone\td3.stackOrderNone()",
+			"contents": "d3.stackOrderNone(${1:series})"
+		}, {
+			//d3.stackOrderReverse - use the reverse of the given series order.
+			"trigger": "stackOrderReverse\td3.stackOrderReverse()",
+			"contents": "d3.stackOrderReverse(${1:series})"
+		}, {
+			//d3.stackOffsetExpand - normalize the baseline to zero and topline to one.
+			"trigger": "stackOffsetExpand\td3.stackOffsetExpand()",
+			"contents": "d3.stackOffsetExpand(${1:series}, ${2:order})"
+		}, {
+			//d3.stackOffsetNone - apply a zero baseline.
+			"trigger": "stackOffsetNone\td3.stackOffsetNone()",
+			"contents": "d3.stackOffsetNone(${1:series}, ${2:order})"
+		}, {
+			//d3.stackOffsetSilhouette - center the streamgraph around zero.
+			"trigger": "stackOffsetSilhouette\td3.stackOffsetSilhouette()",
+			"contents": "d3.stackOffsetSilhouette(${1:series}, ${2:order})"
+		}, {
+			//d3.stackOffsetWiggle - minimize streamgraph wiggling.
+			"trigger": "stackOffsetWiggle\td3.stackOffsetWiggle()",
+			"contents": "d3.stackOffsetWiggle(${1:series}), ${2:order}"
+		}
+	]
+}

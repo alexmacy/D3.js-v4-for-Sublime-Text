@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.symbolTriangle]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.symbol.type triangle-up ↦ d3.symbolTriangle</description>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scalePow()]]></content>
+	<scope>source.js</scope>
+	<description>d3.scale.pow ↦ d3.scalePow</description>
+</snippet>

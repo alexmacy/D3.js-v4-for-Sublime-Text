@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.pack()]]></content>
+	<scope>source.js</scope>
+	<description>d3.layout.pack ↦ d3.pack</description>
+</snippet>

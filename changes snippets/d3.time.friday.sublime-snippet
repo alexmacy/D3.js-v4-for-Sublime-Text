@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.timeFriday]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.friday ↦ d3.timeFriday</description>
+</snippet>

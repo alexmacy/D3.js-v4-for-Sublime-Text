@@ -1,0 +1,174 @@
+//////////////////////////////////////////////////////////////////////
+//Arrays (d3-array)
+//Array manipulation, ordering, searching, summarizing, etc.
+//////////////////////////////////////////////////////////////////////
+
+{
+	"scope": "source.js",
+	"completions":
+	[
+		//Statistics
+		//Methods for computing basic summary statistics.
+
+		{
+			//d3.min - compute the minimum value in an array.
+			"trigger": "min()\td3.min()",
+			"contents": "d3.min(${1:array})"
+		}, {
+			//d3.max - compute the maximum value in an array.
+			"trigger": "max()\td3.max()",
+			"contents": "d3.max(${1:array})"
+		}, {
+			//d3.extent - compute the minimum and maximum value in an array.
+			"trigger": "extent()\td3.extent()",
+			"contents": "d3.extent(${1:array})"
+		}, {
+			//d3.sum - compute the sum of an array of numbers.
+			"trigger": "sum()\td3.sum()",
+			"contents": "d3.sum(${1:array})"
+		}, {
+			//d3.mean - compute the arithmetic mean of an array of numbers.
+			"trigger": "mean()\td3.mean()",
+			"contents": "d3.mean(${1:array})"
+		}, {
+			//d3.median - compute the median of an array of numbers (the 0.5-quantile).
+			"trigger": "median()\td3.median()",
+			"contents": "d3.median(${1:array})"
+		}, {
+			//d3.quantile - compute a quantile for a sorted array of numbers.
+			"trigger": "quantile()\td3.quantile()",
+			"contents": "d3.quantile(${1:array}, ${2:p})"
+		}, {
+			//d3.variance - compute the variance of an array of numbers.
+			"trigger": "variance()\td3.variance()",
+			"contents": "d3.variance(${1:array})"
+		}, {
+			//d3.deviation - compute the standard deviation of an array of numbers.
+			"trigger": "deviation()\td3.deviation()",
+			"contents": "d3.deviation(${1:array})"
+		}, 
+
+		//Search
+		//Methods for searching arrays for a specific element.
+	  
+		{
+			//d3.scan - linear search for an element using a comparator.
+			"trigger": "scan()\td3.scan()",
+			"contents": "d3.scan(${1:array})"
+		}, {
+			//d3.bisect - binary search for a value in a sorted array.
+			"trigger": "bisect()\td3.bisect()",
+			"contents": "d3.bisect(${1:array}, ${2:x})"
+		}, {
+			//d3.bisectLeft - binary search for a value in a sorted array.
+			"trigger": "bisectLeft()\td3.bisectLeft()",
+			"contents": "d3.bisectLeft(${1:array}, ${2:x})"
+		}, {
+			//d3.bisectRight - binary search for a value in a sorted array.
+			"trigger": "bisectRight()\td3.bisectRight()",
+			"contents": "d3.bisectRight(${1:array}, ${2:x})"
+		}, {
+			//d3.bisector - bisect using an accessor or comparator.
+			"trigger": "bisector()\td3.bisector()",
+			"contents": "d3.bisector(${1:accessor or comparator})"
+		}, {
+			//bisector.left - bisectLeft, with the given comparator.
+			"trigger": "right()\td3.bisector.right()",
+			"contents": "right(${1:array}, ${2:x})"
+		}, {
+			//bisector.right - bisectRight, with the given comparator.
+			"trigger": "left()\td3.bisector.left()",
+			"contents": "left(${1:array}, ${2:x})"
+		}, {
+			//d3.ascending - compute the natural order of two values.
+			"trigger": "ascending()\td3.ascending(a, b)",
+			"contents": "d3.ascending(${1:a}, ${2:b})"
+		}, {
+			//d3.descending - compute the natural order of two values.
+			"trigger": "descending()\td3.descending(a, b)",
+			"contents": "d3.descending(${1:a}, ${2:b})"
+		}, {
+			//implementing d3.ascending
+			"trigger": "sort-ascending()\tarray.sort(d3.ascending(a, b))",
+			"contents": "sort(function(a, b) {return d3.ascending(a, b)})"
+		}, {
+			//implementing d3.descending
+			"trigger": "sort-descending()\tarray.sort(d3.descending(a, b))",
+			"contents": "sort(function(a, b) {return d3.descending(a, b)})"
+		}, 
+
+		//Transformations
+		//Methods for transforming arrays and for generating new arrays.
+	  
+		{
+			//d3.merge - merge multiple arrays into one array.
+			"trigger": "merge()\td3.merge()",
+			"contents": "d3.merge(${1:arrays})"
+		}, {
+			//d3.pairs - create an array of adjacent pairs of elements.
+			"trigger": "pairs()\td3.pairs()",
+			"contents": "d3.pairs(${1:array})"
+		}, {
+			//d3.permute - reorder an array of elements according to an array of indexes.
+			"trigger": "permute()\td3.permute()",
+			"contents": "d3.permute(${1:array}, ${2:indexes})"
+		}, {
+			//d3.shuffle - randomize the order of an array.
+			"trigger": "shuffle()\td3.shuffle()",
+			"contents": "d3.shuffle(${1:array})"
+		}, {
+			//d3.ticks - generate representative values from a numeric interval.
+			"trigger": "ticks()\td3.ticks()",
+			"contents": "d3.ticks(${1:start}, ${2:stop}, ${3:count})"
+		}, {
+			//d3.tickStep - generate representative values from a numeric interval.
+			"trigger": "tickStep()\td3.tickStep()",
+			"contents": "d3.tickStep(${1:start}, ${2:stop}, ${3:count})"
+		}, {
+			//d3.range - generate a range of numeric values.
+			"trigger": "range()\td3.range()",
+			"contents": "d3.range(${1:stop})"
+		}, {
+			//d3.transpose - transpose an array of arrays.
+			"trigger": "transpose()\td3.transpose()",
+			"contents": "d3.transpose(${1:matrix})"
+		}, {
+			//d3.zip - transpose a variable number of arrays.
+			"trigger": "zip()\td3.zip()",
+			"contents": "d3.zip(${1:arrays})"
+		}, 
+
+		//Histograms
+		//Bin discrete samples into continuous, non-overlapping intervals.
+	  
+		{
+			//d3.histogram - create a new histogram generator.
+			"trigger": "histogram()\td3.histogram()",
+			"contents": "d3.histogram()"
+		}, {
+			//histogram.value - specify a value accessor for each sample.
+			"trigger": "value()\td3.histogram.value()",
+			"contents": "value(${1:[value]})"
+		}, {
+			//histogram.domain - specify the interval of observable values.
+			"trigger": "domain()\td3.histogram.domain()",
+			"contents": "domain(${1:[domain]})"
+		}, {
+			//histogram.thresholds - specify how values are divided into bins.
+			"trigger": "thresholds()\td3.histogram.thresholds()",
+			"contents": "thresholds(${1:[count or thresholds]})"
+		}, {
+			//d3.thresholdFreedmanDiaconis - the Freedman–Diaconis binning rule.
+			"trigger": "thresholdFreedmanDiaconis()\td3.thresholdFreedmanDiaconis()",
+			"contents": "thresholdFreedmanDiaconis(${1:values}, ${2:min}, ${3:max})"
+		}, {
+			//d3.thresholdScott - Scott’s normal reference binning rule.
+			"trigger": "thresholdScott()\td3.thresholdScott()",
+			"contents": "thresholdScott(${1:values}, ${2:min}, ${3:max})"
+		}, {
+			//d3.thresholdSturges - Sturges’ binning formula.
+			"trigger": "thresholdSturges()\td3.thresholdSturges()",
+			"contents": "thresholdSturges(${1:values})"
+		}
+	]
+}

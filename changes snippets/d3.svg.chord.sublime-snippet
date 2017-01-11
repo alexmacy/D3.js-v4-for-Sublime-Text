@@ -1,0 +1,5 @@
+<snippet>
+  	<content><![CDATA[d3.ribbon()]]></content>
+  	<scope>source.js</scope>
+ 	<description>d3.svg.chord ↦ d3.ribbon</description>
+</snippet>

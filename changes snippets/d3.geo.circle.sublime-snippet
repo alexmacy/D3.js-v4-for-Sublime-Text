@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoCircle()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.circle ↦ d3.geoCircle</description>
+</snippet>

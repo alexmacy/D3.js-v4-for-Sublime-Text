@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeCircleInOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("circle-in-out") ↦ d3.easeCircleInOut</description>
+</snippet>

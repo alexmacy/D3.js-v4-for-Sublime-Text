@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.curveStepBefore(${1:context})]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.interpolation step-before ↦ d3.curveStepBefore</description>
+</snippet>

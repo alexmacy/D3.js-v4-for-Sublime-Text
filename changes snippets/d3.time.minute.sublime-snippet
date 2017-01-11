@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.timeMinute]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.minute ↦ d3.timeMinute</description>
+</snippet>

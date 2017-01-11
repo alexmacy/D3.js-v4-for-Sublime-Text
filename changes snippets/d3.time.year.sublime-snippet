@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.timeYear]]></content>
+	<scope>source.js</scope>
+	<description>d3.time.year ↦ d3.timeYear</description>
+</snippet>

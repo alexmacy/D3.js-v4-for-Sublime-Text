@@ -1,0 +1,113 @@
+//////////////////////////////////////////////////////////////////////
+//Zooming (d3-zoom)
+//Pan and zoom SVG, HTML or Canvas using mouse or touch input.
+//////////////////////////////////////////////////////////////////////
+
+{
+
+  "scope": "source.js",
+  "completions":
+  [
+		{
+			//d3.zoom - create a zoom behavior.
+			"trigger": "zoom()\td3.zoom()",
+			"contents": "d3.zoom()"
+		}, {
+			//zoom.transform - change the transform for the selected elements.
+			"trigger": "transform()\td3.zoom.transform()",
+			"contents": "transform(${1:selection}, ${2:transform})"
+		}, {
+			//zoom.translateBy - translate the transform for the selected elements.
+			"trigger": "translateBy()\td3.zoom.translateBy()",
+			"contents": "translateBy(${1:selection}, ${2:x}, ${3:y})"
+		}, {
+			//zoom.scaleBy - scale the transform for the selected elements.
+			"trigger": "scaleBy()\td3.zoom.scaleBy()",
+			"contents": "scaleBy(${1:selection}, ${2:k})"
+		}, {
+			//zoom.scaleTo - scale the transform for the selected elements.
+			"trigger": "scaleTo()\td3.zoom.scaleTo()",
+			"contents": "scaleTo(${1:selection}, ${2:k})"
+		}, {
+			//zoom.filter - control which input events initiate zooming.
+			"trigger": "filter()\td3.zoom.filter()",
+			"contents": "filter(${1:[filter]})"
+		}, {
+			//zoom.extent - set the extent of the viewport.
+			"trigger": "extent()\td3.zoom.extent()",
+			"contents": "extent(${1:[extent]})"
+		}, {
+			//zoom.scaleExtent - set the allowed scale range.
+			"trigger": "scaleExtent()\td3.zoom.scaleExtent()",
+			"contents": "scaleExtent(${1:[extent]})"
+		}, {
+			//zoom.translateExtent - set the extent of the zoomable world.
+			"trigger": "translateExtent()\td3.zoom.translateExtent()",
+			"contents": "translateExtent(${1:[extent]})"
+		}, {
+			//zoom.duration - set the duration of zoom transitions.
+			"trigger": "duration()\td3.zoom.duration()",
+			"contents": "duration(${1:[duration]})"
+		}, {
+			//zoom.interpolate
+			"trigger": "interpolate()\td3.zoom.interpolate()",
+			"contents": "interpolate(${1:[interpolate]})"
+		}, {
+			//zoom.on - listen for zoom events.
+			"trigger": "on()\td3.zoom.on()",
+			"contents": "on(${1:[typenames]})"
+		}, {
+			//d3.zoomTransform - get the zoom transform for a given element.
+			"trigger": "zoomTransform()\td3.zoomTransform()",
+			"contents": "d3.zoomTransform(${1:[node]})"
+		}, {
+			//transform.scale - scale a transform by the specified amount.
+			"trigger": "scale()\td3.zoomTransform.scale()",
+			"contents": "scale(${1:[k]})"
+		}, {
+			//transform.translate - translate a transform by the specified amount.
+			"trigger": "translate()\td3.zoomTransform.translate()",
+			"contents": "translate(${1:x}, ${2:y})"
+		}, {
+			//transform.apply - apply the transform to the given point.
+			"trigger": "apply()\td3.zoomTransform.apply()",
+			"contents": "apply(${1:point})"
+		}, {
+			//transform.applyX - apply the transform to the given x-coordinate.
+			"trigger": "applyX()\td3.zoomTransform.applyX()",
+			"contents": "applyX(${1:x})"
+		}, {
+			//transform.applyY - apply the transform to the given y-coordinate.
+			"trigger": "applyY()\td3.zoomTransform.applyY()",
+			"contents": "applyY(${1:y})"
+		}, {
+			//transform.invert - unapply the transform to the given point.
+			"trigger": "invert()\td3.zoomTransform.invert()",
+			"contents": "invert(${1:point})"
+		}, {
+			//transform.invertX - unapply the transform to the given x-coordinate.
+			"trigger": "invertX()\td3.zoomTransform.invertX()",
+			"contents": "invertX(${1:x})"
+		}, {
+			//transform.invertY - unapply the transform to the given y-coordinate.
+			"trigger": "invertY()\td3.zoomTransform.invertY()",
+			"contents": "invertY(${1:y})"
+		}, {
+			//transform.rescaleX - apply the transform to an x-scale’s domain.
+			"trigger": "rescaleX()\td3.zoomTransform.rescaleX()",
+			"contents": "rescaleX(${1:x})"
+		}, {
+			//transform.rescaleY - apply the transform to a y-scale’s domain.
+			"trigger": "rescaleY()\td3.zoomTransform.rescaleY()",
+			"contents": "rescaleY(${1:y})"
+		}, {
+			//transform.toString - format the transform as an SVG transform string.
+			"trigger": "toString()\td3.zoomTransform.toString()",
+			"contents": "toString()"
+		}, {
+			//d3.zoomIdentity - the identity transform.//
+			"trigger": "zoomIdentity()\td3.zoomIdentity",
+			"contents": "d3.zoomIdentity"
+		}
+	]
+}

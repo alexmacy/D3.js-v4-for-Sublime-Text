@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.geoConicConformal()]]></content>
+	<scope>source.js</scope>
+	<description>d3.geo.conicConformal ↦ d3.geoConicConformal</description>
+</snippet>

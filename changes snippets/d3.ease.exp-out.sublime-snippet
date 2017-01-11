@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeExpOut]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("exp-out") ↦ d3.easeExpOut</description>
+</snippet>

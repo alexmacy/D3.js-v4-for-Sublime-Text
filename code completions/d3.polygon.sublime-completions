@@ -1,0 +1,33 @@
+//////////////////////////////////////////////////////////////////////
+//Polygons (d3-polygon)
+//Geometric operations for two-dimensional polygons.
+//////////////////////////////////////////////////////////////////////
+
+{
+
+  "scope": "source.js",
+  "completions":
+  [
+		{
+			//d3.polygonArea - compute the area of the given polygon.
+			"trigger": "polygonArea()\td3.polygonArea()",
+			"contents": "d3.polygonArea(${1:polygon})"
+		}, {
+			//d3.polygonCentroid - compute the centroid of the given polygon.
+			"trigger": "polygonCentroid()\td3.polygonCentroid()",
+			"contents": "d3.polygonCentroid(${1:polygon})"
+		}, {
+			//d3.polygonHull - compute the convex hull of the given points.
+			"trigger": "polygonHull()\td3.polygonHull()",
+			"contents": "d3.polygonHull(${1:points})"
+		}, {
+			//d3.polygonContains - test whether a point is inside a polygon.
+			"trigger": "polygonContains()\td3.polygonContains()",
+			"contents": "d3.polygonContains(${1:polygon}, ${2:point})"
+		}, {
+			//d3.polygonLength - compute the length of the given polygon’s perimeter.
+			"trigger": "polygonLength()\td3.polygonLength()",
+			"contents": "d3.polygonLength(${1:polygon})"
+		}
+	]
+}

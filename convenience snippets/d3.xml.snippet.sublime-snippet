@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[d3.xml(${1:url}, function(err, data) {
+  if (error) throw error;
+  $2
+})]]></content>
+  <tabTrigger>xml()</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.xml(snippet)</description>
+</snippet>

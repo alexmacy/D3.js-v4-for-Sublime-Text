@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.easeBackIn]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("back-in") ↦ d3.easeBackIn</description>
+</snippet>

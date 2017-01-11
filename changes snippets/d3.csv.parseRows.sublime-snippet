@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.csvParseRows(${1:string})]]></content>
+	<scope>source.js</scope>
+	<description>d3.csv.parseRows ↦ d3.csvParseRows</description>
+</snippet>

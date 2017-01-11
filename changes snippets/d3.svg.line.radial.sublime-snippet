@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.radialLine()]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.radial ↦ d3.radialLine</description>
+</snippet>

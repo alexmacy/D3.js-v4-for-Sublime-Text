@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.curveCardinal(${1:context})]]></content>
+	<scope>source.js</scope>
+	<description>d3.svg.line.interpolation cardinal ↦ d3.curveCardinal</description>
+</snippet>

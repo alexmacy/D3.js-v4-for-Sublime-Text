@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[d3.scaleSqrt()]]></content>
+	<scope>source.js</scope>
+	<description>d3.scale.sqrt ↦ d3.scaleSqrt</description>
+</snippet>

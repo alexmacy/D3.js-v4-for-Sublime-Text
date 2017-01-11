@@ -1,0 +1,172 @@
+//////////////////////////////////////////////////////////////////////
+//Dispatches (d3-dispatch)
+//Separate concerns using named callbacks.
+//////////////////////////////////////////////////////////////////////
+
+{
+  "scope": "source.js",
+  "completions":
+  [
+		{
+			//d3.easeLinear - linear easing; the identity function.
+			"trigger": "easeLinear\td3.easeLinear",
+			"contents": "d3.easeLinear"
+		}, {
+			//d3.easePolyIn - polynomial easing; raises time to the given power.
+			"trigger": "easePolyIn\td3.easePolyIn",
+			"contents": "d3.easePolyIn"
+		}, {
+			//d3.easePolyOut - reverse polynomial easing.
+			"trigger": "easePolyOut\td3.easePolyOut",
+			"contents": "d3.easePolyOut"
+		}, {
+			//d3.easePolyInOut - symmetric polynomial easing.
+			"trigger": "easePolyInOut\td3.easePolyInOut",
+			"contents": "d3.easePolyInOut"
+		}, {
+			//poly.exponent - specify the polynomial exponent.
+			"trigger": "exponent()\td3.poly.exponent()",
+			"contents": "exponent(${1:e})"
+		}, {
+			//d3.easeQuad - an alias for easeQuadInOut.
+			"trigger": "easeQuad\td3.easeQuad",
+			"contents": "d3.easeQuad"
+		}, {
+			//d3.easeQuadIn - quadratic easing; squares time.
+			"trigger": "easeQuadIn\td3.easeQuadIn",
+			"contents": "d3.easeQuadIn"
+		}, {
+			//d3.easeQuadOut - reverse quadratic easing.
+			"trigger": "easeQuadOut\td3.easeQuadOut",
+			"contents": "d3.easeQuadOut"
+		}, {
+			//d3.easeQuadInOut - symmetric quadratic easing.
+			"trigger": "easeQuadInOut\td3.easeQuadInOut",
+			"contents": "d3.easeQuadInOut"
+		}, {
+			//d3.easeCubic - an alias for easeCubicInOut.
+			"trigger": "easeCubic\td3.easeCubic",
+			"contents": "d3.easeCubic"
+		}, {
+			//d3.easeCubicIn - cubic easing; cubes time.
+			"trigger": "easeCubicIn\td3.easeCubicIn",
+			"contents": "d3.easeCubicIn"
+		}, {
+			//d3.easeCubicOut - reverse cubic easing.
+			"trigger": "easeCubicOut\td3.easeCubicOut",
+			"contents": "d3.easeCubicOut"
+		}, {
+			//d3.easeCubicInOut - symmetric cubic easing.
+			"trigger": "easeCubicInOut\td3.easeCubicInOut",
+			"contents": "d3.easeCubicInOut"
+		}, {
+			//d3.easeSin - an alias for easeSinInOut.
+			"trigger": "easeSin\td3.easeSin",
+			"contents": "d3.easeSin"
+		}, {
+			//d3.easeSinIn - sinusoidal easing.
+			"trigger": "easeSinIn\td3.easeSinIn",
+			"contents": "d3.easeSinIn"
+		}, {
+			//d3.easeSinOut - reverse sinusoidal easing.
+			"trigger": "easeSinOut\td3.easeSinOut",
+			"contents": "d3.easeSinOut"
+		}, {
+			//d3.easeSinInOut - symmetric sinusoidal easing.
+			"trigger": "easeSinInOut\td3.easeSinInOut",
+			"contents": "d3.easeSinInOut"
+		}, {
+			//d3.easeExp - an alias for easeExpInOut.
+			"trigger": "easeExp\td3.easeExp",
+			"contents": "d3.easeExp"
+		}, {
+			//d3.easeExpIn - exponential easing.
+			"trigger": "easeExpIn\td3.easeExpIn",
+			"contents": "d3.easeExpIn"
+		}, {
+			//d3.easeExpOut - reverse exponential easing.
+			"trigger": "easeExpOut\td3.easeExpOut",
+			"contents": "d3.easeExpOut"
+		}, {
+			//d3.easeExpInOut - symmetric exponential easing.
+			"trigger": "easeExpInOut\td3.easeExpInOut",
+			"contents": "d3.easeExpInOut"
+		}, {
+			//d3.easeCircle - an alias for easeCircleInOut.
+			"trigger": "easeCircle\td3.easeCircle",
+			"contents": "d3.easeCircle"
+		}, {
+			//d3.easeCircleIn - circular easing.
+			"trigger": "easeCircleIn\td3.easeCircleIn",
+			"contents": "d3.easeCircleIn"
+		}, {
+			//d3.easeCircleOut - reverse circular easing.
+			"trigger": "easeCircleOut\td3.easeCircleOut",
+			"contents": "d3.easeCircleOut"
+		}, {
+			//d3.easeCircleInOut - symmetric circular easing.
+			"trigger": "easeCircleInOut\td3.easeCircleInOut",
+			"contents": "d3.easeCircleInOut"
+		}, {
+			//d3.easeElastic - an alias for easeElasticOut.
+			"trigger": "easeElastic\td3.easeElastic",
+			"contents": "d3.easeElastic"
+		}, {
+			//d3.easeElasticIn - elastic easing, like a rubber band.
+			"trigger": "easeElasticIn\td3.easeElasticIn",
+			"contents": "d3.easeElasticIn"
+		}, {
+			//d3.easeElasticOut - reverse elastic easing.
+			"trigger": "easeElasticOut\td3.easeElasticOut",
+			"contents": "d3.easeElasticOut"
+		}, {
+			//d3.easeElasticInOut - symmetric elastic easing.
+			"trigger": "easeElasticInOut\td3.easeElasticInOut",
+			"contents": "d3.easeElasticInOut"
+		}, {
+			//elastic.amplitude - specify the elastic amplitude.
+			"trigger": "amplitude\td3.elastic.amplitude()",
+			"contents": "amplitude({1:a})"
+		}, {
+			//elastic.period - specify the elastic period.
+			"trigger": "period\td3.elastic.period()",
+			"contents": "period({1:p})"
+		}, {
+			//d3.easeBack - an alias for easeBackInOut.
+			"trigger": "easeBack\td3.easeBack",
+			"contents": "d3.easeBack"
+		}, {
+			//d3.easeBackIn - anticipatory easing, like a dancer bending his knees before jumping.
+			"trigger": "easeBackIn\td3.easeBackIn",
+			"contents": "d3.easeBackIn"
+		}, {
+			//d3.easeBackOut - reverse anticipatory easing.
+			"trigger": "easeBackOut\td3.easeBackOut",
+			"contents": "d3.easeBackOut"
+		}, {
+			//d3.easeBackInOut - symmetric anticipatory easing.
+			"trigger": "easeBackInOut\td3.easeBackInOut",
+			"contents": "d3.easeBackInOut"
+		}, {
+			//back.overshoot - specify the amount of overshoot.
+			"trigger": "overshoot\td3.back.overshoot()",
+			"contents": "overshoot({1:s})"
+		}, {
+			//d3.easeBounce - an alias for easeBounceOut.
+			"trigger": "easeBounce\td3.easeBounce",
+			"contents": "d3.easeBounce"
+		}, {
+			//d3.easeBounceIn - bounce easing, like a rubber ball.
+			"trigger": "easeBounceIn\td3.easeBounceIn",
+			"contents": "d3.easeBounceIn"
+		}, {
+			//d3.easeBounceOut - reverse bounce easing.
+			"trigger": "easeBounceOut\td3.easeBounceOut",
+			"contents": "d3.easeBounceOut"
+		}, {
+			//d3.easeBounceInOut - symmetric bounce easing.
+			"trigger": "easeBounceInOut\td3.easeBounceInOut",
+			"contents": "d3.easeBounceInOut"
+		}
+	]
+}

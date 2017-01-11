@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[${1:REMOVED}]]></content>
+	<scope>source.js</scope>
+	<description>d3.ease("exp-out-in") ↦ REMOVED</description>
+</snippet>

@@ -1,0 +1,60 @@
+//////////////////////////////////////////////////////////////////////
+//Time Formats (d3-time-format)
+//Parse and format times, inspired by strptime and strftime.
+//////////////////////////////////////////////////////////////////////
+
+{
+    "scope": "source.js",
+    "completions":
+    [
+    	{
+			//d3.timeFormat - alias for locale.format on the default locale.
+			"trigger": "timeFormat()\td3.timeFormat()",
+			"contents": "d3.timeFormat(${1:specifier})"
+		}, {
+			//d3.timeParse - alias for locale.parse on the default locale.
+			"trigger": "timeParse()\td3.timeParse()",
+			"contents": "d3.timeParse(${1:specifier})"
+		}, {
+			//d3.utcFormat - alias for locale.utcFormat on the default locale.
+			"trigger": "utcFormat()\td3.utcFormat()",
+			"contents": "d3.utcFormat(${1:specifier})"
+		}, {
+			//d3.utcParse - alias for locale.utcParse on the default locale.
+			"trigger": "utcParse()\td3.utcParse()",
+			"contents": "d3.utcParse(${1:specifier})"
+		}, {
+			//d3.isoFormat - an ISO 8601 UTC formatter.
+			"trigger": "isoFormat()\td3.isoFormat()",
+			"contents": "d3.isoFormat(${1:specifier})"
+		}, {
+			//d3.isoParse - an ISO 8601 UTC parser.
+			"trigger": "isoParse()\td3.isoParse()",
+			"contents": "d3.isoParse(${1:specifier})"
+		}, {
+			//d3.timeFormatLocale - define a custom locale.
+			"trigger": "timeFormatLocale()\td3.timeFormatLocale()",
+			"contents": "d3.timeFormatLocale(${1:definition})"
+		}, {
+			//d3.timeFormatDefaultLocale - define the default locale.
+			"trigger": "timeFormatDefaultLocale()\td3.timeFormatDefaultLocale()",
+			"contents": "d3.timeFormatDefaultLocale(${1:definition})"
+		}, {
+			//locale.format - create a time formatter.
+			"trigger": "format()\td3.locale.format()",
+			"contents": "format(${1:specifier})"
+		}, {
+			//locale.parse - create a time parser.
+			"trigger": "parse()\td3.locale.parse()",
+			"contents": "parse(${1:specifier})"
+		}, {
+			//locale.utcFormat - create a UTC formatter.
+			"trigger": "utcFormat()\td3.locale.utcFormat()",
+			"contents": "utcFormat(${1:specifier})"
+		}, {
+			//locale.utcParse - create a UTC parser.
+			"trigger": "utcParse()\td3.locale.utcParse()",
+			"contents": "utcParse(${1:specifier})"
+		}
+	]
+}
