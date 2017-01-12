@@ -62,27 +62,27 @@
 		}, {
 			//d3.csv - get a comma-separated values (CSV) file.
 			"trigger": "csv()\td3.csv()",
-			"contents": "csv(${1:url})"
+			"contents": "d3.csv(${1:url})"
 		}, {
 			//d3.html - get an HTML file.
 			"trigger": "html()\td3.html()",
-			"contents": "html(${1:url})"
+			"contents": "d3.html(${1:url})"
 		}, {
 			//d3.json - get a JSON file.
 			"trigger": "json()\td3.json()",
-			"contents": "json(${1:url})"
+			"contents": "d3.json(${1:url})"
 		}, {
 			//d3.text - get a plain text file.
 			"trigger": "text()\td3.text()",
-			"contents": "text(${1:url})"
+			"contents": "d3.text(${1:url})"
 		}, {
 			//d3.tsv - get a tab-separated values (TSV) file.
 			"trigger": "tsv()\td3.tsv()",
-			"contents": "tsv(${1:url})"
+			"contents": "d3.tsv(${1:url})"
 		}, {
 			//d3.xml - get an XML file.
 			"trigger": "xml()\td3.xml()",
-			"contents": "xml(${1:url})"
+			"contents": "d3.xml(${1:url})"
 		}
 	]
 }

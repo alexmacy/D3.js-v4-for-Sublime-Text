@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[.selectAll("ellipse")
-    .data(${1:array})
+  <content><![CDATA[selectAll("ellipse")
+  .data(${1:array})
   .enter().append("ellipse")
     .attr("cx", $2)
     .attr("cy", $3)

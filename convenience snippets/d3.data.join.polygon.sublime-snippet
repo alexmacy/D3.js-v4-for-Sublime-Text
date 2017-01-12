@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[selectAll("polygon")
+  .data(${1:array})
+  .enter().append("polygon")
+    .attr("points", $2)
+    $6]]></content>
+  <tabTrigger>data-join-polygon</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3 data-join(polygon)</description>
+</snippet>

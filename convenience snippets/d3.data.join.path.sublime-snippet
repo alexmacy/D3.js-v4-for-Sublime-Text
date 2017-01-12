@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[.selectAll("path")
-  	.data(${1:array})
+  <content><![CDATA[selectAll("path")
+  .data(${1:array})
   .enter().append("path")
     .attr("d", $2)
     $3]]></content>

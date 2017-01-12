@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[d3.histogram()
+    .domain($1)
+    .thresholds($2)
+    $6]]></content>
+  <tabTrigger>histogram-snippet</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3 histogram-snippet</description>
+</snippet>

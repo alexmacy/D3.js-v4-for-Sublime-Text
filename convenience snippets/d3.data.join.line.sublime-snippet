@@ -1,6 +1,6 @@
 <snippet>
-  <content><![CDATA[.selectAll("line")
-  	.data(${1:array})
+  <content><![CDATA[selectAll("line")
+  .data(${1:array})
   .enter().append("line")
     .attr("x1", $2)
     .attr("y1", $3)

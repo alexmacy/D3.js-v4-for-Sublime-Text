@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[selectAll("polyline")
+  .data(${1:array})
+  .enter().append("polyline")
+	.attr("points", $2)
+    $6]]></content>
+  <tabTrigger>data-join-polyline</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3 data-join(polyline)</description>
+</snippet>
