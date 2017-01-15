@@ -17,15 +17,15 @@
 		}, {
 			//continuous.domain - set the input domain.
 			"trigger": "domain()\td3.scale.domain()",
-			"contents": "domain(${1:[domain]})"
+			"contents": "domain(${1:[input domain]})"
 		}, {
 			//continuous.range - set the output range.
 			"trigger": "range()\td3.scale.range()",
-			"contents": "range(${1:[range]})"
+			"contents": "range(${1:[output range]})"
 		}, {
 			//continuous.rangeRound - set the output range and enable rounding.
 			"trigger": "rangeRound()\td3.scale.rangeRound()",
-			"contents": "rangeRound(${1:[range]})"
+			"contents": "rangeRound(${1:[output range]})"
 		}, {
 			//continuous.clamp - enable clamping to the domain or range.
 			"trigger": "clamp()\td3.scale.clamp()",
@@ -53,11 +53,11 @@
 		}, {
 			//d3.scaleLinear - create a quantitative linear scale.
 			"trigger": "scaleLinear()\td3.scaleLinear()",
-			"contents": "d3.scaleLinear().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleLinear().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//d3.scalePow - create a quantitative power scale.
 			"trigger": "scalePow()\td3.scalePow()",
-			"contents": "d3.scalePow().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scalePow().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//pow.exponent - set the power exponent.
 			"trigger": "exponent()\td3.scalePow.exponent()",
@@ -65,11 +65,11 @@
 		}, {
 			//d3.scaleSqrt - create a quantitative power scale with exponent 0.5.
 			"trigger": "scaleSqrt()\td3.scaleSqrt()",
-			"contents": "d3.scaleSqrt().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleSqrt().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//d3.scaleLog - create a quantitative logarithmic scale.
 			"trigger": "scaleLog()\td3.scaleLog()",
-			"contents": "d3.scaleLog().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleLog().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//log.base - set the logarithm base.
 			"trigger": "base()\td3.scaleLog.base()",
@@ -77,15 +77,15 @@
 		}, {
 			//d3.scaleIdentity - create a quantitative identity scale.
 			"trigger": "scaleIdentity()\td3.scaleIdentity()",
-			"contents": "d3.scaleIdentity().domain(${1:[domain]})"
+			"contents": "d3.scaleIdentity().domain(${1:[input domain]})"
 		}, {
 			//d3.scaleTime - create a linear scale for time.
 			"trigger": "scaleTime()\td3.scaleTime()",
-			"contents": "d3.scaleTime().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleTime().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//d3.scaleUtc - create a linear scale for UTC.
 			"trigger": "scaleUtc()\td3.scaleUtc()",
-			"contents": "d3.scaleUtc().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleUtc().domain(${1:[input domain]}).range(${2:[output range]})"
 		},
 
 		//Sequential Scales
@@ -94,7 +94,7 @@
 		{
 			//d3.scaleSequential - create a sequential scale.
 			"trigger": "scaleSequential()\td3.scaleSequential()",
-			"contents": "d3.scaleSequential(${1:interpolator}).domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleSequential(${1:interpolator}).domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//sequential.interpolator - set the scale’s output interpolator.
 			"trigger": "interpolator()\td3.scaleSequential.interpolator()",
@@ -139,7 +139,7 @@
 		{
 			//d3.scaleQuantize - create a uniform quantizing linear scale.
 			"trigger": "scaleQuantize()\td3.scaleQuantize()",
-			"contents": "d3.scaleQuantize().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleQuantize().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//quantize.invertExtent - compute the domain values corresponding to a given range value.
 			//quantile.invertExtent - compute the domain values corresponding to a given range value.
@@ -149,7 +149,7 @@
 		}, {
 			//d3.scaleQuantile - create a quantile quantizing linear scale.
 			"trigger": "scaleQuantile()\td3.scaleQuantile()",
-			"contents": "d3.scaleQuantile().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleQuantile().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//quantile.quantiles - get the quantile thresholds.
 			"trigger": "quantiles()\td3.scaleQuantile.quantiles()",
@@ -157,7 +157,7 @@
 		}, {
 			//d3.scaleThreshold - create an arbitrary quantizing linear scale.
 			"trigger": "scaleThreshold()\td3.scaleThreshold()",
-			"contents": "d3.scaleThreshold().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleThreshold().domain(${1:[input domain]}).range(${2:[output range]})"
 		},
 
 		//Ordinal Scales
@@ -166,7 +166,7 @@
 		{
 			//d3.scaleOrdinal - create an ordinal scale.
 			"trigger": "scaleOrdinal()\td3.scaleOrdinal()",
-			"contents": "d3.scaleOrdinal(${1:[range]}).domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleOrdinal(${1:[output range]}).domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//ordinal.unknown - set the output value for unknown inputs.
 			"trigger": "unknown()\td3.scaleOrdinal.unknown()",
@@ -178,7 +178,7 @@
 		}, {
 			//d3.scaleBand - create an ordinal band scale.
 			"trigger": "scaleBand()\td3.scaleBand()",
-			"contents": "d3.scaleBand().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scaleBand().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//band.round - enable rounding.
 			//point.round - enable rounding.
@@ -215,7 +215,7 @@
 		}, {
 			//d3.scalePoint - create an ordinal point scale.
 			"trigger": "scalePoint()\td3.scalePoint()",
-			"contents": "d3.scalePoint().domain(${1:[domain]}).range(${2:[range]})"
+			"contents": "d3.scalePoint().domain(${1:[input domain]}).range(${2:[output range]})"
 		}, {
 			//d3.schemeCategory10 - a categorical scheme with 10 colors.
 			"trigger": "schemeCategory10\td3.schemeCategory10",
