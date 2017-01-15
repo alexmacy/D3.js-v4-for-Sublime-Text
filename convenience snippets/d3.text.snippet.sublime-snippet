@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[d3.text(${1:url}, function(err, data) {
+  <content><![CDATA[d3.text(${1:url}, function(error, data) {
   if (error) throw error;
   $2
 })]]></content>
