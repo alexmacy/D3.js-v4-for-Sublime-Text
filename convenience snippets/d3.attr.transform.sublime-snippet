@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[.attr("transform", "translate(" + $1 + ", " + $2 + ")")]]></content>
+  <content><![CDATA[attr("transform", "translate(" + $1 + ", " + $2 + ")")]]></content>
   <tabTrigger>attr("transform")</tabTrigger>
   <scope>source.js</scope>
   <description>attr("transform")</description>
