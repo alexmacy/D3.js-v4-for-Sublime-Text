@@ -5,5 +5,5 @@
 })]]></content>
   <tabTrigger>text()</tabTrigger>
   <scope>source.js</scope>
-  <description>d3.text(snippet)</description>
+  <description>d3.text()-snippet</description>
 </snippet>

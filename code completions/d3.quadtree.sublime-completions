@@ -14,63 +14,63 @@
 			"contents": "d3.quadtree(${1:[data]})"
 		}, {
 			//quadtree.x - set the x accessor.
-			"trigger": "x()\td3.quadtree.x()",
+			"trigger": "x()\td3-quadtree.x()",
 			"contents": "x(${1:[x]})"
 		}, {
 			//quadtree.y - set the y accessor.
-			"trigger": "y()\td3.quadtree.y()",
+			"trigger": "y()\td3-quadtree.y()",
 			"contents": "y(${1:[y]})"
 		}, {
 			//quadtree.extent - extend the quadtree to cover an extent.
-			"trigger": "extent()\td3.quadtree.extent()",
+			"trigger": "extent()\td3-quadtree.extent()",
 			"contents": "extent(${1:[extent]})"
 		}, {
 			//quadtree.cover - extend the quadtree to cover a point.
-			"trigger": "cover()\td3.quadtree.cover()",
+			"trigger": "cover()\td3-quadtree.cover()",
 			"contents": "cover(${1:x}, ${2:y})"
 		}, {
 			//quadtree.add - add a datum to a quadtree.
-			"trigger": "add()\td3.quadtree.add()",
+			"trigger": "add()\td3-quadtree.add()",
 			"contents": "add(${1:datum})"
 		}, {
 			//quadtree.addAll -
-			"trigger": "addAll()\td3.quadtree.addAll()",
+			"trigger": "addAll()\td3-quadtree.addAll()",
 			"contents": "addAll(${1:data})"
 		}, {
 			//quadtree.remove - remove a datum from a quadtree.
-			"trigger": "remove()\td3.quadtree.remove()",
+			"trigger": "remove()\td3-quadtree.remove()",
 			"contents": "remove(${1:datum})"
 		}, {
 			//quadtree.removeAll -
-			"trigger": "removeAll()\td3.quadtree.removeAll()",
+			"trigger": "removeAll()\td3-quadtree.removeAll()",
 			"contents": "removeAll(${1:data})"
 		}, {
 			//quadtree.copy - create a copy of a quadtree.
-			"trigger": "copy()\td3.quadtree.copy()",
+			"trigger": "copy()\td3-quadtree.copy()",
 			"contents": "copy()"
 		}, {
 			//quadtree.root - get the quadtree’s root node.
-			"trigger": "copy()\td3.quadtree.copy()",
+			"trigger": "copy()\td3-quadtree.copy()",
 			"contents": "copy()"
 		}, {
 			//quadtree.data - retrieve all data from the quadtree.
-			"trigger": "data()\td3.quadtree.data()",
+			"trigger": "data()\td3-quadtree.data()",
 			"contents": "data()"
 		}, {
 			//quadtree.size - count the number of data in the quadtree.
-			"trigger": "size()\td3.quadtree.size()",
+			"trigger": "size()\td3-quadtree.size()",
 			"contents": "size()"
 		}, {
 			//quadtree.find - quickly find the closest datum in a quadtree.
-			"trigger": "find()\td3.quadtree.find()",
+			"trigger": "find()\td3-quadtree.find()",
 			"contents": "find(${1:x}, ${2:y})"
 		}, {
 			//quadtree.visit - selectively visit nodes in a quadtree.
-			"trigger": "visit()\td3.quadtree.visit()",
+			"trigger": "visit()\td3-quadtree.visit()",
 			"contents": "visit(${1:callback})"
 		}, {
 			//quadtree.visitAfter - visit all nodes in a quadtree.
-			"trigger": "visitAfter()\td3.quadtree.visitAfter()",
+			"trigger": "visitAfter()\td3-quadtree.visitAfter()",
 			"contents": "visitAfter(${1:callback})"
 		}
 	]

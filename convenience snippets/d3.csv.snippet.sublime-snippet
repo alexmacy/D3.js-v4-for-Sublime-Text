@@ -5,5 +5,5 @@
 })]]></content>
   <tabTrigger>csv()</tabTrigger>
   <scope>source.js</scope>
-  <description>d3.csv(snippet)</description>
+  <description>d3.csv()-snippet</description>
 </snippet>

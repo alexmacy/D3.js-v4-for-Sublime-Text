@@ -15,47 +15,47 @@
 			"contents": "d3.hierarchy(${1:data})"
 		}, {
 			//node.ancestors - generate an array of ancestors.
-			"trigger": "ancestors()\td3.hierarchy.node.ancestors()",
+			"trigger": "ancestors()\td3-hierarchy-node.ancestors()",
 			"contents": "ancestors()"
 		}, {
 			//node.descendants - generate an array of descendants.
-			"trigger": "descendants()\td3.hierarchy.node.descendants()",
+			"trigger": "descendants()\td3-hierarchy-node.descendants()",
 			"contents": "descendants()"
 		}, {
 			//node.leaves - generate an array of leaves.
-			"trigger": "leaves()\td3.hierarchy.node.leaves()",
+			"trigger": "leaves()\td3-hierarchy-node.leaves()",
 			"contents": "leaves()"
 		}, {
 			//node.path - generate the shortest path to another node.
-			"trigger": "path()\td3.hierarchy.node.path()",
+			"trigger": "path()\td3-hierarchy-node.path()",
 			"contents": "path(${1:target})"
 		}, {
 			//node.links - generate an array of links.
-			"trigger": "links()\td3.hierarchy.node.links()",
+			"trigger": "links()\td3-hierarchy-node.links()",
 			"contents": "links()"
 		}, {
 			//node.sum - evaluate and aggregate quantitative values.
-			"trigger": "sum()\td3.hierarchy.node.sum()",
+			"trigger": "sum()\td3-hierarchy-node.sum()",
 			"contents": "sum(${1:value})"
 		}, {
 			//node.sort - sort all descendant siblings.
-			"trigger": "sort()\td3.hierarchy.node.sort()",
+			"trigger": "sort()\td3-hierarchy-node.sort()",
 			"contents": "sort(${1:compare})"
 		}, {
 			//node.each - breadth-first traversal.
-			"trigger": "each()\td3.hierarchy.node.each()",
+			"trigger": "each()\td3-hierarchy-node.each()",
 			"contents": "each(function(d, i) {return $1}) "
 		}, {
 			//node.eachAfter - post-order traversal.
-			"trigger": "eachAfter()\td3.hierarchy.node.eachAfter()",
+			"trigger": "eachAfter()\td3-hierarchy-node.eachAfter()",
 			"contents": "eachAfter(function(d, i) {return $1}) "
 		}, {
 			//node.eachBefore - pre-order traversal.
-			"trigger": "eachBefore()\td3.hierarchy.node.eachBefore()",
+			"trigger": "eachBefore()\td3-hierarchy-node.eachBefore()",
 			"contents": "eachBefore(function(d, i) {return $1}) "
 		}, {
 			//node.copy - copy a hierarchy.
-			"trigger": "copy()\td3.hierarchy.node.copy()",
+			"trigger": "copy()\td3-hierarchy-node.copy()",
 			"contents": "copy()"
 		}, 
 
@@ -67,11 +67,11 @@
 			"contents": "d3.stratify()"
 		}, {
 			//stratify.id - set the node id accessor.
-			"trigger": "id()\td3.stratify.id()",
+			"trigger": "id()\td3-stratify.id()",
 			"contents": "id(${1:[id]})"
 		}, {
 			//stratify.parentId - set the parent node id accessor.
-			"trigger": "parentId()\td3.stratify.parentId()",
+			"trigger": "parentId()\td3-stratify.parentId()",
 			"contents": "parentId(${1:[parentId]})"
 		}, 
 
@@ -83,15 +83,15 @@
 			"contents": "d3.cluster()"
 		}, {
 			//cluster.size - set the layout size.
-			"trigger": "size()\td3.cluster.size()",
+			"trigger": "size()\td3-cluster.size()",
 			"contents": "size(${1:[size]})"
 		}, {
 			//cluster.nodeSize - set the node size.
-			"trigger": "nodeSize()\td3.cluster.nodeSize()",
+			"trigger": "nodeSize()\td3-cluster.nodeSize()",
 			"contents": "nodeSize(${1:[size]})"
 		}, {
 			//cluster.separation - set the separation between leaves.
-			"trigger": "separation()\td3.cluster.separation()",
+			"trigger": "separation()\td3-cluster.separation()",
 			"contents": "separation(${1:[separation]})"
 		},
 
@@ -103,15 +103,15 @@
 			"contents": "d3.tree()"
 		}, {
 			//tree.size - set the layout size.
-			"trigger": "size()\td3.tree.size()",
+			"trigger": "size()\td3-tree.size()",
 			"contents": "size(${1:[size]})"
 		}, {
 			//tree.nodeSize - set the node size.
-			"trigger": "nodeSize()\td3.tree.nodeSize()",
+			"trigger": "nodeSize()\td3-tree.nodeSize()",
 			"contents": "nodeSize(${1:[size]})"
 		}, {
 			//tree.separation - set the separation between nodes.
-			"trigger": "separation()\td3.tree.separation()",
+			"trigger": "separation()\td3-tree.separation()",
 			"contents": "separation(${1:[separation]})"
 		},
 
@@ -123,43 +123,43 @@
 			"contents": "d3.treemap()"
 		}, {
 			//treemap.tile - set the tiling method.
-			"trigger": "tile()\td3.treemap.tile()",
+			"trigger": "tile()\td3-treemap.tile()",
 			"contents": "tile(${1:[tile]})"
 		}, {
 			//treemap.size - set the layout size.
-			"trigger": "size()\td3.treemap.size()",
+			"trigger": "size()\td3-treemap.size()",
 			"contents": "size(${1:[size]})"
 		}, {
 			//treemap.round - set whether the output coordinates are rounded.
-			"trigger": "round()\td3.treemap.round()",
+			"trigger": "round()\td3-treemap.round()",
 			"contents": "round(${1:[round]})"
 		}, {
 			//treemap.padding - set the padding.
-			"trigger": "padding()\td3.treemap.padding()",
+			"trigger": "padding()\td3-treemap.padding()",
 			"contents": "padding(${1:[padding]})"
 		}, {
 			//treemap.paddingInner - set the padding between siblings.
-			"trigger": "paddingInner()\td3.treemap.paddingInner()",
+			"trigger": "paddingInner()\td3-treemap.paddingInner()",
 			"contents": "paddingInner(${1:[padding]})"
 		}, {
 			//treemap.paddingOuter - set the padding between parent and children.
-			"trigger": "paddingOuter()\td3.treemap.paddingOuter()",
+			"trigger": "paddingOuter()\td3-treemap.paddingOuter()",
 			"contents": "paddingOuter(${1:[padding]})"
 		}, {
 			//treemap.paddingTop - set the padding between the parent’s top edge and children.
-			"trigger": "paddingTop()\td3.treemap.paddingTop()",
+			"trigger": "paddingTop()\td3-treemap.paddingTop()",
 			"contents": "paddingTop(${1:[padding]})"
 		}, {
 			//treemap.paddingRight - set the padding between the parent’s right edge and children.
-			"trigger": "paddingRight()\td3.treemap.paddingRight()",
+			"trigger": "paddingRight()\td3-treemap.paddingRight()",
 			"contents": "paddingRight(${1:[padding]})"
 		}, {
 			//treemap.paddingBottom - set the padding between the parent’s bottom edge and children.
-			"trigger": "paddingBottom()\td3.treemap.paddingBottom()",
+			"trigger": "paddingBottom()\td3-treemap.paddingBottom()",
 			"contents": "paddingBottom(${1:[padding]})"
 		}, {
 			//treemap.paddingLeft - set the padding between the parent’s left edge and children.
-			"trigger": "paddingLeft()\td3.treemap.paddingLeft()",
+			"trigger": "paddingLeft()\td3-treemap.paddingLeft()",
 			"contents": "paddingLeft(${1:[padding]})"
 		},
 
@@ -191,7 +191,7 @@
 			"contents": "d3.treemapResquarify(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"
 		}, {
 			//squarify.ratio - set the desired rectangle aspect ratio.
-			"trigger": "ratio()\td3.squarify.ratio()",
+			"trigger": "ratio()\td3-squarify.ratio()",
 			"contents": "ratio(${1:ratio})"
 		},
 
@@ -203,15 +203,15 @@
 			"contents": "d3.partition()"
 		}, {
 			//partition.size - set the layout size.
-			"trigger": "size()\td3.partition.size()",
+			"trigger": "size()\td3-partition.size()",
 			"contents": "size(${1:[size]})"
 		}, {
 			//partition.round - set whether the output coordinates are rounded.
-			"trigger": "round()\td3.partition.round()",
+			"trigger": "round()\td3-partition.round()",
 			"contents": "round(${1:[round]})"
 		}, {
 			//partition.padding - set the padding.
-			"trigger": "padding()\td3.partition.padding()",
+			"trigger": "padding()\td3-partition.padding()",
 			"contents": "padding(${1:[padding]})"
 		},
 
@@ -223,15 +223,15 @@
 			"contents": "d3.pack()"
 		}, {
 			//pack.radius - set the radius accessor.
-			"trigger": "radius()\td3.pack.radius()",
+			"trigger": "radius()\td3-pack.radius()",
 			"contents": "radius(${1:[radius]})"
 		}, {
 			//pack.size - set the layout size.
-			"trigger": "size()\td3.pack.size()",
+			"trigger": "size()\td3-pack.size()",
 			"contents": "size(${1:[size]})"
 		}, {
 			//pack.padding - set the padding.
-			"trigger": "padding()\td3.pack.padding()",
+			"trigger": "padding()\td3-pack.padding()",
 			"contents": "padding(${1:[padding]})"
 		}, {
 			//d3.packSiblings - pack the specified array of circles.

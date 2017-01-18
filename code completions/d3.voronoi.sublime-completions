@@ -14,38 +14,38 @@
 			"contents": "d3.voronoi()"
 		}, {
 			//voronoi.x - set the x accessor.
-			"trigger": "x()\td3.voronoi.x()",
+			"trigger": "x()\td3-voronoi.x()",
 			"contents": "x(${1:[x]})"
 		}, {
 			//voronoi.y - set the y accessor.
-			"trigger": "y()\td3.voronoi.y()",
+			"trigger": "y()\td3-voronoi.y()",
 			"contents": "y(${1:[y]})"
 		}, {
 			//voronoi.extent - set the observed extent of points.
-			"trigger": "extent()\td3.voronoi.extent()",
+			"trigger": "extent()\td3-voronoi.extent()",
 			"contents": "extent(${1:[extent]})"
 		}, {
 			//voronoi.size - set the observed extent of points.
-			"trigger": "size()\td3.voronoi.size()",
+			"trigger": "size()\td3-voronoi.size()",
 			"contents": "size(${1:[size]})"
 		}, {
 			//voronoi.polygons - compute the Voronoi polygons for the given points.
 			//diagram.polygons - compute the polygons for this Voronoi diagram.
-			"trigger": "polygons()\td3.voronoi.polygons()",
+			"trigger": "polygons()\td3-voronoi.polygons()",
 			"contents": "polygons(${1:[data]})"
 		}, {
 			//voronoi.triangles - compute the Delaunay triangles for the given points.
 			//diagram.triangles - compute the triangles for this Voronoi diagram.
-			"trigger": "triangles()\td3.voronoi.triangles()",
+			"trigger": "triangles()\td3-voronoi.triangles()",
 			"contents": "triangles(${1:[data]})"
 		}, {
 			//voronoi.links - compute the Delaunay links for the given points.
 			//diagram.links - compute the links for this Voronoi diagram.
-			"trigger": "links()\td3.voronoi.links()",
+			"trigger": "links()\td3-voronoi.links()",
 			"contents": "links(${1:[data]})"
 		}, {
 			//diagram.find - find the closest point in this Voronoi diagram.
-			"trigger": "find()\td3.voronoiDiagram.find()",
+			"trigger": "find()\td3-voronoiDiagram.find()",
 			"contents": "find(${1:x}, ${2:y})"
 		}
 	]

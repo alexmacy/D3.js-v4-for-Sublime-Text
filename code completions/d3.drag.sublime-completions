@@ -4,29 +4,29 @@
     "completions":
     [
 		{
-			"trigger": "container()\td3.drag.container()",
+			"trigger": "container()\td3-drag.container()",
 			"contents": "container(${1:[container]})$2"
 		}, {
-			"trigger": "on()\td3-drag.event.on()",
+			"trigger": "on()\td3-drag-event.on()",
 			"contents": "on(${1:typenames})$2"
 		}, {
 			"trigger": "dragEnable()\td3.dragEnable()",
-			"contents": "dragEnable(${1:window})$2"
+			"contents": "d3.dragEnable(${1:window})$2"
 		}, {
-			"trigger": "subject()\td3.drag.subject()",
+			"trigger": "subject()\td3-drag.subject()",
 			"contents": "subject(${1:[subject]})$2"
 		}, {
-			"trigger": "filter()\td3.drag.filter()",
+			"trigger": "filter()\td3-drag.filter()",
 			"contents": "filter(${1:[filter]})$2"
 		}, {
 			"trigger": "dragDisable()\td3.dragDisable()",
-			"contents": "dragDisable(${1:window})$2"
+			"contents": "d3.dragDisable(${1:window})$2"
 		}, {
-			"trigger": "on()\td3.drag.on()",
+			"trigger": "on()\td3-drag.on()",
 			"contents": "on(${1:typenames})$2"
 		}, {
 			"trigger": "drag()\td3.drag()",
-			"contents": "drag()$1"
+			"contents": "d3.drag()$1"
 		}
 	]
 }

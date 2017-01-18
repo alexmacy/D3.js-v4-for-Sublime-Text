@@ -89,7 +89,7 @@
 			"contents": "d3.interpolateCubehelixLong({1:a}, ${2:b})"
 		}, {
 			//interpolate.gamma - apply gamma correction during interpolation.
-			"trigger": "gamma\td3.interpolate.gamma()",
+			"trigger": "gamma\td3-interpolate.gamma()",
 			"contents": "gamma({1:gamma})"
 		}, {
 			//d3.interpolateBasis - generate a B-spline through a set of values.

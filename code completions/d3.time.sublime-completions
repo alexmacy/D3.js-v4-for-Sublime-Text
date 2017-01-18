@@ -17,35 +17,35 @@
 			"contents": "d3.interval(${1:date})"
 		}, {
 			//interval.floor - round down to the nearest boundary.
-			"trigger": "floor()\td3.interval.floor()",
+			"trigger": "floor()\td3-interval.floor()",
 			"contents": "floor(${1:date})"
 		}, {
 			//interval.round - round to the nearest boundary.
-			"trigger": "round()\td3.interval.round()",
+			"trigger": "round()\td3-interval.round()",
 			"contents": "round(${1:date})"
 		}, {
 			//interval.ceil - round up to the nearest boundary.
-			"trigger": "ceil()\td3.interval.ceil()",
+			"trigger": "ceil()\td3-interval.ceil()",
 			"contents": "ceil(${1:date})"
 		}, {
 			//interval.offset - offset a date by some number of intervals.
-			"trigger": "offset()\td3.interval.offset()",
+			"trigger": "offset()\td3-interval.offset()",
 			"contents": "offset(${1:date})"
 		}, {
 			//interval.range - generate a range of dates at interval boundaries.
-			"trigger": "range()\td3.interval.range()",
+			"trigger": "range()\td3-interval.range()",
 			"contents": "range(${1:start}, ${2:stop})"
 		}, {
 			//interval.filter - create a filtered subset of this interval.
-			"trigger": "filter()\td3.interval.filter()",
+			"trigger": "filter()\td3-interval.filter()",
 			"contents": "filter(function(d, i) {return $1})"
 		}, {
 			//interval.every - create a filtered subset of this interval.
-			"trigger": "every()\td3.interval.every()",
+			"trigger": "every()\td3-interval.every()",
 			"contents": "every(${1:step})"
 		}, {
 			//interval.count - count interval boundaries between two dates.
-			"trigger": "count()\td3.interval.count()",
+			"trigger": "count()\td3-interval.count()",
 			"contents": "count(${1:start}, ${2:end})"
 		}, {
 			//d3.timeMillisecond - the millisecond interval.

@@ -73,11 +73,11 @@
 			"contents": "d3.bisector(${1:accessor or comparator})"
 		}, {
 			//bisector.left - bisectLeft, with the given comparator.
-			"trigger": "right()\td3.bisector.right()",
+			"trigger": "right()\td3-bisector.right()",
 			"contents": "right(${1:array}, ${2:x})"
 		}, {
 			//bisector.right - bisectRight, with the given comparator.
-			"trigger": "left()\td3.bisector.left()",
+			"trigger": "left()\td3-bisector.left()",
 			"contents": "left(${1:array}, ${2:x})"
 		}, {
 			//d3.ascending - compute the natural order of two values.
@@ -89,11 +89,11 @@
 			"contents": "d3.descending(${1:a}, ${2:b})"
 		}, {
 			//implementing d3.ascending
-			"trigger": "sort-ascending()\tarray.sort(d3.ascending(a, b))",
+			"trigger": "sort-ascending()\t(array).sort(d3.ascending(a, b))",
 			"contents": "sort(function(a, b) {return d3.ascending(a, b)})"
 		}, {
 			//implementing d3.descending
-			"trigger": "sort-descending()\tarray.sort(d3.descending(a, b))",
+			"trigger": "sort-descending()\t(array).sort(d3.descending(a, b))",
 			"contents": "sort(function(a, b) {return d3.descending(a, b)})"
 		}, 
 
@@ -147,28 +147,28 @@
 			"contents": "d3.histogram()"
 		}, {
 			//histogram.value - specify a value accessor for each sample.
-			"trigger": "value()\td3.histogram.value()",
+			"trigger": "value()\td3-histogram.value()",
 			"contents": "value(${1:[value]})"
 		}, {
 			//histogram.domain - specify the interval of observable values.
-			"trigger": "domain()\td3.histogram.domain()",
+			"trigger": "domain()\td3-histogram.domain()",
 			"contents": "domain(${1:[domain]})"
 		}, {
 			//histogram.thresholds - specify how values are divided into bins.
-			"trigger": "thresholds()\td3.histogram.thresholds()",
+			"trigger": "thresholds()\td3-histogram.thresholds()",
 			"contents": "thresholds(${1:[count or thresholds]})"
 		}, {
 			//d3.thresholdFreedmanDiaconis - the Freedman–Diaconis binning rule.
 			"trigger": "thresholdFreedmanDiaconis()\td3.thresholdFreedmanDiaconis()",
-			"contents": "thresholdFreedmanDiaconis(${1:values}, ${2:min}, ${3:max})"
+			"contents": "d3.thresholdFreedmanDiaconis(${1:values}, ${2:min}, ${3:max})"
 		}, {
 			//d3.thresholdScott - Scott’s normal reference binning rule.
 			"trigger": "thresholdScott()\td3.thresholdScott()",
-			"contents": "thresholdScott(${1:values}, ${2:min}, ${3:max})"
+			"contents": "d3.thresholdScott(${1:values}, ${2:min}, ${3:max})"
 		}, {
 			//d3.thresholdSturges - Sturges’ binning formula.
 			"trigger": "thresholdSturges()\td3.thresholdSturges()",
-			"contents": "thresholdSturges(${1:values})"
+			"contents": "d3.thresholdSturges(${1:values})"
 		}
 	]
 }

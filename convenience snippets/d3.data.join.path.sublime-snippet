@@ -6,5 +6,5 @@
     $3]]></content>
   <tabTrigger>data-join-path</tabTrigger>
   <scope>source.js</scope>
-  <description>d3 data-join(path)</description>
+  <description>d3 data-join(path)-snippet</description>
 </snippet>

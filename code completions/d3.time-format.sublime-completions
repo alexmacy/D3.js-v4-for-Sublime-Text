@@ -41,19 +41,19 @@
 			"contents": "d3.timeFormatDefaultLocale(${1:definition})"
 		}, {
 			//locale.format - create a time formatter.
-			"trigger": "format()\td3.locale.format()",
+			"trigger": "format()\td3-locale.format()",
 			"contents": "format(${1:specifier})"
 		}, {
 			//locale.parse - create a time parser.
-			"trigger": "parse()\td3.locale.parse()",
+			"trigger": "parse()\td3-locale.parse()",
 			"contents": "parse(${1:specifier})"
 		}, {
 			//locale.utcFormat - create a UTC formatter.
-			"trigger": "utcFormat()\td3.locale.utcFormat()",
+			"trigger": "utcFormat()\td3-locale.utcFormat()",
 			"contents": "utcFormat(${1:specifier})"
 		}, {
 			//locale.utcParse - create a UTC parser.
-			"trigger": "utcParse()\td3.locale.utcParse()",
+			"trigger": "utcParse()\td3-locale.utcParse()",
 			"contents": "utcParse(${1:specifier})"
 		}
 	]

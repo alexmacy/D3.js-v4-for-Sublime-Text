@@ -9,11 +9,11 @@
     [
     	{
 			//selection.transition - schedule a transition for the selected elements.
-			"trigger": "transition()\td3.selection.transition()",
+			"trigger": "transition()\td3-selection.transition()",
 			"contents": "transition(${1:[name]})"
 		}, {
 			//selection.interrupt - interrupt and cancel transitions on the selected elements.
-			"trigger": "interrupt()\td3.selection.interrupt()",
+			"trigger": "interrupt()\td3-selection.interrupt()",
 			"contents": "interrupt(${1:[name]})"
 		}, {
 			//d3.transition - schedule a transition on the root document element.
@@ -21,95 +21,95 @@
 			"contents": "d3.transition(${1:[node]})"
 		}, {
 			//transition.select - schedule a transition on the selected elements.
-			"trigger": "select()\td3.transition.select()",
+			"trigger": "select()\td3-transition.select()",
 			"contents": "select(${1:selector})"
 		}, {
 			//transition.selectAll - schedule a transition on the selected elements.
-			"trigger": "selectAll()\td3.transition.selectAll()",
+			"trigger": "selectAll()\td3-transition.selectAll()",
 			"contents": "selectAll(${1:selector})"
 		}, {
 			//transition.filter - filter elements based on data.
-			"trigger": "filter()\td3.transition.filter()",
+			"trigger": "filter()\td3-transition.filter()",
 			"contents": "filter(${1:filter})"
 		}, {
 			//transition.merge - merge this transition with another.
-			"trigger": "merge()\td3.transition.merge()",
+			"trigger": "merge()\td3-transition.merge()",
 			"contents": "merge(${1:other})"
 		}, {
 			//transition.transition - schedule a new transition following this one.
-			"trigger": "transition()\td3.transition.transition()",
+			"trigger": "transition()\td3-transition.transition()",
 			"contents": "transition()"
 		}, {
 			//transition.selection - returns a selection for this transition.
-			"trigger": "selection()\td3.transition.selection()",
+			"trigger": "selection()\td3-transition.selection()",
 			"contents": "selection()"
 		}, {
 			//transition.attr - tween the given attribute using the default interpolator.
-			"trigger": "attr()\td3.transition.attr()",
+			"trigger": "attr()\td3-transition.attr()",
 			"contents": "attr(${1:name}, ${2:value})"
 		}, {
 			//transition.attrTween - tween the given attribute using a custom interpolator.
-			"trigger": "attrTween()\td3.transition.attrTween()",
+			"trigger": "attrTween()\td3-transition.attrTween()",
 			"contents": "attrTween(${1:name})"
 		}, {
 			//transition.style - tween the given style property using the default interpolator.
-			"trigger": "style()\td3.transition.style()",
+			"trigger": "style()\td3-transition.style()",
 			"contents": "style(${1:name}, ${2:value})"
 		}, {
 			//transition.styleTween - tween the given style property using a custom interpolator.
-			"trigger": "styleTween()\td3.transition.styleTween()",
+			"trigger": "styleTween()\td3-transition.styleTween()",
 			"contents": "styleTween(${1:name})"
 		}, {
 			//transition.text - set the text content when the transition starts.
-			"trigger": "text()\td3.transition.text()",
+			"trigger": "text()\td3-transition.text()",
 			"contents": "text(${1:value})"
 		}, {
 			//transition.remove - remove the selected elements when the transition ends.
-			"trigger": "remove()\td3.transition.remove()",
+			"trigger": "remove()\td3-transition.remove()",
 			"contents": "remove()"
 		}, {
 			//transition.tween - run custom code during the transition.
-			"trigger": "tween()\td3.transition.tween()",
+			"trigger": "tween()\td3-transition.tween()",
 			"contents": "tween(${1:name})"
 		}, {
 			//transition.delay - specify per-element delay in milliseconds.
-			"trigger": "delay()\td3.transition.delay()",
+			"trigger": "delay()\td3-transition.delay()",
 			"contents": "delay(${1:[value]})"
 		}, {
 			//transition.duration - specify per-element duration in milliseconds.
-			"trigger": "duration()\td3.transition.duration()",
+			"trigger": "duration()\td3-transition.duration()",
 			"contents": "duration(${1:[value]})"
 		}, {
 			//transition.ease - specify the easing function.
-			"trigger": "ease()\td3.transition.ease()",
+			"trigger": "ease()\td3-transition.ease()",
 			"contents": "ease(${1:[value]})"
 		}, {
 			//transition.on - add or remove transition event listeners.
-			"trigger": "on()\td3.transition.on()",
+			"trigger": "on()\td3-transition.on()",
 			"contents": "on(${1:typenames})"
 		}, {
 			//transition.each - call a function for each element.
-			"trigger": "each()\td3.transition.each()",
+			"trigger": "each()\td3-transition.each()",
 			"contents": "each(${1:function})"
 		}, {
 			//transition.call - call a function with this transition.
-			"trigger": "call()\td3.transition.call()",
+			"trigger": "call()\td3-transition.call()",
 			"contents": "call(${1:function})"
 		}, {
 			//transition.empty - returns true if this transition is empty.
-			"trigger": "empty()\td3.transition.empty()",
+			"trigger": "empty()\td3-transition.empty()",
 			"contents": "empty()"
 		}, {
 			//transition.nodes - returns an array of all selected elements.
-			"trigger": "nodes()\td3.transition.nodes()",
+			"trigger": "nodes()\td3-transition.nodes()",
 			"contents": "nodes()"
 		}, {
 			//transition.node - returns the first (non-null) element.
-			"trigger": "node()\td3.transition.node()",
+			"trigger": "node()\td3-transition.node()",
 			"contents": "node()"
 		}, {
 			//transition.size - returns the count of elements.
-			"trigger": "size()\td3.transition.size()",
+			"trigger": "size()\td3-transition.size()",
 			"contents": "size()"
 		}, {
 			//d3.active - select the active transition for a given node.

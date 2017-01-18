@@ -25,7 +25,7 @@
 			"contents": "d3.easePolyInOut"
 		}, {
 			//poly.exponent - specify the polynomial exponent.
-			"trigger": "exponent()\td3.poly.exponent()",
+			"trigger": "exponent()\td3-poly.exponent()",
 			"contents": "exponent(${1:e})"
 		}, {
 			//d3.easeQuad - an alias for easeQuadInOut.
@@ -125,11 +125,11 @@
 			"contents": "d3.easeElasticInOut"
 		}, {
 			//elastic.amplitude - specify the elastic amplitude.
-			"trigger": "amplitude\td3.elastic.amplitude()",
+			"trigger": "amplitude\td3-elastic.amplitude()",
 			"contents": "amplitude({1:a})"
 		}, {
 			//elastic.period - specify the elastic period.
-			"trigger": "period\td3.elastic.period()",
+			"trigger": "period\td3-elastic.period()",
 			"contents": "period({1:p})"
 		}, {
 			//d3.easeBack - an alias for easeBackInOut.
@@ -149,7 +149,7 @@
 			"contents": "d3.easeBackInOut"
 		}, {
 			//back.overshoot - specify the amount of overshoot.
-			"trigger": "overshoot\td3.back.overshoot()",
+			"trigger": "overshoot\td3-back.overshoot()",
 			"contents": "overshoot({1:s})"
 		}, {
 			//d3.easeBounce - an alias for easeBounceOut.

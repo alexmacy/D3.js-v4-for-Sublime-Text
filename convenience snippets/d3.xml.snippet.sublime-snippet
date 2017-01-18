@@ -5,5 +5,5 @@
 })]]></content>
   <tabTrigger>xml()</tabTrigger>
   <scope>source.js</scope>
-  <description>d3.xml(snippet)</description>
+  <description>d3.xml()-snippet</description>
 </snippet>

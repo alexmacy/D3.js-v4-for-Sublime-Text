@@ -5,5 +5,5 @@
 })]]></content>
   <tabTrigger>tsv()</tabTrigger>
   <scope>source.js</scope>
-  <description>d3.tsv(snippet)</description>
+  <description>d3.tsv()-snippet</description>
 </snippet>

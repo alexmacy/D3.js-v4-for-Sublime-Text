@@ -45,7 +45,7 @@
 			"contents": "d3.dsvFormat(${1:delimiter})"
 		}, {
 			//dsv.parse - parse the given string, returning an array of objects.
-			"trigger": "parse()\td3.dsv.parse()",
+			"trigger": "parse()\td3-dsv.parse()",
 			"contents": "parse(${1:string})"
 		}, {
 			//dsv.parseRows - parse the given string, returning an array of rows.

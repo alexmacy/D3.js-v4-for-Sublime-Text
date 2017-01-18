@@ -4,5 +4,5 @@
   .entries(${2:array})]]></content>
   <tabTrigger>nest-snippet</tabTrigger>
   <scope>source.js</scope>
-  <description>d3.nest() snippet</description>
+  <description>d3.nest()-snippet</description>
 </snippet>

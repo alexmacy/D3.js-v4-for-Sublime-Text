@@ -12,19 +12,19 @@
 			"contents": "d3.chord()"
 		}, {
 			//chord.padAngle - set the padding between adjacent groups.
-			"trigger": "padAngle()\td3.chord.padAngle()",
+			"trigger": "padAngle()\td3-chord.padAngle()",
 			"contents": "padAngle(${1:[angle]})"
 		}, {
 			//chord.sortGroups - define the group order.
-			"trigger": "sortGroups()\td3.chord.sortGroups()",
+			"trigger": "sortGroups()\td3-chord.sortGroups()",
 			"contents": "sortGroups(${1:[compare]})"
 		}, {
 			//chord.sortSubgroups - define the source and target order within groups.
-			"trigger": "sortSubgroups()\td3.chord.sortSubgroups()",
+			"trigger": "sortSubgroups()\td3-chord.sortSubgroups()",
 			"contents": "sortSubgroups(${1:[compare]})"
 		}, {
 			//chord.sortChords - define the chord order across groups.
-			"trigger": "sortChords()\td3.chord.sortChords()",
+			"trigger": "sortChords()\td3-chord.sortChords()",
 			"contents": "sortChords(${1:[compare]})"
 		}, {
 
@@ -33,27 +33,27 @@
 			"contents": "d3.ribbon()"
 		}, {
 			//ribbon.source - set the source accessor.
-			"trigger": "source()\td3.ribbon.source()",
+			"trigger": "source()\td3-ribbon.source()",
 			"contents": "source(${1:source]})"
 		}, {
 			//ribbon.target - set the target accessor.
-			"trigger": "target()\td3.ribbon.target()",
+			"trigger": "target()\td3-ribbon.target()",
 			"contents": "target(${1:target]})"
 		}, {
 			//ribbon.radius - set the ribbon source or target radius.
-			"trigger": "radius()\td3.ribbon.radius()",
+			"trigger": "radius()\td3-ribbon.radius()",
 			"contents": "radius(${1:radius]})"
 		}, {
 			//ribbon.startAngle - set the ribbon source or target start angle.
-			"trigger": "startAngle()\td3.ribbon.startAngle()",
+			"trigger": "startAngle()\td3-ribbon.startAngle()",
 			"contents": "startAngle(${1:angle]})"
 		}, {
 			//ribbon.endAngle - set the ribbon source or target end angle.
-			"trigger": "endAngle()\td3.ribbon.endAngle()",
+			"trigger": "endAngle()\td3-ribbon.endAngle()",
 			"contents": "endAngle(${1:angle]})"
 		}, {
 			//ribbon.context - set the render context.
-			"trigger": "context()\td3.ribbon.context()",
+			"trigger": "context()\td3-ribbon.context()",
 			"contents": "context(${1:[context]})"
 		}
 	]

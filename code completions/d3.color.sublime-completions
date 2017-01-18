@@ -12,27 +12,27 @@
 			"trigger": "color()\td3.color()",
 			"contents": "d3.color(${1:specifier})"
 		}, {
-			"trigger": "opacity()\td3.color.opacity",
+			"trigger": "opacity()\td3-color.opacity",
 			"contents": "opacity = $1"
 		}, {
 			//color.rgb - compute the RGB equivalent of this color.
-			"trigger": "rgb()\td3.color.rgb()",
+			"trigger": "rgb()\td3-color.rgb()",
 			"contents": "rgb()"
 		}, {
 			//color.brighter - create a brighter copy of this color.
-			"trigger": "brighter()\td3.color.brighter()",
+			"trigger": "brighter()\td3-color.brighter()",
 			"contents": "brighter(${1:[k]})"
 		}, {
 			//color.darker - create a darker copy of this color.
-			"trigger": "darker()\td3.color.darker()",
+			"trigger": "darker()\td3-color.darker()",
 			"contents": "darker(${1:[k]})"
 		}, {
 			//color.displayable - returns true if the color is displayable on standard hardware.
-			"trigger": "displayable()\td3.color.displayable()",
+			"trigger": "displayable()\td3-color.displayable()",
 			"contents": "displayable()"
 		}, {
 			//color.toString - format the color as an RGB hexadecimal string.
-			"trigger": "toString()\td3.color.toString()",
+			"trigger": "toString()\td3-color.toString()",
 			"contents": "toString()"
 		}, {
 			//d3.rgb - create a new RGB color.

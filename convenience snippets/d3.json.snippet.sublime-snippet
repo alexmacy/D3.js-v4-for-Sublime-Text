@@ -5,5 +5,5 @@
 })]]></content>
   <tabTrigger>json()</tabTrigger>
   <scope>source.js</scope>
-  <description>d3.json(snippet)</description>
+  <description>d3.json()-snippet</description>
 </snippet>

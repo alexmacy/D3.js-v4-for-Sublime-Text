@@ -29,11 +29,11 @@
 			"contents": "d3.formatDefaultLocale(${1:definition})"
 		}, {
 			//locale.format - create a number format.
-			"trigger": "format()\td3.locale.format()",
+			"trigger": "format()\td3-locale.format()",
 			"contents": "format(${1:specifier})"
 		}, {
 			//locale.formatPrefix - create a SI-prefix number format.
-			"trigger": "formatPrefix()\td3.locale.formatPrefix()",
+			"trigger": "formatPrefix()\td3-locale.formatPrefix()",
 			"contents": "formatPrefix(${1:specifier}, ${2:value})"
 		}, {
 			//d3.precisionFixed - compute decimal precision for fixed-point notation.

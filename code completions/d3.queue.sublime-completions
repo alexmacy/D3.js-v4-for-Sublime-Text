@@ -14,19 +14,19 @@
 			"contents": "d3.queue()"
 		}, {
 			//queue.defer - register a task for evaluation.
-			"trigger": "defer()\td3.queue.defer()",
+			"trigger": "defer()\td3-queue.defer()",
 			"contents": "defer(${1:task})"
 		}, {
 			//queue.abort - abort any active tasks and cancel any pending ones.
-			"trigger": "abort()\td3.queue.abort()",
+			"trigger": "abort()\td3-queue.abort()",
 			"contents": "abort()"
 		}, {
 			//queue.await - register a callback for when tasks complete.
-			"trigger": "await()\td3.queue.await()",
+			"trigger": "await()\td3-queue.await()",
 			"contents": "await(${1:callback})"
 		}, {
 			//queue.awaitAll - register a callback for when tasks complete.
-			"trigger": "awaitAll()\td3.queue.awaitAll()",
+			"trigger": "awaitAll()\td3-queue.awaitAll()",
 			"contents": "awaitAll(${1:callback})"
 		}
 	]
