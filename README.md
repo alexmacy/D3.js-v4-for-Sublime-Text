@@ -28,8 +28,8 @@ Please let me of any typos, if anything is missing, or of any requests for conve
 
 ### Without Package Control ###
 Download the [zipped repo][zipped-repo] and unzip it into Sublime Text's packages folder:
-* Mac: ~/Library/Application Support/Sublime Text 3/Packages/ 
-* Windows: C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages
+*	Mac: ~/Library/Application Support/Sublime Text 3/Packages/ 
+*	Windows: C:\Users\%userprofile%\AppData\Roaming\Sublime Text 3\Packages
 
 ===========================
 
