@@ -1,0 +1,89 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Number Formats (d3-format)
+			//Format numbers for human consumption.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Number Formats (d3-format)",
+				"children":
+				[
+					{
+						//d3.format - alias for locale.format on the default locale.
+						"caption": "d3.format(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.format(${1:specifier})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.formatPrefix - alias for locale.formatPrefix on the default locale.
+						"caption": "d3.formatPrefix(specifier, value)",
+						"command": "insert_snippet", "args": {"contents": "d3.formatPrefix(${1:specifier}, ${2:value})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.formatSpecifier - parse a number format specifier.
+						"caption": "d3.formatSpecifier(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.formatSpecifier(${1:specifier})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.formatLocale - define a custom locale.
+						"caption": "d3.formatLocale(definition)",
+						"command": "insert_snippet", "args": {"contents": "d3.formatLocale(${1:definition})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.formatDefaultLocale - define the default locale.
+						"caption": "d3.formatDefaultLocale(definition)",
+						"command": "insert_snippet", "args": {"contents": "d3.formatDefaultLocale(${1:definition})"}
+					}, {
+						//locale.format - create a number format.
+						"caption": "    .format(specifier)",
+						"command": "insert_snippet", "args": {"contents": ".format(${1:specifier})"}
+					}, {
+						//locale.formatPrefix - create a SI-prefix number format.
+						"caption": "    .formatPrefix(specifier, value)",
+						"command": "insert_snippet", "args": {"contents": ".formatPrefix(${1:specifier}, ${2:value})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.precisionFixed - compute decimal precision for fixed-point notation.
+						"caption": "d3.precisionFixed(step)",
+						"command": "insert_snippet", "args": {"contents": "d3.precisionFixed(${1:step})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.precisionPrefix - compute decimal precision for SI-prefix notation.
+						"caption": "d3.precisionPrefix(step, value)",
+						"command": "insert_snippet", "args": {"contents": "d3.precisionPrefix(${1:step}, ${2:value})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.precisionRound - compute significant digits for rounded notation.
+						"caption": "d3.precisionRound(step, max)",
+						"command": "insert_snippet", "args": {"contents": "d3.precisionRound(${1:step}, ${2:max})"}
+					}
+				]
+			}
+		]
+	}
+]

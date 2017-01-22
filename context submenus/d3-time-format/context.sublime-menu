@@ -1,0 +1,104 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Time Formats (d3-time-format)
+			//Parse and format times, inspired by strptime and strftime.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Time Formats (d3-time-format)",
+				"children":
+				[
+					{
+						//d3.timeFormat - alias for locale.format on the default locale.
+						"caption": "d3.timeFormat(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.timeFormat(${1:specifier})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.timeParse - alias for locale.parse on the default locale.
+						"caption": "d3.timeParse(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.timeParse(${1:specifier})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.utcFormat - alias for locale.utcFormat on the default locale.
+						"caption": "d3.utcFormat(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.utcFormat(${1:specifier})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.utcParse - alias for locale.utcParse on the default locale.
+						"caption": "d3.utcParse(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.utcParse(${1:specifier})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.isoFormat - an ISO 8601 UTC formatter.
+						"caption": "d3.isoFormat",
+						"command": "insert_snippet", "args": {"contents": "d3.isoFormat"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.isoParse - an ISO 8601 UTC parser.
+						"caption": "d3.isoParse",
+						"command": "insert_snippet", "args": {"contents": "d3.isoParse"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.timeFormatLocale - define a custom locale.
+						"caption": "d3.timeFormatLocale(definition)",
+						"command": "insert_snippet", "args": {"contents": "d3.timeFormatLocale(${1:definition})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.timeFormatDefaultLocale - define the default locale.
+						"caption": "d3.timeFormatDefaultLocale(definition)",
+						"command": "insert_snippet", "args": {"contents": "d3.timeFormatDefaultLocale(${1:definition})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						"caption": "  locale",
+						"command": null
+					}, {
+						//locale.format - create a time formatter.
+						"caption": "    .format(specifier)",
+						"command": "insert_snippet", "args": {"contents": ".format(${1:specifier})"}
+					}, {
+						//locale.parse - create a time parser.
+						"caption": "    .parse(specifier)",
+						"command": "insert_snippet", "args": {"contents": ".parse(${1:specifier})"}
+					}, {
+						//locale.utcFormat - create a UTC formatter.
+						"caption": "    .utcFormat(specifier)",
+						"command": "insert_snippet", "args": {"contents": ".utcFormat(${1:specifier})"}
+					}, {
+						//locale.utcParse - create a UTC parser.
+						"caption": "    .utcParse(specifier)",
+						"command": "insert_snippet", "args": {"contents": ".utcParse(${1:specifier})"}
+					}
+				]
+			}
+		]
+	}
+]

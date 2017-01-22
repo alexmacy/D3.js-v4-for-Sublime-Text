@@ -32,17 +32,17 @@
 			//voronoi.polygons - compute the Voronoi polygons for the given points.
 			//diagram.polygons - compute the polygons for this Voronoi diagram.
 			"trigger": "polygons()\td3-voronoi.polygons()",
-			"contents": "polygons(${1:[data]})"
+			"contents": "polygons(${1:data})"
 		}, {
 			//voronoi.triangles - compute the Delaunay triangles for the given points.
 			//diagram.triangles - compute the triangles for this Voronoi diagram.
 			"trigger": "triangles()\td3-voronoi.triangles()",
-			"contents": "triangles(${1:[data]})"
+			"contents": "triangles(${1:data})"
 		}, {
 			//voronoi.links - compute the Delaunay links for the given points.
 			//diagram.links - compute the links for this Voronoi diagram.
 			"trigger": "links()\td3-voronoi.links()",
-			"contents": "links(${1:[data]})"
+			"contents": "links(${1:data})"
 		}, {
 			//diagram.find - find the closest point in this Voronoi diagram.
 			"trigger": "find()\td3-voronoiDiagram.find()",

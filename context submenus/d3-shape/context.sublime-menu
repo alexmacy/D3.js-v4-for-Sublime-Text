@@ -1,0 +1,600 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Shapes (d3-shape)
+			//Graphical primitives for visualization.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Shapes (d3-shape)",
+				"children":
+				[
+					{
+						//Arcs
+						//Circular or annular sectors, as in a pie or donut chart.
+						"caption": "Arcs",
+						"children":
+						[
+							{
+								//d3.arc - create a new arc generator.
+								"caption": "d3.arc()",
+								"command": "insert_snippet", "args": {"contents": "d3.arc()"}
+							}, {
+								"caption": "  arc(arguments...)",
+								"command": "insert_snippet", "args": {"contents": "${1:arc}(${2:arguments...})"}
+							}, {
+								//arc.centroid - compute an arc’s midpoint.
+								"caption": "    .centroid(arguments...)",
+								"command": "insert_snippet", "args": {"contents": ".centroid(${1:arguments...})"}
+							}, {
+								//arc.innerRadius - set the inner radius.
+								"caption": "    .innerRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".innerRadius(${1:[radius]})"}
+							}, {
+								//arc.outerRadius - set the outer radius.
+								"caption": "    .outerRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".outerRadius(${1:[radius]})"}
+							}, {
+								//arc.cornerRadius - set the corner radius, for rounded corners.
+								"caption": "    .cornerRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".cornerRadius(${1:[radius]})"}
+							}, {
+								//arc.startAngle - set the start angle.
+								"caption": "    .startAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".startAngle(${1:[angle]})"}
+							}, {
+								//arc.endAngle - set the end angle.
+								"caption": "    .endAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".endAngle(${1:[angle]})"}
+							}, {
+								//arc.padAngle - set the angle between adjacent arcs, for padded arcs.
+								"caption": "    .padAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".padAngle(${1:[angle]})"}
+							}, {
+								//arc.padRadius - set the radius at which to linearize padding.
+								"caption": "    .padRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".padRadius(${1:[radius]})"}
+							}, {
+								//arc.context - set the rendering context.
+								"caption": "    .context([context])",
+								"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}
+							}
+						]
+					}, {
+						//Pies
+						//Compute the necessary angles to represent a tabular dataset as a pie or donut chart.
+						"caption": "Pies",
+						"children": [
+							{
+								//d3.pie - create a new pie generator.
+								"caption": "d3.pie()",
+								"command": "insert_snippet", "args": {"contents": "d3.pie()"}
+							}, {
+								"caption": "  pie(data[, arguments…])",
+								"command": "insert_snippet", "args": {"contents": "${1:pie}(${2:data}${3:[, arguments…]})"}
+							}, {
+								//pie.value - set the value accessor.
+								"caption": "    .value([value])",
+								"command": "insert_snippet", "args": {"contents": ".value(${1:[value]})"}
+							}, {
+								//pie.sort - set the sort order comparator.
+								"caption": "    .sort([compare])",
+								"command": "insert_snippet", "args": {"contents": ".sort(${1:[compare]})"}
+							}, {
+								//pie.sortValues - set the sort order comparator.
+								"caption": "    .sortValues([compare])",
+								"command": "insert_snippet", "args": {"contents": ".sortValues(${1:[compare]})"}
+							}, {
+								//pie.startAngle - set the overall start angle.
+								"caption": "    .startAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".startAngle(${1:[angle]})"}
+							}, {
+								//pie.endAngle - set the overall end angle.
+								"caption": "    .endAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".endAngle(${1:[angle]})"}
+							}, {
+								//pie.padAngle - set the pad angle between adjacent arcs.
+								"caption": "    .padAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".padAngle(${1:[angle]})"}
+							}
+						]
+					}, {
+						//Lines
+						//A spline or polyline, as in a line chart.
+						"caption": "Lines",
+						"children": 
+						[
+							{
+								//d3.line - create a new line generator.
+								"caption": "d3.line()",
+								"command": "insert_snippet", "args": {"contents": "d3.line()"}
+							}, {
+								"caption": "  line(data)",
+								"command": "insert_snippet", "args": {"contents": "${1:line}(${2:data})"}
+							}, {
+								//line.x - set the x accessor.
+								"caption": "    .x([x])",
+								"command": "insert_snippet", "args": {"contents": ".x(${1:[x]})"}
+							}, {
+								//line.y - set the y accessor.
+								"caption": "    .y([y])",
+								"command": "insert_snippet", "args": {"contents": ".y(${1:[y]})"}
+							}, {
+								//line.defined - set the defined accessor.
+								"caption": "    .defined([defined])",
+								"command": "insert_snippet", "args": {"contents": ".defined(${1:[defined]})"}
+							}, {
+								//line.curve - set the curve interpolator.
+								"caption": "    .curve([cuve])",
+								"command": "insert_snippet", "args": {"contents": ".curve(${1:[curve]})"}
+							}, {
+								//line.context - set the rendering context.
+								"caption": "    .context([context])",
+								"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.radialLine - create a new radial line generator.
+								"caption": "d3.radialLine()",
+								"command": "insert_snippet", "args": {"contents": "d3.radialLine()"}
+							}, {
+								"caption": "  radialLine(data)",
+								"command": "insert_snippet", "args": {"contents": "${1:radialLine}(${2:data})"}
+							}, {
+								//radialLine.angle - set the angle accessor.
+								"caption": "    .angle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".angle(${1:[angle]})"}
+							}, {
+								//radialLine.radius - set the radius accessor.
+								"caption": "    .radius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".radius(${1:[radius]})"}
+							}, {
+								//radialLine.defined - set the defined accessor.
+								"caption": "    .defined([defined])",
+								"command": "insert_snippet", "args": {"contents": ".defined(${1:[defined]})"}
+							}, {
+								//radialLine.curve - set the curve interpolator.
+								"caption": "    .curve([curve])",
+								"command": "insert_snippet", "args": {"contents": ".curve(${1:[curve]})"}
+							}, {
+								//radialLine.context - set the rendering context.
+								"caption": "    .context([context])",
+								"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}
+							}
+						]
+					}, {
+						//Areas
+						//An area, defined by a bounding topline and baseline, as in an area chart.
+						"caption": "Areas",
+						"children":
+						[
+
+							{
+								//d3.radialArea - create a new radial area generator.
+								"caption": "d3.radialArea()",
+								"command": "insert_snippet", "args": {"contents": "d3.radialArea()"}
+							}, {
+								"caption": "  radialArea(data)",
+								"command": "insert_snippet", "args": {"contents": "${1:radialArea}(${2:data})"}
+							}, {
+								//radialArea.angle - set the start and end angle accessors.
+								"caption": "    .angle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".angle(${1:[angle]})"}
+							}, {
+								//radialArea.startAngle - set the start angle accessor.
+								"caption": "    .startAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".startAngle(${1:[angle]})"}
+							}, {
+								//radialArea.endAngle - set the end angle accessor.
+								"caption": "    .endAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".endAngle(${1:[angle]})"}
+							}, {
+								//radialArea.radius - set the inner and outer radius accessors.
+								"caption": "    .radius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".radius(${1:[radius]})"}
+							}, {
+								//radialArea.innerRadius - set the inner radius accessor.
+								"caption": "    .innerRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".innerRadius(${1:[radius]})"}
+							}, {
+								//radialArea.outerRadius - set the outer radius accessor.
+								"caption": "    .outerRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".outerRadius(${1:[radius]})"}
+							}, {
+								//radialArea.defined - set the defined accessor.
+								"caption": "    .defined([defined])",
+								"command": "insert_snippet", "args": {"contents": ".defined(${1:[defined]})"}
+							}, {
+								//radialArea.curve - set the curve interpolator.
+								"caption": "    .curve([curve])",
+								"command": "insert_snippet", "args": {"contents": ".curve(${1:[curve]})"}
+							}, {
+								//radialArea.context - set the rendering context.
+								"caption": "    .context([context])",
+								"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}
+							}, {
+								//radialArea.lineStartAngle - derive a line for the start edge of an area.
+								"caption": "    .lineStartAngle()",
+								"command": "insert_snippet", "args": {"contents": ".lineStartAngle()"}
+							}, {
+								//radialArea.lineEndAngle - derive a line for the end edge of an area.
+								"caption": "    .lineEndAngle()",
+								"command": "insert_snippet", "args": {"contents": ".lineEndAngle()"}
+							}, {
+								//radialArea.lineInnerRadius - derive a line for the inner edge of an area.
+								"caption": "    .lineInnerRadius()",
+								"command": "insert_snippet", "args": {"contents": ".lineInnerRadius()"}
+							}, {
+								//radialArea.lineOuterRadius - derive a line for the outer edge of an area.
+								"caption": "    .lineOuterRadius()",
+								"command": "insert_snippet", "args": {"contents": ".lineOuterRadius()"}
+							}
+						]
+					}, {
+						//Curves
+						//Interpolate between points to produce a continuous shape.
+						"caption": "Curves",
+						"children":
+						[
+							{
+								//d3.curveBasis - a cubic basis spline, repeating the end points.
+								"caption": "d3.curveBasis",
+								"command": "insert_snippet", "args": {"contents": "d3.curveBasis"}
+							}, {
+								//d3.curveBasisClosed - a closed cubic basis spline.
+								"caption": "d3.curveBasisClosed",
+								"command": "insert_snippet", "args": {"contents": "d3.curveBasisClosed"}
+							}, {
+								//d3.curveBasisOpen - a cubic basis spline.
+								"caption": "d3.curveBasisOpen",
+								"command": "insert_snippet", "args": {"contents": "d3.curveBasisOpen"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveBundle - a straightened cubic basis spline.
+								"caption": "d3.curveBundle",
+								"command": "insert_snippet", "args": {"contents": "d3.curveBundle"}
+							}, {
+								//bundle.beta - set the bundle tension beta.
+								"caption": "    .beta(beta)",
+								"command": "insert_snippet", "args": {"contents": ".beta(${1:beta})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveCardinal - a cubic cardinal spline, with one-sided difference at each end.
+								"caption": "d3.curveCardinal",
+								"command": "insert_snippet", "args": {"contents": "d3.curveCardinal"}
+							}, {
+								//d3.curveCardinalClosed - a closed cubic cardinal spline.
+								"caption": "d3.curveCardinalClosed",
+								"command": "insert_snippet", "args": {"contents": "d3.curveCardinalClosed"}
+							}, {
+								//d3.curveCardinalOpen - a cubic cardinal spline.
+								"caption": "d3.curveCardinalOpen",
+								"command": "insert_snippet", "args": {"contents": "d3.curveCardinalOpen"}
+							}, {
+								//cardinal.tension - set the cardinal spline tension.
+								"caption": "    .tension(tension)",
+								"command": "insert_snippet", "args": {"contents": ".tension(${1:tension})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveCatmullRom - a cubic Catmull–Rom spline, with one-sided difference at each end.
+								"caption": "d3.curveCatmullRom",
+								"command": "insert_snippet", "args": {"contents": "d3.curveCatmullRom"}
+							}, {
+								//d3.curveCatmullRomClosed - a closed cubic Catmull–Rom spline.
+								"caption": "d3.curveCatmullRomClosed",
+								"command": "insert_snippet", "args": {"contents": "d3.curveCatmullRomClosed"}
+							}, {
+								//d3.curveCatmullRomOpen - a cubic Catmull–Rom spline.
+								"caption": "d3.curveCatmullRomOpen",
+								"command": "insert_snippet", "args": {"contents": "d3.curveCatmullRomOpen"}
+							}, {
+								//catmullRom.alpha - set the Catmull–Rom parameter alpha.
+								"caption": "    .alpha()",
+								"command": "insert_snippet", "args": {"contents": ".alpha(${1:alpha})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveLinear - a polyline.
+								"caption": "d3.curveLinear",
+								"command": "insert_snippet", "args": {"contents": "d3.curveLinear"}
+							}, {
+								//d3.curveLinearClosed - a closed polyline.
+								"caption": "d3.curveLinearClosed",
+								"command": "insert_snippet", "args": {"contents": "d3.curveLinearClosed"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveMonotoneX - a cubic spline that, given monotonicity in x, preserves it in y.
+								"caption": "d3.curveMonotoneX",
+								"command": "insert_snippet", "args": {"contents": "d3.curveMonotoneX"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveMonotoneY - a cubic spline that, given monotonicity in y, preserves it in x.
+								"caption": "d3.curveMonotoneY",
+								"command": "insert_snippet", "args": {"contents": "d3.curveMonotoneY"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveNatural - a natural cubic spline.
+								"caption": "d3.curveNatural",
+								"command": "insert_snippet", "args": {"contents": "d3.curveNatural"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.curveStep - a piecewise constant function.
+								"caption": "d3.curveStep",
+								"command": "insert_snippet", "args": {"contents": "d3.curveStep"}
+							}, {
+								//d3.curveStepAfter - a piecewise constant function.
+								"caption": "d3.curveStepAfter",
+								"command": "insert_snippet", "args": {"contents": "d3.curveStepAfter"}
+							}, {
+								//d3.curveStepBefore - a piecewise constant function.
+								"caption": "d3.curveStepBefore",
+								"command": "insert_snippet", "args": {"contents": "d3.curveStepBefore"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								"caption": "curve",
+								"command": null
+							}, {
+								//curve.areaStart - start a new area segment.
+								"caption": "    .areaStart()",
+								"command": "insert_snippet", "args": {"contents": ".areaStart()"}
+							}, {
+								//curve.areaEnd - end the current area segment.
+								"caption": "    .areaEnd()",
+								"command": "insert_snippet", "args": {"contents": ".areaEnd()"}
+							}, {
+								//curve.lineStart - start a new line segment.
+								"caption": "    .lineStart()",
+								"command": "insert_snippet", "args": {"contents": ".lineStart()"}
+							}, {
+								//curve.lineEnd - end the current line segment.
+								"caption": "    .lineEnd()",
+								"command": "insert_snippet", "args": {"contents": ".lineEnd()"}
+							}, {
+								//curve.point - add a point to the current line segment.
+								"caption": "    .point(x, y)",
+								"command": "insert_snippet", "args": {"contents": ".point(${1:x}, ${2:y})"}
+							}
+						]
+					}, {
+						//Symbols
+						//A categorical shape encoding, as in a scatterplot.
+						"caption": "Symbols",
+						"children":
+						[
+							{
+								//d3.symbol - create a new symbol generator.
+								"caption": "d3.symbol()",
+								"command": "insert_snippet", "args": {"contents": "d3.symbol()"}
+							}, {
+								"caption": "  symbol(arguments...)",
+								"command": "insert_snippet", "args": {"contents": "${1:symbol}(${2:arguments…})"}
+							}, {
+								//symbol.type - set the symbol type.
+								"caption": "    .type([type])",
+								"command": "insert_snippet", "args": {"contents": ".type(${1:[type]})"}
+							}, {
+								//symbol.size - set the size of the symbol in square pixels.
+								"caption": "    .size([size])",
+								"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+							}, {
+								//symbol.context - set the rendering context.
+								"caption": "    .context([context])",
+								"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbols - the array of built-in symbol types.
+								"caption": "d3.symbols",
+								"command": "insert_snippet", "args": {"contents": "d3.symbols"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolCircle - a circle.
+								"caption": "d3.symbolCircle",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolCircle"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolCross - a Greek cross with arms of equal length.
+								"caption": "d3.symbolCross",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolCross"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolDiamond - a rhombus.
+								"caption": "d3.symbolDiamond",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolDiamond"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolSquare - a square.
+								"caption": "d3.symbolSquare",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolSquare"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolStar - a pentagonal star (pentagram).
+								"caption": "d3.symbolStar",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolStar"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolTriangle - an up-pointing triangle.
+								"caption": "d3.symbolTriangle",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolTriangle"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.symbolWye - a Y shape.
+								"caption": "d3.symbolWye",
+								"command": "insert_snippet", "args": {"contents": "d3.symbolWye"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								"caption": "  symbolType",
+								"command": null
+							}, {
+								//symbolType.draw - draw this symbol to the given context.
+								"caption": "    .draw(context, size)",
+								"command": "insert_snippet", "args": {"contents": ".draw(${1:context}, ${2:size})"}
+							}
+						]
+					}, {
+						//Stacks
+						//Stack shapes, placing one adjacent to another, as in a stacked bar chart.
+						"caption": "Stacks",
+						"children":
+						[
+							{
+								//d3.stack - create a new stack generator.
+								"caption": "d3.stack()",
+								"command": "insert_snippet", "args": {"contents": "d3.stack()"}
+							}, {
+								"caption": "  stack(data[, arguments...])",
+								"command": "insert_snippet", "args": {"contents": "d3.stack(${1:data}${2:, [arguments…]})"}
+							}, {
+								//stack.keys - set the keys accessor.
+								"caption": "    .keys(keys)",
+								"command": "insert_snippet", "args": {"contents": ".keys(${1:[keys]})"}
+							}, {
+								//stack.value - set the value accessor.
+								"caption": "    .value([value])",
+								"command": "insert_snippet", "args": {"contents": ".value(${1:[value]})"}
+							}, {
+								//stack.order - set the order accessor.
+								"caption": "    .order([order])",
+								"command": "insert_snippet", "args": {"contents": ".order(${1:[order]})"}
+							}, {
+								//stack.offset - set the offset accessor.
+								"caption": "    .offset([offset])",
+								"command": "insert_snippet", "args": {"contents": ".offset(${1:[offset]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOrderAscending - put the smallest series on bottom.
+								"caption": "d3.stackOrderAscending",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOrderAscending"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOrderDescending - put the largest series on bottom.
+								"caption": "d3.stackOrderDescending",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOrderDescending"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOrderInsideOut - put larger series in the middle.
+								"caption": "d3.stackOrderInsideOut",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOrderInsideOut"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOrderNone - use the given series order.
+								"caption": "d3.stackOrderNone",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOrderNone"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOrderReverse - use the reverse of the given series order.
+								"caption": "d3.stackOrderReverse",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOrderReverse"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOffsetExpand - normalize the baseline to zero and topline to one.
+								"caption": "d3.stackOffsetExpand",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOffsetExpand"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOffsetNone - apply a zero baseline.
+								"caption": "d3.stackOffsetNone",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOffsetNone"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOffsetSilhouette - center the streamgraph around zero.
+								"caption": "d3.stackOffsetSilhouette",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOffsetSilhouette"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.stackOffsetWiggle - minimize streamgraph wiggling.
+								"caption": "d3.stackOffsetWiggle",
+								"command": "insert_snippet", "args": {"contents": "d3.stackOffsetWiggle"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

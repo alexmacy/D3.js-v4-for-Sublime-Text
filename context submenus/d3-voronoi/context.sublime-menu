@@ -1,0 +1,80 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Voronoi Diagrams (d3-voronoi)
+			//Compute the Voronoi diagram of a given set of points.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+
+				"caption": "Voronoi Diagrams (d3-voronoi)",
+				"children":
+				[
+					{
+						//d3.voronoi - create a new Voronoi generator.
+						"caption": "d3.voronoi()",
+						"command": "insert_snippet", "args": {"contents": "d3.voronoi()"}
+					}, {
+						"caption": "  voronoi(data)",
+						"command": "insert_snippet", "args": {"contents": "${1:voronoi}(${2:data})"}
+					}, {
+						//voronoi.x - set the x accessor.
+						"caption": "    .x([x])",
+						"command": "insert_snippet", "args": {"contents": ".x(${1:[x]})"}
+					}, {
+						//voronoi.y - set the y accessor.
+						"caption": "    .y([y])",
+						"command": "insert_snippet", "args": {"contents": ".y(${1:[y]})"}
+					}, {
+						//voronoi.extent - set the observed extent of points.
+						"caption": "    .extent([extent])",
+						"command": "insert_snippet", "args": {"contents": ".extent(${1:[extent]})"}
+					}, {
+						//voronoi.size - set the observed extent of points.
+						"caption": "    .size([size])",
+						"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+					}, {
+						//voronoi.polygons - compute the Voronoi polygons for the given points.
+						"caption": "    .polygons(data)",
+						"command": "insert_snippet", "args": {"contents": ".polygons(${1:data})"}
+					}, {
+						//voronoi.triangles - compute the Delaunay triangles for the given points.
+						"caption": "    .triangles(data)",
+						"command": "insert_snippet", "args": {"contents": ".triangles(${1:data})"}
+					}, {
+						//voronoi.links - compute the Delaunay links for the given points.
+						"caption": "    .links(data)",
+						"command": "insert_snippet", "args": {"contents": ".links(${1:data})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						"caption": "  diagram",
+						"command": null
+					}, {
+						//diagram.polygons - compute the polygons for this Voronoi diagram.
+						"caption": "    .polygons()",
+						"command": "insert_snippet", "args": {"contents": ".polygons()"}
+					}, {
+						//diagram.triangles - compute the triangles for this Voronoi diagram.
+						"caption": "    .triangles()",
+						"command": "insert_snippet", "args": {"contents": ".triangles()"}
+					}, {
+						//diagram.links - compute the links for this Voronoi diagram.
+						"caption": "    .links()",
+						"command": "insert_snippet", "args": {"contents": ".links()"}
+					}, {
+						//diagram.find - find the closest point in this Voronoi diagram.
+						"caption": "    .find(x, y[, radius])",
+						"command": "insert_snippet", "args": {"contents": "find(${1:x}, ${2:y}${3:[, radius]})"}
+					}
+				]
+			}
+		]
+	}
+]

@@ -59,11 +59,11 @@
 		}, {
 			//d3.zoomTransform - get the zoom transform for a given element.
 			"trigger": "zoomTransform()\td3.zoomTransform()",
-			"contents": "d3.zoomTransform(${1:[node]})"
+			"contents": "d3.zoomTransform(${1:node})"
 		}, {
 			//transform.scale - scale a transform by the specified amount.
 			"trigger": "scale()\td3-zoomTransform.scale()",
-			"contents": "scale(${1:[k]})"
+			"contents": "scale(${1:k})"
 		}, {
 			//transform.translate - translate a transform by the specified amount.
 			"trigger": "translate()\td3-zoomTransform.translate()",

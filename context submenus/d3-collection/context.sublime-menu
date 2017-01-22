@@ -1,0 +1,189 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Collections (d3-collection)
+			//Handy data structures for elements keyed by string.
+			//////////////////////////////////////////////////////////////////////
+			
+			{
+				"caption": "Collections (d3-collection)",
+				"children": 
+				[
+					{
+
+						//Objects
+						//Methods for converting associative arrays (objects) to arrays.
+				
+						"caption": "Objects",
+						"children": [
+							{
+								//d3.keys - list the keys of an associative array.
+								"caption": "d3.keys(object)",
+								"command": "insert_snippet", "args": {"contents": "d3.keys(${1:object})"},
+							}, {
+								"caption": "-",
+							}, {
+								//d3.values - list the values of an associated array.
+								"caption": "d3.values(object)",
+								"command": "insert_snippet", "args": {"contents": "d3.values(${1:object})"},
+							}, {
+								"caption": "-",
+							}, {
+								//d3.entries - list the key-value entries of an associative array.
+								"caption": "d3.entries(object)",
+								"command": "insert_snippet", "args": {"contents": "d3.entries(${1:object})"},
+							}
+						]
+					}, {
+
+						//Maps
+						//Like ES6 Map, but with string keys and a few other differences.
+
+						"caption": "Maps",
+						"children": [
+							{
+								//d3.map - create a new, empty map.
+								"caption": "d3.map([object[, key]])",
+								"command": "insert_snippet", "args": {"contents": "d3.map(${1:[object]}${2:[, key]})"},
+							}, {
+								//map.has - returns true if the map contains the given key.
+								"caption": "   .has(key)",
+								"command": "insert_snippet", "args": {"contents": ".has(${1:key})"},
+							}, {
+								//map.get - get the value for the given key.
+								"caption": "   .get(key)",
+								"command": "insert_snippet", "args": {"contents": ".get(${1:key})"},
+							}, {
+								//map.set - set the value for the given key.
+								"caption": "   .set(key, value)",
+								"command": "insert_snippet", "args": {"contents": ".set(${1:key}, ${2:value})"},
+							}, {
+								//map.remove - remove the entry for given key.
+								"caption": "   .remove(key)",
+								"command": "insert_snippet", "args": {"contents": ".remove(${1:key})"},
+							}, {
+								//map.clear - remove all entries.
+								"caption": "   .clear()",
+								"command": "insert_snippet", "args": {"contents": ".clear()"},
+							}, {
+								//map.keys - get the array of keys.
+								"caption": "   .keys()",
+								"command": "insert_snippet", "args": {"contents": ".keys()"},
+							}, {
+								//map.values - get the array of values.
+								"caption": "   .values()",
+								"command": "insert_snippet", "args": {"contents": ".values()"},
+							}, {
+								//map.entries - get the array of entries (key-values objects).
+								"caption": "   .entries()",
+								"command": "insert_snippet", "args": {"contents": ".entries()"},
+							}, {
+								//map.each - call a function for each entry.
+								"caption": "   .each(function)",
+								"command": "insert_snippet", "args": {"contents": ".each(${1:function})"},
+							}, {
+								//map.empty - returns false if the map has at least one entry.
+								"caption": "   .empty()",
+								"command": "insert_snippet", "args": {"contents": ".empty()"},
+							}, {
+								//map.size - compute the number of entries.
+								"caption": "   .size()",
+								"command": "insert_snippet", "args": {"contents": ".size()"},
+							}
+						]					
+					}, {
+
+						//Sets
+						//Like ES6 Set, but with string keys and a few other differences.
+
+						"caption": "Sets",
+						"children": [
+							{
+								//d3.set - create a new, empty set.
+								"caption": "d3.set([array[, accessor]])",
+								"command": "insert_snippet", "args": {"contents": "d3.set(${1:[array]}${2:[, accessor]})"},
+							}, {
+								//set.has - returns true if the set contains the given value.
+								"caption": "    .has(value)",
+								"command": "insert_snippet", "args": {"contents": ".has(${1:value})"},
+							}, {
+								//set.add - add the given value.
+								"caption": "    .add(value)",
+								"command": "insert_snippet", "args": {"contents": ".add(${1:value})"},
+							}, {
+								//set.remove - remove the given value.
+								"caption": "    .remove(value)",
+								"command": "insert_snippet", "args": {"contents": ".remove(${1:value})"},
+							}, {
+								//set.clear - remove all values.
+								"caption": "    .clear()",
+								"command": "insert_snippet", "args": {"contents": ".clear()"},
+							}, {
+								//set.values - get the array of values.
+								"caption": "    .values()",
+								"command": "insert_snippet", "args": {"contents": ".values()"},
+							}, {
+								//set.each - call a function for each value.
+								"caption": "    .each(function)",
+								"command": "insert_snippet", "args": {"contents": ".each(${1:function})"},
+							}, {
+								//set.empty - returns true if the set has at least one value.
+								"caption": "    .empty()",
+								"command": "insert_snippet", "args": {"contents": ".empty()"},
+							}, {
+								//set.size - compute the number of values.
+								"caption": "    .size()",
+								"command": "insert_snippet", "args": {"contents": ".size()"},
+							}
+						]
+					}, {
+
+						//Nests
+						//Group data into arbitrary hierarchies.
+
+						"caption": "Nests",
+						"children": [
+							{
+								//d3.nest - create a new nest generator.
+								"caption": "d3.nest()",
+								"command": "insert_snippet", "args": {"contents": "d3.nest()"},
+							}, {
+								//nest.key - add a level to the nest hierarchy.
+								"caption": "    .key(key)",
+								"command": "insert_snippet", "args": {"contents": ".key(${1:key})"},
+							}, {
+								//nest.sortKeys - sort the current nest level by key.
+								"caption": "    .sortKeys(comparator)",
+								"command": "insert_snippet", "args": {"contents": ".sortKeys(${1:comparator})"},
+							}, {
+								//nest.sortValues - sort the leaf nest level by value.
+								"caption": "    .sortValues(comparator)",
+								"command": "insert_snippet", "args": {"contents": ".sortValues(${1:comparator})"},
+							}, {
+								//nest.rollup - specify a rollup function for leaf values.
+								"caption": "    .rollup(function)",
+								"command": "insert_snippet", "args": {"contents": ".rollup(${1:function})"},
+							}, {
+								//nest.map - generate the nest, returning a map.
+								"caption": "    .map(array)",
+								"command": "insert_snippet", "args": {"contents": ".map(${1:array})"},
+							}, {
+								//nest.object - generate the nest, returning an associative array.
+								"caption": "    .object(array)",
+								"command": "insert_snippet", "args": {"contents": ".object(${1:array})"},
+							}, {
+								//nest.entries - generate the nest, returning an array of key-values tuples.
+								"caption": "    .entries(array)",
+								"command": "insert_snippet", "args": {"contents": ".entries(${1:array})"}
+							} 
+						]
+					}
+				]
+			}
+		]
+	}
+]

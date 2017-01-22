@@ -1,0 +1,66 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Dragging (d3-drag)
+			//Drag and drop SVG, HTML or Canvas using mouse or touch input.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+			    "caption": "Dragging (d3-drag)",
+			    "children":
+			    [
+						{
+							//d3.drag - create a drag behavior.
+							"caption": "d3.drag()",
+							"command": "insert_snippet", "args": {"contents": "d3.drag()$1"}
+						}, {
+							//drag - apply the drag behavior to a selection.
+							"caption": "  drag(selection)",
+							"command": "insert_snippet", "args": {"contents": ".drag(${1:selection})"}
+						}, {
+							//drag.container - set the coordinate system.
+							"caption": "    .container([container])",
+							"command": "insert_snippet", "args": {"contents": ".container(${1:[container]})"}
+						}, {
+							//drag.filter - ignore some initiating input events.
+							"caption": "    .filter([filter])",
+							"command": "insert_snippet", "args": {"contents": ".filter(${1:[filter]})"}
+						}, {
+							//drag.subject - set the thing being dragged.
+							"caption": "    .subject([subject])",
+							"command": "insert_snippet", "args": {"contents": ".subject(${1:[subject]})"}
+						}, {
+							//drag.on - listen for drag events.
+							"caption": "    .on(typenames[, listener])",
+							"command": "insert_snippet", "args": {"contents": ".on(${1:typenames}${2:[listener]})"}
+						}, {
+							"caption": "-",
+						}, {
+							//d3.dragDisable
+							"caption": "d3.dragDisable(window)",
+							"command": "insert_snippet", "args": {"contents": "d3.dragDisable(${1:window})"}
+						}, {
+							"caption": "-",
+						}, {
+							//d3.dragEnable
+							"caption": "d3.dragEnable(window[, noclick])",
+							"command": "insert_snippet", "args": {"contents": "d3.dragEnable(${1:window}${2:[, noclick]})"}
+						}, {
+							"caption": "-",
+						}, {
+							"caption": "Drag Events",
+							"command": null
+						}, {
+							//event.on - listen for drag events on the current gesture.
+							"caption": "    .on(typenames[, listener])",
+							"command": "insert_snippet", "args": {"contents": ".on(${1:typenames}${2:[listener]})"}
+						}
+				]
+			}
+		]
+	}
+]

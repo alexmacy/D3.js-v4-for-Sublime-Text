@@ -1,0 +1,86 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Quadtrees (d3-quadtree)
+			//Two-dimensional recursive spatial subdivision.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+
+				"caption": "Quadtrees (d3-quadtree)",
+				"children":
+				[
+					{
+						//d3.quadtree - create a new, empty quadtree.
+						"caption": "d3.quadtree([data[, x, y]])",
+						"command": "insert_snippet", "args": {"contents": "d3.quadtree(${1:[data]}${2:[, x, y]})"}
+					}, {
+						//quadtree.x - set the x accessor.
+						"caption": "    .x([x])",
+						"command": "insert_snippet", "args": {"contents": ".x(${1:[x]})"}
+					}, {
+						//quadtree.y - set the y accessor.
+						"caption": "    .y([y])",
+						"command": "insert_snippet", "args": {"contents": ".y(${1:[y]})"}
+					}, {
+						//quadtree.extent - extend the quadtree to cover an extent.
+						"caption": "    .extent([extent])",
+						"command": "insert_snippet", "args": {"contents": ".extent(${1:[extent]})"}
+					}, {
+						//quadtree.cover - extend the quadtree to cover a point.
+						"caption": "    .cover(x, y)",
+						"command": "insert_snippet", "args": {"contents": ".cover(${1:x}, ${2:y})"}
+					}, {
+						//quadtree.add - add a datum to a quadtree.
+						"caption": "    .add(datum)",
+						"command": "insert_snippet", "args": {"contents": ".add(${1:datum})"}
+					}, {
+						//quadtree.addAll -
+						"caption": "    .addAll(data)",
+						"command": "insert_snippet", "args": {"contents": ".addAll(${1:data})"}
+					}, {
+						//quadtree.remove - remove a datum from a quadtree.
+						"caption": "    .remove(datum)",
+						"command": "insert_snippet", "args": {"contents": ".remove(${1:datum})"}
+					}, {
+						//quadtree.removeAll -
+						"caption": "    .removeAll(data)",
+						"command": "insert_snippet", "args": {"contents": ".removeAll(${1:data})"}
+					}, {
+						//quadtree.copy - create a copy of a quadtree.
+						"caption": "    .copy()",
+						"command": "insert_snippet", "args": {"contents": ".copy()"}
+					}, {
+						//quadtree.root - get the quadtree’s root node.
+						"caption": "    .root()",
+						"command": "insert_snippet", "args": {"contents": ".root()"}
+					}, {
+						//quadtree.data - retrieve all data from the quadtree.
+						"caption": "    .data()",
+						"command": "insert_snippet", "args": {"contents": ".data()"}
+					}, {
+						//quadtree.size - count the number of data in the quadtree.
+						"caption": "    .size()",
+						"command": "insert_snippet", "args": {"contents": ".size()"}
+					}, {
+						//quadtree.find - quickly find the closest datum in a quadtree.
+						"caption": "    .find(x, y[, radius])",
+						"command": "insert_snippet", "args": {"contents": ".find(${1:x}, ${2:y}${3:[, radius]})"}
+					}, {
+						//quadtree.visit - selectively visit nodes in a quadtree.
+						"caption": "    .visit(callback)",
+						"command": "insert_snippet", "args": {"contents": ".visit(${1:callback})"}
+					}, {
+						//quadtree.visitAfter - visit all nodes in a quadtree.
+						"caption": "    .visitAfter(callback)",
+						"command": "insert_snippet", "args": {"contents": ".visitAfter(${1:callback})"}
+					}
+				]
+			}
+		]
+	}
+]

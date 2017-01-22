@@ -50,8 +50,8 @@
 			"contents": "copy()"
 		}, {
 			//quadtree.root - get the quadtree’s root node.
-			"trigger": "copy()\td3-quadtree.copy()",
-			"contents": "copy()"
+			"trigger": "root()\td3-quadtree.root()",
+			"contents": "root()"
 		}, {
 			//quadtree.data - retrieve all data from the quadtree.
 			"trigger": "data()\td3-quadtree.data()",

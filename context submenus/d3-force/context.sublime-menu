@@ -1,0 +1,208 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Forces (d3-force)
+			//Force-directed graph layout using velocity Verlet integration.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Forces (d3-force)",
+				"children":
+				[
+					{
+						//Simulation
+						//d3.forceSimulation - create a new force simulation.
+						"caption": "d3.forceSimulation([nodes])",
+						"command": "insert_snippet", "args": {"contents": "d3.forceSimulation(${1:[nodes]})"}
+					}, {
+						//simulation.restart - reheat and restart the simulation’s timer.
+						"caption": "    .restart()",
+						"command": "insert_snippet", "args": {"contents": ".restart()"}
+					}, {
+						//simulation.stop - stop the simulation’s timer.
+						"caption": "    .stop()",
+						"command": "insert_snippet", "args": {"contents": ".stop()"}
+					}, {
+						//simulation.tick - advance the simulation one step.
+						"caption": "    .tick()",
+						"command": "insert_snippet", "args": {"contents": ".tick()"}
+					}, {
+						//simulation.nodes - set the simulation’s nodes.
+						"caption": "    .nodes([nodes])",
+						"command": "insert_snippet", "args": {"contents": ".nodes(${1:[nodes]})"}
+					}, {
+						//simulation.alpha - set the current alpha.
+						"caption": "    .alpha([alpha])",
+						"command": "insert_snippet", "args": {"contents": ".alpha(${1:[alpha]})"}
+					}, {
+						//simulation.alphaMin - set the minimum alpha threshold.
+						"caption": "    .alphaMin([min])",
+						"command": "insert_snippet", "args": {"contents": ".alphaMin(${1:[min]})"}
+					}, {
+						//simulation.alphaDecay - set the alpha exponential decay rate.
+						"caption": "    .alphaDecay([decay])",
+						"command": "insert_snippet", "args": {"contents": ".alphaDecay(${1:[decay]})"}
+					}, {
+						//simulation.alphaTarget - set the target alpha.
+						"caption": "    .alphaTarget([target])",
+						"command": "insert_snippet", "args": {"contents": ".alphaTarget(${1:[target]})"}
+					}, {
+						//simulation.velocityDecay - set the velocity decay rate.
+						"caption": "    .velocityDecay([decay])",
+						"command": "insert_snippet", "args": {"contents": ".velocityDecay(${1:[decay]})"}
+					}, {
+						//simulation.force - add or remove a force.
+						"caption": "    .force(name[, force])",
+						"command": "insert_snippet", "args": {"contents": ".force(${1:name}${2:[, force]})"}
+					}, {
+						//simulation.find - find the closest node to the given position.
+						"caption": "    .find(x, y[, radius])",
+						"command": "insert_snippet", "args": {"contents": ".find(${1:[x]}, ${2:y}${3:[, radius]})"}
+					}, {
+						//simulation.on - add or remove an event listener.
+						"caption": "    .on(typenames[, listener])",
+						"command": "insert_snippet", "args": {"contents": ".on(${1:[typenames]}${2:[, listener]})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//Force
+						"caption": "force(alpha)",
+						"command": "insert_snippet", "args": {"contents": "${1:force}(${2:[nodes]})"}
+					}, {
+						//force.initialize - initialize the force with the given nodes.
+						"caption": "    .initialize(nodes)",
+						"command": "insert_snippet", "args": {"contents": ".initialize(${1:nodes})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.forceCenter - create a centering force.
+						"caption": "d3.forceCenter([x, y])",
+						"command": "insert_snippet", "args": {"contents": "d3.forceCenter(${1:[x, y]})"}
+					}, {
+						//center.x - set the center x-coordinate.
+						"caption": "    .x([x])",
+						"command": "insert_snippet", "args": {"contents": ".x(${1:[x]})"}
+					}, {
+						//center.y - set the center y-coordinate.
+						"caption": "    .y([y])",
+						"command": "insert_snippet", "args": {"contents": ".y(${1:[y]})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//Collision
+						//d3.forceCollide - create a circle collision force.
+						"caption": "d3.forceCollide([radius])",
+						"command": "insert_snippet", "args": {"contents": "d3.forceCollide(${1:[radius]})"}
+					}, {
+						//collide.radius - set the circle radius.
+						"caption": "    .radius([radius])",
+						"command": "insert_snippet", "args": {"contents": ".radius(${1:[radius]})"}
+					}, {
+						//collide.strength - set the collision resolution strength.
+						"caption": "    .strength([strength])",
+						"command": "insert_snippet", "args": {"contents": ".strength(${1:[strength]})"}
+					}, {
+						//collide.iterations - set the number of iterations.
+						"caption": "    .iterations([iterations])",
+						"command": "insert_snippet", "args": {"contents": ".iterations(${1:[iterations]})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//Links
+						//d3.forceLink - create a link force.
+						"caption": "d3.forceLink([links])",
+						"command": "insert_snippet", "args": {"contents": "d3.forceLink(${1:[links]})"}
+					}, {
+						//link.links - set the array of links.
+						"caption": "    .links([links])",
+						"command": "insert_snippet", "args": {"contents": ".links(${1:[links]})"}
+					}, {
+						//link.id - link nodes by numeric index or string identifier.
+						"caption": "    .id([id])",
+						"command": "insert_snippet", "args": {"contents": ".id(${1:[id]})"}
+					}, {
+						//link.distance - set the link distance.
+						"caption": "    .distance([distance])",
+						"command": "insert_snippet", "args": {"contents": ".distance(${1:[distance]})"}
+					}, {
+						//link.strength - set the link strength.
+						"caption": "    .strength([strength])",
+						"command": "insert_snippet", "args": {"contents": ".strength(${1:[strength]})"}
+					}, {
+						//link.iterations - set the number of iterations.
+						"caption": "    .iterations([iterations])",
+						"command": "insert_snippet", "args": {"contents": ".iterations(${1:[iterations]})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.forceManyBody - create a many-body force.
+						"caption": "d3.forceManyBody()",
+						"command": "insert_snippet", "args": {"contents": "d3.forceManyBody()"}
+					}, {
+						//manyBody.strength - set the force strength.
+						"caption": "    .strength([strength])",
+						"command": "insert_snippet", "args": {"contents": ".strength(${1:[strength]})"}
+					}, {
+						//manyBody.theta - set the Barnes–Hut approximation accuracy.
+						"caption": "    .theta([theta])",
+						"command": "insert_snippet", "args": {"contents": ".theta(${1:[theta]})"}
+					}, {
+						//manyBody.distanceMin - limit the force when nodes are close.
+						"caption": "    .distanceMin([distance])",
+						"command": "insert_snippet", "args": {"contents": ".distanceMin(${1:[distance]})"}
+					}, {
+						//manyBody.distanceMax - limit the force when nodes are far.
+						"caption": "    .distanceMax([distance])",
+						"command": "insert_snippet", "args": {"contents": ".distanceMax(${1:[distance]})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.forceX - create an x-positioning force.
+						"caption": "d3.forceX([x])",
+						"command": "insert_snippet", "args": {"contents": "d3.forceX(${1:[x]})"}
+					}, {
+						//x.strength - set the force strength.
+						"caption": "    .strength([strength])",
+						"command": "insert_snippet", "args": {"contents": ".strength(${1:[strength]})"}
+					}, {
+						//x.x - set the target x-coordinate.
+						"caption": "    .x([x])",
+						"command": "insert_snippet", "args": {"contents": ".x(${1:[x]})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.forceY - create an y-positioning force.
+						"caption": "d3.forceY([y])",
+						"command": "insert_snippet", "args": {"contents": "d3.forceY(${1:[y]})"}
+					}, {
+						//y.strength - set the force strength.
+						"caption": "    .strength([strength])",
+						"command": "insert_snippet", "args": {"contents": ".strength(${1:[strength]})"}
+					}, {
+						//y.y - set the target y-coordinate.
+						"caption": "    .y([y])",
+						"command": "insert_snippet", "args": {"contents": ".y(${1:[y]})"}
+					}
+				]
+			}
+		]
+	}
+]

@@ -72,11 +72,11 @@
 			"trigger": "bisector()\td3.bisector()",
 			"contents": "d3.bisector(${1:accessor or comparator})"
 		}, {
-			//bisector.left - bisectLeft, with the given comparator.
+			//bisector.right - bisectRight, with the given comparator.
 			"trigger": "right()\td3-bisector.right()",
 			"contents": "right(${1:array}, ${2:x})"
 		}, {
-			//bisector.right - bisectRight, with the given comparator.
+			//bisector.left - bisectLeft, with the given comparator.
 			"trigger": "left()\td3-bisector.left()",
 			"contents": "left(${1:array}, ${2:x})"
 		}, {

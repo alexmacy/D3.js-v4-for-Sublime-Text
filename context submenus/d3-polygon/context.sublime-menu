@@ -1,0 +1,57 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Polygons (d3-polygon)
+			//Geometric operations for two-dimensional polygons.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Polygons (d3-polygon)",
+				"children":
+				[
+					{
+						//d3.polygonArea - compute the area of the given polygon.
+						"caption": "d3.polygonArea(polygon)",
+						"command": "insert_snippet", "args": {"contents": "d3.polygonArea(${1:polygon})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.polygonCentroid - compute the centroid of the given polygon.
+						"caption": "d3.polygonCentroid(polygon)",
+						"command": "insert_snippet", "args": {"contents": "d3.polygonCentroid(${1:polygon})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.polygonHull - compute the convex hull of the given points.
+						"caption": "d3.polygonHull(points)",
+						"command": "insert_snippet", "args": {"contents": "d3.polygonHull(${1:points})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.polygonContains - test whether a point is inside a polygon.
+						"caption": "d3.polygonContains(polygon, point)",
+						"command": "insert_snippet", "args": {"contents": "d3.polygonContains(${1:polygon}, ${2:point})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.polygonLength - compute the length of the given polygon’s perimeter.
+						"caption": "d3.polygonLength(polygon)",
+						"command": "insert_snippet", "args": {"contents": "d3.polygonLength(${1:polygon})"}
+					}
+				]
+			}
+		]
+	}
+]

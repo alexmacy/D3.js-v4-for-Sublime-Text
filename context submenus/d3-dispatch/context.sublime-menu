@@ -1,0 +1,41 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Dispatches (d3-dispatch)
+			//Separate concerns using named callbacks.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Dispatches (d3-dispatch)",
+				"children":
+				[
+					{
+						//d3.dispatch - create a custom event dispatcher.
+						"caption": "d3.dispatch(types...)",
+						"command": "insert_snippet", "args": {"contents": "d3.dispatch(${1:types...})"}
+					}, {
+						//dispatch.on - register or unregister an event listener.
+						"caption": "    .on(typenames[, callback])",
+						"command": "insert_snippet", "args": {"contents": ".on(${1:typenames}${2:[, callback]})"}
+					}, {
+						//dispatch.copy - create a copy of a dispatcher.
+						"caption": "    .copy()",
+						"command": "insert_snippet", "args": {"contents": ".copy()"}
+					}, {
+						//dispatch.call - dispatch an event to registered listeners.
+						"caption": "    .call(type[, that[, arguments…]])",
+						"command": "insert_snippet", "args": {"contents": ".call(${1:type}${2:[, that]}${3:[, arguments…]})"}
+					}, {
+						//dispatch.apply - dispatch an event to registered listeners.
+						"caption": "    .apply(type[, that[, arguments…]])",
+						"command": "insert_snippet", "args": {"contents": ".apply(${1:type}${2:[, that]}${3:[, arguments…]})"}
+					}
+				]
+			}
+		]
+	}
+]

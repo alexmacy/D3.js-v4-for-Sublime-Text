@@ -1,0 +1,78 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Chords (d3-chord)
+			//////////////////////////////////////////////////////////////////////
+			
+			{
+				"caption": "Chords (d3-chord)",
+				"children": 
+				[
+					{
+						//d3.chord - create a new chord layout.
+						"caption": "d3.chord()",
+						"command": "insert_snippet", "args": {"contents": "d3.chord()"}							
+					}, {
+						//chord - compute the layout for the given matrix.
+						"caption": "  chord(matrix)",
+						"command": "insert_snippet", "args": {"contents": "${1:chord}(${2:matrix})"}
+					}, {
+						//chord.padAngle - set the padding between adjacent groups.
+						"caption": "    .padAngle([angle])",
+						"command": "insert_snippet", "args": {"contents": ".padAngle(${1:[angle]})"}
+					}, {
+						//chord.sortGroups - define the group order.
+						"caption": "    .sortGroups([compare])",
+						"command": "insert_snippet", "args": {"contents": ".sortGroups(${1:[compare]})"}
+					}, {
+						//chord.sortSubgroups - define the source and target order within groups.
+						"caption": "    .sortSubgroups()",
+						"command": "insert_snippet", "args": {"contents": ".sortSubgroups(${1:[compare]})"}
+					}, {
+						//chord.sortChords - define the chord order across groups.
+						"caption": "    .sortChords([compare])",
+						"command": "insert_snippet", "args": {"contents": ".sortChords(${1:[compare]})"}
+					}, {
+						"caption": "-"
+					}, {
+						//d3.ribbon - create a ribbon shape generator.
+						"caption": "d3.ribbon()",
+						"command": "insert_snippet", "args": {"contents": "d3.ribbon()"}
+					}, {
+						//ribbon - generate a ribbon shape.
+						"caption": "  ribbon(arguments...)",
+						"command": "insert_snippet", "args": {"contents": "${1:ribbon}(${2:arguments})"}
+					}, {
+						//ribbon.source - set the source accessor.
+						"caption": "    .source([source])",
+						"command": "insert_snippet", "args": {"contents": ".source(${1:[source]]})"}
+					}, {
+						//ribbon.target - set the target accessor.
+						"caption": "    .target([target])",
+						"command": "insert_snippet", "args": {"contents": ".target(${1:[target]]})"}
+					}, {
+						//ribbon.radius - set the ribbon source or target radius.
+						"caption": "    .radius([radius])",
+						"command": "insert_snippet", "args": {"contents": ".radius(${1:[radius]]})"}
+					}, {
+						//ribbon.startAngle - set the ribbon source or target start angle.
+						"caption": "    .startAngle([angle])",
+						"command": "insert_snippet", "args": {"contents": ".startAngle(${1:[angle]]})"}
+					}, {
+						//ribbon.endAngle - set the ribbon source or target end angle.
+						"caption": "    .endAngle([angle])",
+						"command": "insert_snippet", "args": {"contents": ".endAngle(${1:[angle]]})"}
+					}, {
+						//ribbon.context - set the render context.
+						"caption": "    .context([context])",
+						"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}						
+					}
+				]
+			}
+		]
+	}
+]

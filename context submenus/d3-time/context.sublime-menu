@@ -1,0 +1,429 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Time Intervals (d3-time)
+			//A calculator for humanity’s peculiar conventions of time.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Time Intervals (d3-time)",
+				"children":
+				[
+					{
+						//d3.timeInterval - implement a new custom time interval.
+						"caption": "d3.timeInterval(floor, offset[, count[, field]])",
+						"command": "insert_snippet", "args": {"contents": "d3.timeInterval(${1:floor}, ${2:offset}${3:[, count]}${4:[, field]})"}
+					}, {
+						//interval - alias for interval.floor.
+						"caption": "  interval(date)",
+						"command": "insert_snippet", "args": {"contents": "${1:interval}(${2:date})"}
+					}, {
+						//interval.floor - round down to the nearest boundary.
+						"caption": "    .floor(date)",
+						"command": "insert_snippet", "args": {"contents": ".floor(${1:date})"}
+					}, {
+						//interval.round - round to the nearest boundary.
+						"caption": "    .round(date)",
+						"command": "insert_snippet", "args": {"contents": ".round(${1:date})"}
+					}, {
+						//interval.ceil - round up to the nearest boundary.
+						"caption": "    .ceil(date)",
+						"command": "insert_snippet", "args": {"contents": ".ceil(${1:date})"}
+					}, {
+						//interval.offset - offset a date by some number of intervals.
+						"caption": "    .offset(date[, step])",
+						"command": "insert_snippet", "args": {"contents": ".offset(${1:date}${2:[, step]})"}
+					}, {
+						//interval.range - generate a range of dates at interval boundaries.
+						"caption": "    .range(start, stop[, step])",
+						"command": "insert_snippet", "args": {"contents": ".range(${1:start}, ${2:stop}${3:[, step]})"}
+					}, {
+						//interval.filter - create a filtered subset of this interval.
+						"caption": "    .filter(test)",
+						"command": "insert_snippet", "args": {"contents": ".filter(${1:test})"}
+					}, {
+						//interval.every - create a filtered subset of this interval.
+						"caption": "    .every(step)",
+						"command": "insert_snippet", "args": {"contents": ".every(${1:step})"}
+					}, {
+						//interval.count - count interval boundaries between two dates.
+						"caption": "    .count(start, end)",
+						"command": "insert_snippet", "args": {"contents": ".count(${1:start}, ${2:end})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						"caption": "Intervals",
+						"children":
+						[
+							{
+								//d3.timeMillisecond - the millisecond interval.
+								"caption": "d3.timeMillisecond",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMillisecond"}
+							}, {
+								//d3.utcMillisecond - the millisecond interval.
+								"caption": "d3.utcMillisecond",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMillisecond"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeSecond - the second interval.
+								"caption": "d3.timeSecond",
+								"command": "insert_snippet", "args": {"contents": "d3.timeSecond"}
+							}, {
+								//d3.utcSecond - the second interval.
+								"caption": "d3.utcSecond",
+								"command": "insert_snippet", "args": {"contents": "d3.utcSecond"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeMinute - the minute interval.
+								"caption": "d3.timeMinute",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMinute"}
+							}, {
+								//d3.utcMinute - the minute interval.
+								"caption": "d3.utcMinute",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMinute"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeHour - the hour interval.
+								"caption": "d3.timeHour",
+								"command": "insert_snippet", "args": {"contents": "d3.timeHour"}
+							}, {
+								//d3.utcHour - the hour interval.
+								"caption": "d3.utcHour",
+								"command": "insert_snippet", "args": {"contents": "d3.utcHour"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeDay - the day interval.
+								"caption": "d3.timeDay",
+								"command": "insert_snippet", "args": {"contents": "d3.timeDay"}
+							}, {
+								//d3.utcDay - the day interval.
+								"caption": "d3.utcDay",
+								"command": "insert_snippet", "args": {"contents": "d3.utcDay"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeWeek - aliases for sunday.
+								"caption": "d3.timeWeek",
+								"command": "insert_snippet", "args": {"contents": "d3.timeWeek"}
+							}, {
+								//d3.utcWeek - aliases for sunday.
+								"caption": "d3.utcWeek",
+								"command": "insert_snippet", "args": {"contents": "d3.utcWeek"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeSunday - the week interval, starting on Sunday.
+								"caption": "d3.timeSunday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeSunday"}
+							}, {
+								//d3.utcSunday - the week interval, starting on Sunday.
+								"caption": "d3.utcSunday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcSunday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeMonday - the week interval, starting on Monday.
+								"caption": "d3.timeMonday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMonday"}
+							}, {
+								//d3.utcMonday - the week interval, starting on Monday.
+								"caption": "d3.utcMonday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMonday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeTuesday - the week interval, starting on Tuesday.
+								"caption": "d3.timeTuesday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeTuesday"}
+							}, {
+								//d3.utcTuesday - the week interval, starting on Tuesday.
+								"caption": "d3.utcTuesday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcTuesday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeWednesday - the week interval, starting on Wednesday.
+								"caption": "d3.timeWednesday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeWednesday"}
+							}, {
+								//d3.utcWednesday - the week interval, starting on Wednesday.
+								"caption": "d3.utcWednesday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcWednesday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeThursday - the week interval, starting on Thursday.
+								"caption": "d3.timeThursday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeThursday"}
+							}, {
+								//d3.utcThursday - the week interval, starting on Thursday.
+								"caption": "d3.utcThursday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcThursday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeFriday - the week interval, starting on Friday.
+								"caption": "d3.timeFriday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeFriday"}
+							}, {
+								//d3.utcFriday - the week interval, starting on Friday.
+								"caption": "d3.utcFriday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcFriday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeSaturday - the week interval, starting on Saturday.
+								"caption": "d3.timeSaturday",
+								"command": "insert_snippet", "args": {"contents": "d3.timeSaturday"}
+							}, {
+								//d3.utcSaturday - the week interval, starting on Saturday.
+								"caption": "d3.utcSaturday",
+								"command": "insert_snippet", "args": {"contents": "d3.utcSaturday"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeMonth - the month interval.
+								"caption": "d3.timeMonth",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMonth"}
+							}, {
+								//d3.utcMonth - the month interval.
+								"caption": "d3.utcMonth",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMonth"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeYear - the year interval.
+								"caption": "d3.timeYear",
+								"command": "insert_snippet", "args": {"contents": "d3.timeYear"}
+							}, {
+								//d3.utcYear - the year interval.
+								"caption": "d3.utcYear",
+								"command": "insert_snippet", "args": {"contents": "d3.utcYear"}
+							}
+						]
+					}, {
+						"caption": "Ranges",
+						"children":
+						[
+							{
+								//d3.timeMilliseconds - aliases for millisecond.range.
+								"caption": "d3.timeMilliseconds(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMilliseconds(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcMilliseconds - aliases for millisecond.range.
+								"caption": "d3.utcMilliseconds(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMilliseconds(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeSeconds - aliases for second.range.
+								"caption": "d3.timeSeconds(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeSeconds(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcSeconds - aliases for second.range.
+								"caption": "d3.utcSeconds(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcSeconds(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeMinutes - aliases for minute.range.
+								"caption": "d3.timeMinutes(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMinutes(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcMinutes - aliases for minute.range.
+								"caption": "d3.utcMinutes(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMinutes(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeHours - aliases for hour.range.
+								"caption": "d3.timeHours(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeHours(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcHours - aliases for hour.range.
+								"caption": "d3.utcHours(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcHours(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeDays - aliases for day.range.
+								"caption": "d3.timeDays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeDays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcDays - aliases for day.range.
+								"caption": "d3.utcDays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcDays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeWeeks - aliases for week.range.
+								"caption": "d3.timeWeeks(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeWeeks(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcWeeks - aliases for week.range.
+								"caption": "d3.utcWeeks(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcWeeks(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeSundays - aliases for sunday.range.
+								"caption": "d3.timeSundays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeSundays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcSundays - aliases for sunday.range.
+								"caption": "d3.utcSundays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcSundays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeMondays - aliases for monday.range.
+								"caption": "d3.timeMondays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMondays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcMondays - aliases for monday.range.
+								"caption": "d3.utcMondays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMondays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeTuesdays - aliases for tuesday.range.
+								"caption": "d3.timeTuesdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeTuesdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcTuesdays - aliases for tuesday.range.
+								"caption": "d3.utcTuesdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcTuesdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeWednesdays - aliases for wednesday.range.
+								"caption": "d3.timeWednesdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeWednesdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcWednesdays - aliases for wednesday.range.
+								"caption": "d3.utcWednesdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcWednesdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeThursdays - aliases for thursday.range.
+								"caption": "d3.timeThursdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeThursdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcThursdays - aliases for thursday.range.
+								"caption": "d3.utcThursdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcThursdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeFridays - aliases for friday.range.
+								"caption": "d3.timeFridays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeFridays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcFridays - aliases for friday.range.
+								"caption": "d3.utcFridays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcFridays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeSaturdays - aliases for saturday.range.
+								"caption": "d3.timeSaturdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeSaturdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcSaturdays - aliases for saturday.range.
+								"caption": "d3.utcSaturdays(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcSaturdays(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeMonths - aliases for month.range.
+								"caption": "d3.timeMonths(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeMonths(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcMonths - aliases for month.range.
+								"caption": "d3.utcMonths(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcMonths(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.timeYears - aliases for year.range.
+								"caption": "d3.timeYears(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.timeYears(${1:start}, ${2:stop}${3:[, step]})"}
+							}, {
+								//d3.utcYears - aliases for year.range.
+								"caption": "d3.utcYears(start, stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.utcYears(${1:start}, ${2:stop}${3:[, step]})"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

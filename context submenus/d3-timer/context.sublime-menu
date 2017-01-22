@@ -1,0 +1,66 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Timers (d3-timer)
+			//An efficient queue for managing thousands of concurrent animations.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+
+				"caption": "Timers (d3-timer)",
+				"children":
+				[
+					{
+						//d3.now - get the current high-resolution time.
+						"caption": "d3.now()",
+						"command": "insert_snippet", "args": {"contents": "d3.now()"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.timer - schedule a new timer.
+						"caption": "d3.timer(callback[, delay[, time]])",
+						"command": "insert_snippet", "args": {"contents": "d3.timer(${1:callback}${2:[, delay]}${3:[, time]})"}
+					}, {
+						//timer.restart - reset the timer’s start time and callback.
+						"caption": "    .restart(callback[, delay[, time]])",
+						"command": "insert_snippet", "args": {"contents": ".restart(${1:callback}${2:[, delay]}${3:[, time]})"}
+					}, {
+						//timer.stop - stop the timer.
+						"caption": "    .stop()",
+						"command": "insert_snippet", "args": {"contents": ".stop()"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.timerFlush - immediately execute any eligible timers.
+						"caption": "d3.timerFlush()",
+						"command": "insert_snippet", "args": {"contents": "d3.timerFlush()"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.timeout - schedule a timer that stops on its first callback.
+						"caption": "d3.timeout(callback[, delay[, time]])",
+						"command": "insert_snippet", "args": {"contents": "d3.timeout(${1:callback}${2:[, delay]}${3:[, time]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.interval - schedule a timer that is called with a configurable period.
+						"caption": "d3.interval(callback[, delay[, time]])",
+						"command": "insert_snippet", "args": {"contents": "d3.interval(${1:callback}${2:[, delay]}${3:[, time]})"}
+					}
+				]
+			}
+		]
+	}
+]

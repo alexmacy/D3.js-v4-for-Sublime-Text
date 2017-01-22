@@ -1,0 +1,340 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Selections (d3-selection)
+			//Transform the DOM by selecting elements and joining to data.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Selections (d3-selection)",
+				"children":
+				[
+					{
+						//Selecting Elements
+						"caption": "Selecting Elements",
+						"children":
+						[
+							{
+								//d3.selection - select the root document element.
+								"caption": "d3.selection()",
+								"command": "insert_snippet", "args": {"contents": "d3.selection()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.select - select an element from the document.
+								"caption": "d3.select(selector)",
+								"command": "insert_snippet", "args": {"contents": "d3.select(${1:selector})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.selectAll - select multiple elements from the document.
+								"caption": "d3.selectAll(selector)",
+								"command": "insert_snippet", "args": {"contents": "d3.selectAll(${1:selector})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								"caption": "selection",
+								"command": null
+							}, {
+								//selection.select - select a descendant element for each selected element.
+								"caption": "    .select(selector)",
+								"command": "insert_snippet", "args": {"contents": ".select(${1:selector})"}
+							}, {
+								//selection.selectAll - select multiple descendants for each selected element.
+								"caption": "    .selectAll(selector)",
+								"command": "insert_snippet", "args": {"contents": ".selectAll(${1:selector})"}
+							}, {
+								//selection.filter - filter elements based on data.
+								"caption": "    .filter(filter)",
+								"command": "insert_snippet", "args": {"contents": ".filter(${1:filter})"}
+							}, {
+								//selection.merge - merge this selection with another.
+								"caption": "    .merge(other)",
+								"command": "insert_snippet", "args": {"contents": ".merge(${1:other})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.matcher - test whether an element matches a selector.
+								"caption": "d3.matcher(selector)",
+								"command": "insert_snippet", "args": {"contents": "d3.matcher(${1:selector})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.selector - select an element.
+								"caption": "d3.selector(selector)",
+								"command": "insert_snippet", "args": {"contents": "d3.selector(${1:selector})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.selectorAll - select elements.
+								"caption": "d3.selectorAll(selector)",
+								"command": "insert_snippet", "args": {"contents": "d3.selectorAll(${1:selector})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.window - get a node’s owner window.
+								"caption": "d3.window(node)",
+								"command": "insert_snippet", "args": {"contents": "d3.window(${1:node})"}
+							}
+						]
+					}, {
+						//Modifying Elements
+						"caption": "Modifying Elements",
+						"children":
+						[
+							{
+								//selection
+								"caption": "selection",
+								"command": null
+							}, {
+								//selection.attr - get or set an attribute.
+								"caption": "    .attr(name[, value])",
+								"command": "insert_snippet", "args": {"contents": ".attr(${1:name}${2:[, value]})"}
+							}, {
+								//selection.classed - get, add or remove CSS classes.
+								"caption": "    .classed(names[, value])",
+								"command": "insert_snippet", "args": {"contents": ".classed(${1:names}${2:[, value]})"}
+							}, {
+								//selection.style - get or set a style property.
+								"caption": "    .style(name[, value][, priority])",
+								"command": "insert_snippet", "args": {"contents": ".style(${1:name}${2:[, value]}${3:[, priority]})"}
+							}, {
+								//selection.property - get or set a (raw) property.
+								"caption": "    .property(name[, value])",
+								"command": "insert_snippet", "args": {"contents": ".property(${1:name}${2:[, value]})"}
+							}, {
+								//selection.text - get or set the text content.
+								"caption": "    .text([value])",
+								"command": "insert_snippet", "args": {"contents": ".text(${1:[value]})"}
+							}, {
+								//selection.html - get or set the inner HTML.
+								"caption": "    .html([value])",
+								"command": "insert_snippet", "args": {"contents": ".html(${1:[value]})"}
+							}, {
+								//selection.append - create, append and select new elements.
+								"caption": "    .append(type)",
+								"command": "insert_snippet", "args": {"contents": ".append(${1:type})"}
+							}, {
+								//selection.insert - create, insert and select new elements.
+								"caption": "    .insert(type[, before])",
+								"command": "insert_snippet", "args": {"contents": ".insert(${1:type}${[, before]})"}
+							}, {
+								//selection.remove - remove elements from the document.
+								"caption": "    .remove(compare)",
+								"command": "insert_snippet", "args": {"contents": ".remove(${1:compare})"}
+							}, {
+								//selection.sort - sort elements in the document based on data.
+								"caption": "    .sort()",
+								"command": "insert_snippet", "args": {"contents": ".sort(${1:compare})"}
+							}, {
+								//selection.order - reorders elements in the document to match the selection.
+								"caption": "    .order()",
+								"command": "insert_snippet", "args": {"contents": ".order()"}
+							}, {
+								//selection.raise - reorders each element as the last child of its parent.
+								"caption": "    .raise()",
+								"command": "insert_snippet", "args": {"contents": ".raise()"}
+							}, {
+								//selection.lower - reorders each element as the first child of its parent.
+								"caption": "    .lower()",
+								"command": "insert_snippet", "args": {"contents": ".lower()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.creator - create an element by name.
+								"caption": "d3.creator(name)",
+								"command": "insert_snippet", "args": {"contents": "d3.creator(${1:name})"}
+							}
+						]
+					}, {
+						//Joining Data
+						"caption": "Joining Data",
+						"children":
+						[
+							{
+								//selection
+								"caption": "selection",
+								"command": null
+							}, {
+								//selection.data - join elements to data.
+								"caption": "    .data([data][, key])",
+								"command": "insert_snippet", "args": {"contents": ".data(${1:[data]}${2:[, key]})"}
+							}, {
+								//selection.enter - get the enter selection (data missing elements).
+								"caption": "    .enter()",
+								"command": "insert_snippet", "args": {"contents": ".enter()"}
+							}, {
+								//selection.exit - get the exit selection (elements missing data).
+								"caption": "    .exit()",
+								"command": "insert_snippet", "args": {"contents": ".exit()"}
+							}, {
+								//selection.datum - get or set element data (without joining).
+								"caption": "    .datum([value])",
+								"command": "insert_snippet", "args": {"contents": ".datum(${1:[value]})"}
+							}
+						]
+					}, {
+						//Handling Events
+						"caption": "Handling Events",
+						"children":
+						[
+							{
+								"caption": "selection",
+								"command": null
+							}, {
+								//selection.on - add or remove event listeners.
+								"caption": "    .on(typenames[, listener[, capture]])",
+								"command": "insert_snippet", "args": {"contents": ".on(${1:typenames}${2:[, listener]}${3:[, capture]})"}
+							}, {
+								//selection.dispatch - dispatch a custom event.
+								"caption": "    .dispatch(type[, parameters])",
+								"command": "insert_snippet", "args": {"contents": ".dispatch(${1:type${2:[parameters]}})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.event - the current user event, during interaction.
+								"caption": "d3.event",
+								"command": "insert_snippet", "args": {"contents": "d3.event"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.customEvent - temporarily define a custom event.
+								"caption": "d3.customEvent(event, listener[, that[, arguments]])",
+								"command": "insert_snippet", "args": {"contents": "d3.customEvent(${1:event}, ${2:listener}${3:[, that]}${4:[, arguments]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.mouse - get the mouse position relative to a given container.
+								"caption": "d3.mouse(container)",
+								"command": "insert_snippet", "args": {"contents": "d3.mouse(${1:container})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.touch - get a touch position relative to a given container.
+								"caption": "d3.touch(container[, touches], identifier)",
+								"command": "insert_snippet", "args": {"contents": "d3.touch(${1:container}${2:[, touches]}, ${3:identifier})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.touches - get the touch positions relative to a given container.
+								"caption": "d3.touches(container[, touches])",
+								"command": "insert_snippet", "args": {"contents": "d3.touches(${1:container}${2:[, touches]})"}
+							}
+						]
+					}, {
+						//Control Flow
+						"caption": "Control Flow",
+						"children":
+						[
+							{
+								//selection
+								"caption": "selection",
+								"command": null
+							}, {
+								//selection.each - call a function for each element.
+								"caption": "    .each(function)",
+								"command": "insert_snippet", "args": {"contents": ".each(${1:function})"}
+							}, {
+								//selection.call - call a function with this selection.
+								"caption": "    .call(function[, arguments...])",
+								"command": "insert_snippet", "args": {"contents": ".call(${1:function}${2:[, arguments...]})"}
+							}, {
+								//selection.empty - returns true if this selection is empty.
+								"caption": "    .empty()",
+								"command": "insert_snippet", "args": {"contents": ".empty()"}
+							}, {
+								//selection.nodes - returns an array of all selected elements.
+								"caption": "    .nodes()",
+								"command": "insert_snippet", "args": {"contents": ".nodes()"}
+							}, {
+								//selection.node - returns the first (non-null) element.
+								"caption": "    .node()",
+								"command": "insert_snippet", "args": {"contents": ".node()"}
+							}, {
+								//selection.size - returns the count of elements.
+								"caption": "    .size()",
+								"command": "insert_snippet", "args": {"contents": ".size()"}
+							}
+						]
+					}, {
+						//Local Variables
+						"caption": "Local Variables",
+						"children":
+						[
+							{
+								//d3.local - declares a new local variable.
+								"caption": "d3.local()",
+								"command": "insert_snippet", "args": {"contents": "local()"}
+							}, {
+								//local.set - set a local variable’s value.
+								"caption": "    .set(node, value)",
+								"command": "insert_snippet", "args": {"contents": ".set(${1:node}, ${2:value})"}
+							}, {
+								//local.get - get a local variable’s value.
+								"caption": "    .get(node)",
+								"command": "insert_snippet", "args": {"contents": ".get(${1:node})"}
+							}, {
+								//local.remove - delete a local variable.
+								"caption": "    .remove(node)",
+								"command": "insert_snippet", "args": {"contents": ".remove(${1:node})"}
+							}, {
+								//local.toString - get the property identifier of a local variable.
+								"caption": "    .toString()",
+								"command": "insert_snippet", "args": {"contents": ".toString()"}
+							},
+						]
+					}, {
+						//Namespaces
+						"caption": "Namespaces",
+						"children":
+						[
+							{
+								//d3.namespace - qualify a prefixed XML name, such as “xlink:href”.
+								"caption": "d3.namespace(name)",
+								"command": "insert_snippet", "args": {"contents": "d3.namespace(${1:name})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.namespaces - the built-in XML namespaces.
+								"caption": "d3.namespaces",
+								"command": "insert_snippet", "args": {"contents": "d3.namespaces"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

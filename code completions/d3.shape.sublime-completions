@@ -17,7 +17,7 @@
 		}, {
 			//arc.centroid - compute an arc’s midpoint.
 			"trigger": "centroid()\td3-arc.centroid()",
-			"contents": "centroid(${1:arguements})"
+			"contents": "centroid(${1:arguments})"
 		}, {
 			//arc.innerRadius - set the inner radius.
 			"trigger": "innerRadius()\td3-arc.innerRadius()",
@@ -28,8 +28,8 @@
 			"contents": "outerRadius(${1:[radius]})"
 		}, {
 			//arc.cornerRadius - set the corner radius, for rounded corners.
-			"trigger": "outerRadius()\td3-arc.outerRadius()",
-			"contents": "outerRadius(${1:[radius]})"
+			"trigger": "cornerRadius()\td3-arc.cornerRadius()",
+			"contents": "cornerRadius(${1:[radius]})"
 		}, {
 			//arc.startAngle - set the start angle.
 			"trigger": "startAngle()\td3-arc.startAngle()",
@@ -163,12 +163,12 @@
 			"contents": "y(${1:[y]})"
 		}, {
 			//area.y0 - set the baseline y accessor.
-			"trigger": "y1()\td3-area.y1()",
-			"contents": "y1(${1:[y]})"
+			"trigger": "y0()\td3-area.y0()",
+			"contents": "y0(${1:[y]})"
 		}, {
 			//area.y1 - set the topline y accessor.
-			"trigger": "y2()\td3-area.y2()",
-			"contents": "y2(${1:[y]})"
+			"trigger": "y1()\td3-area.y1()",
+			"contents": "y1(${1:[y]})"
 		}, {
 			//area.defined - set the defined accessor.
 			"trigger": "defined()\td3-area.defined()",
@@ -260,88 +260,88 @@
 
 		{
 			//d3.curveBasis - a cubic basis spline, repeating the end points.
-			"trigger": "curveBasis()\td3.curveBasis()",
-			"contents": "d3.curveBasis(${1:context})"
+			"trigger": "curveBasis\td3.curveBasis",
+			"contents": "d3.curveBasis"
 		}, {
 			//d3.curveBasisClosed - a closed cubic basis spline.
-			"trigger": "curveBasisClosed()\td3.curveBasisClosed()",
-			"contents": "d3.curveBasisClosed(${1:context})"
+			"trigger": "curveBasisClosed\td3.curveBasisClosed",
+			"contents": "d3.curveBasisClosed"
 		}, {
 			//d3.curveBasisOpen - a cubic basis spline.
-			"trigger": "curveBasisOpen()\td3.curveBasisOpen()",
-			"contents": "d3.curveBasisOpen(${1:context})"
+			"trigger": "curveBasisOpen\td3.curveBasisOpen",
+			"contents": "d3.curveBasisOpen"
 		}, {
 			//d3.curveBundle - a straightened cubic basis spline.
-			"trigger": "curveBundle()\td3.curveBundle()",
-			"contents": "d3.curveBundle(${1:context})"
+			"trigger": "curveBundle\td3.curveBundle",
+			"contents": "d3.curveBundle"
 		}, {
 			//bundle.beta - set the bundle tension beta.
 			"trigger": "beta()\td3-curveBundle.beta()",
 			"contents": "beta(${1:beta})"
 		}, {
 			//d3.curveCardinal - a cubic cardinal spline, with one-sided difference at each end.
-			"trigger": "curveCardinal()\td3.curveCardinal()",
-			"contents": "d3.curveCardinal(${1:context})"
+			"trigger": "curveCardinal\td3.curveCardinal",
+			"contents": "d3.curveCardinal"
 		}, {
 			//d3.curveCardinalClosed - a closed cubic cardinal spline.
-			"trigger": "curveCardinalClosed()\td3.curveCardinalClosed()",
-			"contents": "d3.curveCardinalClosed(${1:context})"
+			"trigger": "curveCardinalClosed\td3.curveCardinalClosed",
+			"contents": "d3.curveCardinalClosed"
 		}, {
 			//d3.curveCardinalOpen - a cubic cardinal spline.
-			"trigger": "curveCardinalOpen()\td3.curveCardinalOpen()",
-			"contents": "d3.curveCardinalOpen(${1:context})"
+			"trigger": "curveCardinalOpen\td3.curveCardinalOpen",
+			"contents": "d3.curveCardinalOpen"
 		}, {
 			//cardinal.tension - set the cardinal spline tension.
 			"trigger": "tension()\td3-curveCardinal.tension()",
 			"contents": "tension(${1:tension})"
 		}, {
 			//d3.curveCatmullRom - a cubic Catmull–Rom spline, with one-sided difference at each end.
-			"trigger": "curveCatmullRom()\td3.curveCatmullRom()",
-			"contents": "d3.curveCatmullRom(${1:context})"
+			"trigger": "curveCatmullRom\td3.curveCatmullRom",
+			"contents": "d3.curveCatmullRom"
 		}, {
 			//d3.curveCatmullRomClosed - a closed cubic Catmull–Rom spline.
-			"trigger": "curveCatmullRomClosed()\td3.curveCatmullRomClosed()",
-			"contents": "d3.curveCatmullRomClosed(${1:context})"
+			"trigger": "curveCatmullRomClosed\td3.curveCatmullRomClosed",
+			"contents": "d3.curveCatmullRomClosed"
 		}, {
 			//d3.curveCatmullRomOpen - a cubic Catmull–Rom spline.
-			"trigger": "curveCatmullRomOpen()\td3.curveCatmullRomOpen()",
-			"contents": "d3.curveCatmullRomOpen(${1:context})"
+			"trigger": "curveCatmullRomOpen\td3.curveCatmullRomOpen",
+			"contents": "d3.curveCatmullRomOpen"
 		}, {
 			//catmullRom.alpha - set the Catmull–Rom parameter alpha.
 			"trigger": "alpha()\td3-curveCatmullRom.alpha()",
 			"contents": "alpha(${1:alpha})"
 		}, {
 			//d3.curveLinear - a polyline.
-			"trigger": "curveLinear()\td3.curveLinear()",
-			"contents": "d3.curveLinear(${1:context})"
+			"trigger": "curveLinear\td3.curveLinear",
+			"contents": "d3.curveLinear"
 		}, {
 			//d3.curveLinearClosed - a closed polyline.
-			"trigger": "curveLinearClosed()\td3.curveLinearClosed()",
-			"contents": "d3.curveLinearClosed(${1:context})"
+			"trigger": "curveLinearClosed\td3.curveLinearClosed",
+			"contents": "d3.curveLinearClosed"
 		}, {
 			//d3.curveMonotoneX - a cubic spline that, given monotonicity in x, preserves it in y.
-			"trigger": "curveMonotoneX()\td3.curveMonotoneX()",
-			"contents": "d3.curveMonotoneX(${1:context})"
+			"trigger": "curveMonotoneX\td3.curveMonotoneX",
+			"contents": "d3.curveMonotoneX"
 		}, {
 			//d3.curveMonotoneY - a cubic spline that, given monotonicity in y, preserves it in x.
-			"trigger": "curveMonotoneY()\td3.curveMonotoneY()",
-			"contents": "d3.curveMonotoneY(${1:context})"
+			"trigger": "curveMonotoneY\td3.curveMonotoneY",
+			"contents": "d3.curveMonotoneY"
 		}, {
 			//d3.curveNatural - a natural cubic spline.
-			"trigger": "curveNatural()\td3.curveNatural()",
-			"contents": "d3.curveNatural(${1:context})"
+			"trigger": "curveNatural\td3.curveNatural",
+			"contents": "d3.curveNatural"
 		}, {
 			//d3.curveStep - a piecewise constant function.
-			"trigger": "curveStep()\td3.curveStep()",
-			"contents": "d3.curveStep(${1:context})"
+			"trigger": "curveStep\td3.curveStep",
+			"contents": "d3.curveStep"
 		}, {
 			//d3.curveStepAfter - a piecewise constant function.
-			"trigger": "curveStepAfter()\td3.curveStepAfter()",
-			"contents": "d3.curveStepAfter(${1:context})"
+			"trigger": "curveStepAfter\td3.curveStepAfter",
+			"contents": "d3.curveStepAfter"
 		}, {
 			//d3.curveStepBefore - a piecewise constant function.
-			"trigger": "curveStepBefore()\td3.curveStepBefore()",
-			"contents": "d3.curveStepBefore(${1:context})"
+			"trigger": "curveStepBefore\td3.curveStepBefore",
+			"contents": "d3.curveStepBefore"
 		}, {
 			//curve.areaStart - start a new area segment.
 			"trigger": "areaStart()\td3-curve.areaStart()",
@@ -361,7 +361,7 @@
 		}, {
 			//curve.point - add a point to the current line segment.
 			"trigger": "point()\td3-curve.point()",
-			"contents": "point()"
+			"contents": "point(${1:x}, ${2:y})"
 		},
 
 		//Symbols
@@ -446,40 +446,40 @@
 			"contents": "offset(${1:[offset]})"
 		}, {
 			//d3.stackOrderAscending - put the smallest series on bottom.
-			"trigger": "stackOrderAscending\td3.stackOrderAscending()",
-			"contents": "d3.stackOrderAscending(${1:series})"
+			"trigger": "stackOrderAscending\td3.stackOrderAscending",
+			"contents": "d3.stackOrderAscending"
 		}, {
 			//d3.stackOrderDescending - put the largest series on bottom.
-			"trigger": "stackOrderDescending\td3.stackOrderDescending()",
-			"contents": "d3.stackOrderDescending(${1:series})"
+			"trigger": "stackOrderDescending\td3.stackOrderDescending",
+			"contents": "d3.stackOrderDescending"
 		}, {
 			//d3.stackOrderInsideOut - put larger series in the middle.
-			"trigger": "stackOrderInsideOut\td3.stackOrderInsideOut()",
-			"contents": "d3.stackOrderInsideOut(${1:series})"
+			"trigger": "stackOrderInsideOut\td3.stackOrderInsideOut",
+			"contents": "d3.stackOrderInsideOut"
 		}, {
 			//d3.stackOrderNone - use the given series order.
-			"trigger": "stackOrderNone\td3.stackOrderNone()",
-			"contents": "d3.stackOrderNone(${1:series})"
+			"trigger": "stackOrderNone\td3.stackOrderNone",
+			"contents": "d3.stackOrderNone"
 		}, {
 			//d3.stackOrderReverse - use the reverse of the given series order.
-			"trigger": "stackOrderReverse\td3.stackOrderReverse()",
-			"contents": "d3.stackOrderReverse(${1:series})"
+			"trigger": "stackOrderReverse\td3.stackOrderReverse",
+			"contents": "d3.stackOrderReverse"
 		}, {
 			//d3.stackOffsetExpand - normalize the baseline to zero and topline to one.
-			"trigger": "stackOffsetExpand\td3.stackOffsetExpand()",
-			"contents": "d3.stackOffsetExpand(${1:series}, ${2:order})"
+			"trigger": "stackOffsetExpand\td3.stackOffsetExpand",
+			"contents": "d3.stackOffsetExpand"
 		}, {
 			//d3.stackOffsetNone - apply a zero baseline.
-			"trigger": "stackOffsetNone\td3.stackOffsetNone()",
-			"contents": "d3.stackOffsetNone(${1:series}, ${2:order})"
+			"trigger": "stackOffsetNone\td3.stackOffsetNone",
+			"contents": "d3.stackOffsetNone"
 		}, {
 			//d3.stackOffsetSilhouette - center the streamgraph around zero.
-			"trigger": "stackOffsetSilhouette\td3.stackOffsetSilhouette()",
-			"contents": "d3.stackOffsetSilhouette(${1:series}, ${2:order})"
+			"trigger": "stackOffsetSilhouette\td3.stackOffsetSilhouette",
+			"contents": "d3.stackOffsetSilhouette"
 		}, {
 			//d3.stackOffsetWiggle - minimize streamgraph wiggling.
-			"trigger": "stackOffsetWiggle\td3.stackOffsetWiggle()",
-			"contents": "d3.stackOffsetWiggle(${1:series}), ${2:order}"
+			"trigger": "stackOffsetWiggle\td3.stackOffsetWiggle",
+			"contents": "d3.stackOffsetWiggle"
 		}
 	]
 }

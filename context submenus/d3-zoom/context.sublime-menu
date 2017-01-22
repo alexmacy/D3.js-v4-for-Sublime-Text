@@ -1,0 +1,133 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Zooming (d3-zoom)
+			//Pan and zoom SVG, HTML or Canvas using mouse or touch input.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+
+				"caption": "Zooming (d3-zoom)",
+				"children":
+				[
+					{
+						//d3.zoom - create a zoom behavior.
+						"caption": "d3.zoom()",
+						"command": "insert_snippet", "args": {"contents": "d3.zoom()"}
+					}, {
+						"caption": "  zoom(selection)",
+						"command": "insert_snippet", "args": {"contents": "${1:zoom}(${2:selection})"}
+					}, {
+						//zoom.transform - change the transform for the selected elements.
+						"caption": "    .transform(selection, transform)",
+						"command": "insert_snippet", "args": {"contents": ".transform(${1:selection}, ${2:transform})"}
+					}, {
+						//zoom.translateBy - translate the transform for the selected elements.
+						"caption": "    .translateBy(selection, x, y)",
+						"command": "insert_snippet", "args": {"contents": ".translateBy(${1:selection}, ${2:x}, ${3:y})"}
+					}, {
+						//zoom.scaleBy - scale the transform for the selected elements.
+						"caption": "    .scaleBy(selection, k)",
+						"command": "insert_snippet", "args": {"contents": ".scaleBy(${1:selection}, ${2:k})"}
+					}, {
+						//zoom.scaleTo - scale the transform for the selected elements.
+						"caption": "    .scaleTo(selection, k)",
+						"command": "insert_snippet", "args": {"contents": ".scaleTo(${1:selection}, ${2:k})"}
+					}, {
+						//zoom.filter - control which input events initiate zooming.
+						"caption": "    .filter([filter])",
+						"command": "insert_snippet", "args": {"contents": ".filter(${1:[filter]})"}
+					}, {
+						//zoom.extent - set the extent of the viewport.
+						"caption": "    .extent([extent])",
+						"command": "insert_snippet", "args": {"contents": ".extent(${1:[extent]})"}
+					}, {
+						//zoom.scaleExtent - set the allowed scale range.
+						"caption": "    .scaleExtent([extent])",
+						"command": "insert_snippet", "args": {"contents": ".scaleExtent(${1:[extent]})"}
+					}, {
+						//zoom.translateExtent - set the extent of the zoomable world.
+						"caption": "    .translateExtent([extent])",
+						"command": "insert_snippet", "args": {"contents": ".translateExtent(${1:[extent]})"}
+					}, {
+						//zoom.duration - set the duration of zoom transitions.
+						"caption": "    .duration([duration])",
+						"command": "insert_snippet", "args": {"contents": ".duration(${1:[duration]})"}
+					}, {
+						//zoom.interpolate
+						"caption": "    .interpolate([interpolate])",
+						"command": "insert_snippet", "args": {"contents": ".interpolate(${1:interpolate})"}
+					}, {
+						//zoom.on - listen for zoom events.
+						"caption": "    .on(typenames[, listener])",
+						"command": "insert_snippet", "args": {"contents": ".on(${1:[typenames]}${2:[, listener]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.zoomTransform - get the zoom transform for a given element.
+						"caption": "d3.zoomTransform(node)",
+						"command": "insert_snippet", "args": {"contents": "d3.zoomTransform(${1:node})"}
+					}, {
+						//transform.scale - scale a transform by the specified amount.
+						"caption": "    .scale(k)",
+						"command": "insert_snippet", "args": {"contents": ".scale(${1:k})"}
+					}, {
+						//transform.translate - translate a transform by the specified amount.
+						"caption": "    .translate(x, y)",
+						"command": "insert_snippet", "args": {"contents": ".translate(${1:x}, ${2:y})"}
+					}, {
+						//transform.apply - apply the transform to the given point.
+						"caption": "    .apply(point)",
+						"command": "insert_snippet", "args": {"contents": ".apply(${1:point})"}
+					}, {
+						//transform.applyX - apply the transform to the given x-coordinate.
+						"caption": "    .applyX(x)",
+						"command": "insert_snippet", "args": {"contents": ".applyX(${1:x})"}
+					}, {
+						//transform.applyY - apply the transform to the given y-coordinate.
+						"caption": "    .applyY(y)",
+						"command": "insert_snippet", "args": {"contents": ".applyY(${1:y})"}
+					}, {
+						//transform.invert - unapply the transform to the given point.
+						"caption": "    .invert(point)",
+						"command": "insert_snippet", "args": {"contents": ".invert(${1:point})"}
+					}, {
+						//transform.invertX - unapply the transform to the given x-coordinate.
+						"caption": "    .invertX(x)",
+						"command": "insert_snippet", "args": {"contents": ".invertX(${1:x})"}
+					}, {
+						//transform.invertY - unapply the transform to the given y-coordinate.
+						"caption": "    .invertY(x)",
+						"command": "insert_snippet", "args": {"contents": ".invertY(${1:y})"}
+					}, {
+						//transform.rescaleX - apply the transform to an x-scale’s domain.
+						"caption": "    .rescaleX(x)",
+						"command": "insert_snippet", "args": {"contents": ".rescaleX(${1:x})"}
+					}, {
+						//transform.rescaleY - apply the transform to a y-scale’s domain.
+						"caption": "    .rescaleY(y)",
+						"command": "insert_snippet", "args": {"contents": ".rescaleY(${1:y})"}
+					}, {
+						//transform.toString - format the transform as an SVG transform string.
+						"caption": "    .toString()",
+						"command": "insert_snippet", "args": {"contents": ".toString()"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.zoomIdentity - the identity transform.//
+						"caption": "d3.zoomIdentity",
+						"command": "insert_snippet", "args": {"contents": "d3.zoomIdentity"}
+					}
+				]
+			}
+		]
+	}
+]

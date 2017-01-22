@@ -1,0 +1,245 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Arrays (d3-array)
+			//Array manipulation, ordering, searching, summarizing, etc.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Arrays (d3-array)",
+				"children": 
+				[
+					{
+						//Statistics
+						//Methods for computing basic summary statistics.
+						"caption": "Statistics",
+						"children": 
+						[						
+							{
+								//d3.min - compute the minimum value in an array.
+								"caption": "d3.min(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.min(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.max - compute the maximum value in an array.
+								"caption": "d3.max(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.max(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.extent - compute the minimum and maximum value in an array.
+								"caption": "d3.extent(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.extent(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.sum - compute the sum of an array of numbers.
+								"caption": "d3.sum(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.sum(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.mean - compute the arithmetic mean of an array of numbers.
+								"caption": "d3.mean(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.mean(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.median - compute the median of an array of numbers (the 
+								"caption": "d3.median(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.median(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.quantile - compute a quantile for a sorted array of numbers.
+								"caption": "d3.quantile(array, p[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.quantile(${1:array}, ${2:p}${3[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.variance - compute the variance of an array of numbers.
+								"caption": "d3.variance(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.variance(${1:array}${2:[, accessor]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.deviation - compute the standard deviation of an array of numbers.
+								"caption": "d3.deviation(array[, accessor])",
+								"command": "insert_snippet", "args": {"contents": "d3.deviation(${1:array}${2:[, accessor]})"}
+							}
+						]
+					}, {
+						//Search
+						//Methods for searching arrays for a specific element.
+						"caption": "Search",
+						"children": 
+						[						
+							{
+								//d3.scan - linear search for an element using a comparator.
+								"caption": "d3.scan(array[, comparator])",
+								"command": "insert_snippet", "args": {"contents": "d3.scan(${1:array}${2:[, comparator]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.bisectLeft - binary search for a value in a sorted array.
+								"caption": "d3.bisectLeft(array, x[, lo[, hi]])",
+								"command": "insert_snippet", "args": {"contents": "d3.bisectLeft(${1:array}, ${2:x}${3:[, lo${4:[, hi]}]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.bisect - binary search for a value in a sorted array.
+								"caption": "d3.bisect(array, x[, lo[, hi]])",
+								"command": "insert_snippet", "args": {"contents": "d3.bisect(${1:array}, ${2:x}${3:[, lo${4:[, hi]}]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.bisectRight - binary search for a value in a sorted array.
+								"caption": "d3.bisectRight(array, x[, lo[, hi]])",
+								"command": "insert_snippet", "args": {"contents": "d3.bisectRight(${1:array}, ${2:x}${3:[, lo${4:[, hi]}]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.bisector - bisect using an accessor or comparator.
+								"caption": "d3.bisector(accessor or comparator)",
+								"command": "insert_snippet", "args": {"contents": "d3.bisector(${1:accessor or comparator})"}
+							}, {
+								//bisector.left - bisectLeft, with the given comparator.
+								"caption": "    .left(array, x[, lo[, hi]])",
+								"command": "insert_snippet", "args": {"contents": ".left(${1:array}, ${2:x}${3:[, lo${4:[, hi]}]})"}
+							}, {
+								//bisector.right - bisectRight, with the given comparator.
+								"caption": "    .right(array, x[, lo[, hi]])",
+								"command": "insert_snippet", "args": {"contents": ".right(${1:array}, ${2:x}${3:[, lo${4:[, hi]}]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.ascending - compute the natural order of two values.
+								"caption": "d3.ascending(a, b)",
+								"command": "insert_snippet", "args": {"contents": "d3.ascending(a, b)"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.descending - compute the natural order of two values.
+								"caption": "d3.descending(a, b)",
+								"command": "insert_snippet", "args": {"contents": "d3.descending(a, b)"}
+							}
+						]
+					}, {
+						//Transformations
+						//Methods for transforming arrays and for generating new arrays.		  
+						"caption": "Transformations",
+						"children": 
+						[						
+							{
+								//d3.merge - merge multiple arrays into one array.
+								"caption": "d3.merge(arrays)",
+								"command": "insert_snippet", "args": {"contents": "d3.merge(${1:arrays})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.pairs - create an array of adjacent pairs of elements.
+								"caption": "d3.pairs(array)",
+								"command": "insert_snippet", "args": {"contents": "d3.pairs(${1:array})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.permute - reorder an array of elements according to an array of 
+								"caption": "d3.permute(array, indexes)",
+								"command": "insert_snippet", "args": {"contents": "d3.permute(${1:array}, ${2:indexes})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.shuffle - randomize the order of an array.
+								"caption": "d3.shuffle(array[, lo[, hi]])",
+								"command": "insert_snippet", "args": {"contents": "d3.shuffle(${1:array}${2:[, lo${3:[, hi]}]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.ticks - generate representative values from a numeric interval.
+								"caption": "d3.ticks(start, stop, count)",
+								"command": "insert_snippet", "args": {"contents": "d3.ticks(${1:start}, ${2:stop}, ${3:count})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.tickStep - generate representative values from a numeric interval.
+								"caption": "d3.tickStep(start, stop, count)",
+								"command": "insert_snippet", "args": {"contents": "d3.tickStep(${1:start}, ${2:stop}, ${3:count})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.range - generate a range of numeric values.
+								"caption": "d3.range([start, ]stop[, step])",
+								"command": "insert_snippet", "args": {"contents": "d3.range(${1:[start, ]}${2:stop}${3:[, step]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.transpose - transpose an array of arrays.
+								"caption": "d3.transpose(matrix)",
+								"command": "insert_snippet", "args": {"contents": "d3.transpose(${1:matrix})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.zip - transpose a variable number of arrays.
+								"caption": "d3.zip(arrays…)",
+								"command": "insert_snippet", "args": {"contents": "d3.zip(${1:arrays…})"}
+							}
+						]
+					}, {
+						//Histograms
+						//Bin discrete samples into continuous, non-overlapping intervals.		  
+						"caption": "Histograms",
+						"children": 
+						[						
+							{
+								//d3.histogram - create a new histogram generator.
+								"caption": "d3.histogram()",
+								"command": "insert_snippet", "args": {"contents": "d3.histogram()"}
+							}, {
+								"caption": "  histogram(data)",
+								"command": "insert_snippet", "args": {"contents": "${1:histogram}(${2:data})"}
+							}, {
+								//histogram.value - specify a value accessor for each sample.
+								"caption": "    .value([value])",
+								"command": "insert_snippet", "args": {"contents": ".value(${1:[value]})"}
+							}, {
+								//histogram.domain - specify the interval of observable values.
+								"caption": "    .domain([domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain(${1:[domain]})"}
+							}, {
+								//histogram.thresholds - specify how values are divided into bins.
+								"caption": "    .thresholds([count])",
+								"command": "insert_snippet", "args": {"contents": ".thresholds(${1:[count]})"}
+							}, {
+								"caption": "    .thresholds([thresholds]) ",
+								"command": "insert_snippet", "args": {"contents": ".thresholds(${1:[thresholds]})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.thresholdFreedmanDiaconis - the Freedman–Diaconis binning rule.
+								"caption": "d3.thresholdFreedmanDiaconis(values, min, max)",
+								"command": "insert_snippet", "args": {"contents": "d3.thresholdFreedmanDiaconis(${1:values}, ${2:min}, ${1:max})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.thresholdScott - Scott’s normal reference binning rule.
+								"caption": "d3.thresholdScott(values, min, max)",
+								"command": "insert_snippet", "args": {"contents": "d3.thresholdScott(${1:values}, ${2:min}, ${3:max})"}
+							}, {
+								"caption": "-",
+							}, {
+								//d3.thresholdSturges - Sturges’ binning formula.
+								"caption": "d3.thresholdSturges(values)",
+								"command": "insert_snippet", "args": {"contents": "d3.thresholdSturges(${1:values})"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,506 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Scales (d3-scale)
+			//Encodings that map abstract data to visual representation.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Scales (d3-scale)",
+				"children":
+				[
+					{
+						//Continuous Scales
+						//Map a continuous, quantitative domain to a continuous range.
+						"caption": "Continuous Scales",
+						"children":
+						[
+							{
+								"caption": "Linear Scales:",
+								"command": null
+							}, {
+								//d3.scaleLinear - create a quantitative linear scale.
+								"caption": "d3.scaleLinear()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleLinear()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								"caption": "Power Scales:",
+								"command": null
+							}, {
+								//d3.scalePow - create a quantitative power scale.
+								"caption": "d3.scalePow()",
+								"command": "insert_snippet", "args": {"contents": "d3.scalePow()"}
+							}, {
+								//pow.exponent - set the power exponent.
+								"caption": "    .exponent([exponent])",
+								"command": "insert_snippet", "args": {"contents": ".exponent(${1:[exponent]})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.scaleSqrt - create a quantitative power scale with exponent 0.5.
+								"caption": "d3.scaleSqrt()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleSqrt()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								"caption": "Log Scales:",
+								"command": null
+							}, {
+								//d3.scaleLog - create a quantitative logarithmic scale.
+								"caption": "d3.scaleLog()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleLog().domain([${1:input domain}]).range([${2:output range}])"}
+							}, {
+								//log.base - set the logarithm base.
+								"caption": "    .base()",
+								"command": "insert_snippet", "args": {"contents": ".base(${1:[base]})"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								"caption": "Identity Scales:",
+								"command": null
+							}, {
+								//d3.scaleIdentity - create a quantitative identity scale.
+								"caption": "d3.scaleIdentity()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleIdentity()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								"caption": "Time Scales:",
+								"command": null
+							}, {
+								//d3.scaleTime - create a linear scale for time.
+								"caption": "d3.scaleTime()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleTime().domain([${1:input domain}]).range([${2:output range}])"}
+							}, {
+								//d3.scaleUtc - create a linear scale for UTC.
+								"caption": "d3.scaleUtc()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleUtc().domain([${1:input domain}]).range([${2:output range}])"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								"caption": "Common methods:",
+								"command": null
+							}, {
+								//continuous scale instance
+								"caption": "  continuousScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:continuousScale}(${2:value})"}
+							}, {
+								//continuous.invert - compute the domain value corresponding to a given range value.
+								"caption": "    .invert(value)",
+								"command": "insert_snippet", "args": {"contents": ".invert(${1:value})"}
+							}, {
+								//continuous.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain([${1:input domain}])"}
+							}, {
+								//continuous.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range([${1:output range}])"}
+							}, {
+								//continuous.rangeRound - set the output range and enable rounding.
+								"caption": "    .rangeRound([output range])",
+								"command": "insert_snippet", "args": {"contents": ".rangeRound([${1:output range}])"}
+							}, {
+								//continuous.clamp - enable clamping to the domain or range.
+								"caption": "    .clamp(clamp)",
+								"command": "insert_snippet", "args": {"contents": ".clamp(${1:clamp})"}
+							}, {
+								//continuous.interpolate - set the output interpolator.
+								"caption": "    .interpolate(interpolator)",
+								"command": "insert_snippet", "args": {"contents": ".interpolate(${1:interpolator})"}
+							}, {
+								//continuous.ticks - compute representative values from the domain.
+								"caption": "    .ticks([count])",
+								"command": "insert_snippet", "args": {"contents": ".ticks(${1:[count]})"}
+							}, {
+								//continuous.tickFormat - format ticks for human consumption.
+								"caption": "    .tickFormat([count[, specifier]])",
+								"command": "insert_snippet", "args": {"contents": ".tickFormat(${1:[count]}${2:[, specifier]})"}
+							}, {
+								//continuous.nice - extend the domain to nice round numbers.
+								"caption": "    .nice([count])",
+								"command": "insert_snippet", "args": {"contents": ".nice(${1:[count]})"}
+							}, {
+								//continuous.copy - create a copy of this scale.
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							},
+						]
+					}, {
+						//Sequential Scales
+						//Map a continuous, quantitative domain to a continuous, fixed interpolator.
+						"caption": "Continuous Scales",
+						"children":
+						[
+							{
+								//d3.scaleSequential - create a sequential scale.
+								"caption": "d3.scaleSequential(interpolator)",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleSequential(${1:interpolator}).domain([${2:input domain}]).range([${3:output range}])"}
+							}, {
+								"caption": "  sequentialScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:sequentialScale}(${2:interpolator})"}
+							}, {
+								"caption": "    .domain([domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain(${1:[domain]})"}
+							}, {
+								"caption": "    .clamp([clamp])",
+								"command": "insert_snippet", "args": {"contents": ".clamp(${1:[clamp]})"}
+							}, {
+								"caption": "    .interpolator([interpolator])",
+								"command": "insert_snippet", "args": {"contents": ".interpolator(${1:[interpolator]})"}
+							}, {
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateViridis - a dark-to-light color scheme.
+								"caption": "d3.interpolateViridis",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateViridis"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateInferno - a dark-to-light color scheme.
+								"caption": "d3.interpolateInferno",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateInferno"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateMagma - a dark-to-light color scheme.
+								"caption": "d3.interpolateMagma",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateMagma"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolatePlasma - a dark-to-light color scheme.
+								"caption": "d3.interpolatePlasma",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolatePlasma"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateWarm - a rotating-hue color scheme.
+								"caption": "d3.interpolateWarm",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateWarm"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateCool - a rotating-hue color scheme.
+								"caption": "d3.interpolateCool",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateCool"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateRainbow - a cyclical rotating-hue color scheme.
+								"caption": "d3.interpolateRainbow",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateRainbow"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//d3.interpolateCubehelixDefault - a dark-to-light, rotating-hue color scheme.
+								"caption": "d3.interpolateCubehelixDefault",
+								"command": "insert_snippet", "args": {"contents": "d3.interpolateCubehelixDefault"}
+							}
+						]
+					}, {
+						//Quantize Scales
+						//Map a continuous, quantitative domain to a discrete range.
+						"caption": "Quantize Scales",
+						"children": 
+						[
+							{
+								//d3.scaleQuantize - create a uniform quantizing linear scale.
+								"caption": "d3.scaleQuantize()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleQuantize()"}
+							}, {
+								"caption": "  quantizeScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:quantizeScale}(${2:value})"}
+							}, {
+								//quantize.invertExtent - compute the domain values corresponding to a given range value.
+								"caption": "    .invertExtent(value)",
+								"command": "insert_snippet", "args": {"contents": ".invertExtent(${1:value})"}
+							}, {
+								//quantize.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain([${1:input domain}])"}
+							}, {
+								//quantize.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range([${1:output range}])"}
+							}, {
+								//quantize.ticks - compute representative values from the domain.
+								"caption": "    .ticks([count])",
+								"command": "insert_snippet", "args": {"contents": ".ticks(${1:[count]})"}
+							}, {
+								//quantize.tickFormat - format ticks for human consumption.
+								"caption": "    .tickFormat([count[, specifier]])",
+								"command": "insert_snippet", "args": {"contents": ".tickFormat(${1:[count]}${2:[, specifier]})"}
+							}, {
+								//quantize.nice - extend the domain to nice round numbers.
+								"caption": "    .nice()",
+								"command": "insert_snippet", "args": {"contents": ".nice()"}
+							}, {
+								//quantize.copy - create a copy of this scale.
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+								
+								"caption": "-"
+
+							}, {
+								//d3.scaleQuantile - create a uniform quantizing linear scale.
+								"caption": "d3.scaleQuantile()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleQuantile()"}
+							}, {
+								"caption": "  quantileScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:quantileScale}(${2:value})"}
+							}, {
+								//quantile.invertExtent - compute the domain values corresponding to a given range value.
+								"caption": "    .invertExtent(value)",
+								"command": "insert_snippet", "args": {"contents": ".invertExtent(${1:value})"}
+							}, {
+								//quantile.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain([${1:input domain}])"}
+							}, {
+								//quantile.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range([${1:output range}])"}
+							}, {
+								//quantile.quantiles - get the quantile thresholds.
+								"caption": "    .quantiles()",
+								"command": "insert_snippet", "args": {"contents": ".quantiles()"}
+							}, {
+								//quantile.copy
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+								
+								"caption": "-"
+
+							}, {
+								//d3.scaleThreshold - create an arbitrary quantizing linear scale.
+								"caption": "d3.scaleThreshold()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleThreshold().domain([${1:input domain}]).range([${2:output range}])"}
+							}, {
+								"caption": "  thresholdScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:thresholdScale}(${2:value})"}
+							}, {
+								//threshold.invertExtent - compute the domain values corresponding to a given range value.
+								"caption": "    .invertExtent(value)",
+								"command": "insert_snippet", "args": {"contents": ".invertExtent(${1:value})"}
+							}, {
+								//threshold.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain([${1:input domain}])"}
+							}, {
+								//threshold.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range([${1:output range}])"}
+							}, {
+								//threshold.copy
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}
+						]
+					}, {
+						//Ordinal Scales
+						//Map a discrete domain to a discrete range.
+						"caption": "Ordinal Scales",
+						"children":
+						[
+							{
+								//d3.scaleOrdinal - create an ordinal scale.
+								"caption": "d3.scaleOrdinal()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleOrdinal([${1:output range}])"}
+							}, {
+								"caption": "  ordinalScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:ordinalScale}(${2:value})"}
+							}, {
+								//ordinal.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain(${1:[input domain]})"}
+							}, {
+								//ordinal.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range(${1:[output range]})"}
+							}, {
+								//ordinal.unknown - set the output value for unknown inputs.
+								"caption": "    .unknown([value])",
+								"command": "insert_snippet", "args": {"contents": ".unknown(${1:[value]})"}
+							}, {
+								//ordinal.copy - create a copy of this scale.
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.scaleImplicit - a special unknown value for implicit domains.
+								"caption": "d3.scaleImplicit",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleImplicit"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.scaleBand - create an ordinal band scale.
+								"caption": "d3.scaleBand()",
+								"command": "insert_snippet", "args": {"contents": "d3.scaleBand().domain([${1:input domain}]).range([${2:output range}])"}
+							}, {
+								//band - compute the band start corresponding to a given domain value.
+								"caption": "  bandScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:bandscale}(${2:value})"}
+							}, {
+								//band.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain([${1:input domain}])"}
+							}, {
+								//continuous.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range([${1:output range}])"}
+							}, {
+								//band.rangeRound - set the output range and enable rounding.
+								"caption": "    .rangeRound([output range])",
+								"command": "insert_snippet", "args": {"contents": ".rangeRound([${1:output range}])"}
+							}, {
+								//band.round - enable rounding.
+								"caption": "    .round([boolean])",
+								"command": "insert_snippet", "args": {"contents": ".round(${1:[boolean]})"}
+							}, {
+								//band.paddingInner - set padding between bands.
+								"caption": "    .paddingInner([padding])",
+								"command": "insert_snippet", "args": {"contents": "paddingInner(${1:[padding]})"}
+							}, {
+								//band.paddingOuter - set padding outside the first and last bands.
+								"caption": "    .paddingOuter([padding])",
+								"command": "insert_snippet", "args": {"contents": "paddingOuter(${1:[padding]})"}
+							}, {
+								//band.padding - set padding outside and between bands.
+								"caption": "    .padding([padding])",
+								"command": "insert_snippet", "args": {"contents": ".padding(${1:[padding]})"}
+							}, {
+								//band.align - set band alignment, if there is extra space.
+								"caption": "    .align()",
+								"command": "insert_snippet", "args": {"contents": ".align(${1:[align]})"}
+							}, {
+								//band.bandwidth - get the width of each band.
+								"caption": "    .bandwidth()",
+								"command": "insert_snippet", "args": {"contents": ".bandwidth()"}
+							}, {
+								//band.step - get the distance between the starts of adjacent bands.
+								"caption": "    .step()",
+								"command": "insert_snippet", "args": {"contents": ".step()"}
+							}, {
+								//band.copy - create a copy of this scale.
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.scalePoint - create an ordinal point scale.
+								"caption": "d3.scalePoint()",
+								"command": "insert_snippet", "args": {"contents": "d3.scalePoint().domain([${1:input domain}]).range([${2:output range}])"}
+							}, {
+								//point - compute the point corresponding to a given domain value.
+								"caption": "  pointScale(value)",
+								"command": "insert_snippet", "args": {"contents": "${1:pointScale}(${2:value})"}
+							}, {
+								//point.domain - set the input domain.
+								"caption": "    .domain([input domain])",
+								"command": "insert_snippet", "args": {"contents": ".domain([${1:input domain}])"}
+							}, {
+								//point.range - set the output range.
+								"caption": "    .range([output range])",
+								"command": "insert_snippet", "args": {"contents": ".range([${1:output range}])"}
+							}, {
+								//point.rangeRound - set the output range and enable rounding.
+								"caption": "    .rangeRound([output range])",
+								"command": "insert_snippet", "args": {"contents": ".rangeRound([${1:output range}])"}
+							}, {
+								//point.round - enable rounding.
+								"caption": "    .round([boolean])",
+								"command": "insert_snippet", "args": {"contents": ".round(${1:[boolean]})"}
+							}, {
+								//point.padding - set padding outside and between bands.
+								"caption": "    .padding([padding])",
+								"command": "insert_snippet", "args": {"contents": ".padding(${1:[padding]})"}
+							}, {
+								//point.align - set band alignment, if there is extra space.
+								"caption": "    .align()",
+								"command": "insert_snippet", "args": {"contents": ".align(${1:[align]})"}
+							}, {
+								//point.bandwidth - get the width of each band.
+								"caption": "    .bandwidth()",
+								"command": "insert_snippet", "args": {"contents": ".bandwidth()"}
+							}, {
+								//point.step - get the distance between the starts of adjacent bands.
+								"caption": "    .step()",
+								"command": "insert_snippet", "args": {"contents": ".step()"}
+							}, {
+								//point.copy - create a copy of this scale.
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.schemeCategory10 - a categorical scheme with 10 colors.
+								"caption": "d3.schemeCategory10",
+								"command": "insert_snippet", "args": {"contents": "d3.schemeCategory10"}
+							}, {
+								//d3.schemeCategory20 - a categorical scheme with 20 colors.
+								"caption": "d3.schemeCategory20",
+								"command": "insert_snippet", "args": {"contents": "d3.schemeCategory20"}
+							}, {
+								//d3.schemeCategory20b - a categorical scheme with 20 colors.
+								"caption": "d3.schemeCategory20b",
+								"command": "insert_snippet", "args": {"contents": "d3.schemeCategory20b"}
+							}, {
+								//d3.schemeCategory20c - a categorical scheme with 20 colors.
+								"caption": "d3.schemeCategory20c",
+								"command": "insert_snippet", "args": {"contents": "d3.schemeCategory20c"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

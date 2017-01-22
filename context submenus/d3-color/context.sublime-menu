@@ -1,0 +1,118 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Colors (d3-color)
+			//Color manipulation and color space conversion.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Colors (d3-color)",
+				"children":
+				[
+					{
+						//d3.color - parse the given CSS color specifier.
+						"caption": "d3.color(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.color(${1:specifier})"}
+					}, {
+						"caption": "    .opacity",
+						"command": "insert_snippet", "args": {"contents": ".opacity = $1"}
+					}, {
+						//color.rgb - compute the RGB equivalent of this color.
+						"caption": "    .rgb()",
+						"command": "insert_snippet", "args": {"contents": ".rgb()"}
+					}, {
+						//color.brighter - create a brighter copy of this color.
+						"caption": "    .brighter([k])",
+						"command": "insert_snippet", "args": {"contents": ".brighter(${1:[k]})"}
+					}, {
+						//color.darker - create a darker copy of this color.
+						"caption": "    .darker([k])",
+						"command": "insert_snippet", "args": {"contents": ".darker(${1:[k]})"}
+					}, {
+						//color.displayable - returns true if the color is displayable on standard hardware.
+						"caption": "    .displayable()",
+						"command": "insert_snippet", "args": {"contents": ".displayable()"}
+					}, {
+						//color.toString - format the color as an RGB hexadecimal string.
+						"caption": "    .toString()",
+						"command": "insert_snippet", "args": {"contents": ".toString()"}
+					}, {
+						"caption": "-",
+					}, {
+						//d3.rgb - create a new RGB color.
+						"caption": "d3.rgb(r, g, b[, opacity])",
+						"command": "insert_snippet", "args": {"contents": "d3.rgb(${1:r}, ${2:g}, ${3:b}${4:[, opacity]})"}
+					}, {
+						//d3.rgb - create a new RGB color.
+						"caption": "d3.rgb(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.rgb(${1:specifier})"}
+					}, {
+						//d3.rgb - create a new RGB color.
+						"caption": "d3.rgb(color)",
+						"command": "insert_snippet", "args": {"contents": "d3.rgb(${1:color})"}
+					}, {
+						"caption": "-",
+					}, {
+						//d3.hsl - create a new HSL color.
+						"caption": "d3.hsl(h, s, l[, opacity])",
+						"command": "insert_snippet", "args": {"contents": "d3.hsl(${1:h}, ${2:s}, ${3:l}${4:[, opacity]})"}
+					}, {
+						//d3.hsl - create a new HSL color.
+						"caption": "d3.hsl(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.hsl(${1:specifier})"}
+					}, {
+						//d3.hsl - create a new HSL color.
+						"caption": "d3.hsl(color)",
+						"command": "insert_snippet", "args": {"contents": "d3.hsl(${1:color})"}
+					}, {
+						"caption": "-",
+					}, {
+						//d3.lab - create a new Lab color.
+						"caption": "d3.lab(l, a, b[, opacity])",
+						"command": "insert_snippet", "args": {"contents": "d3.lab(${1:l}, ${2:a}, ${3:b}${4:[, opacity]})"}
+					}, {
+						//d3.lab - create a new Lab color.
+						"caption": "d3.lab(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.lab(${1:specifier})"}
+					}, {
+						//d3.lab - create a new Lab color.
+						"caption": "d3.lab(color)",
+						"command": "insert_snippet", "args": {"contents": "d3.lab(${1:color})"}
+					}, {
+						"caption": "-",
+					}, {
+						//d3.hcl - create a new HCL color.
+						"caption": "d3.hcl(h, c, l[, opacity])",
+						"command": "insert_snippet", "args": {"contents": "d3.hcl(${1:h}, ${2:c}, ${3:l}${4:[, opacity]})"}
+					}, {
+						//d3.hcl - create a new HCL color.
+						"caption": "d3.hcl(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.hcl(${1:specifier})"}
+					}, {
+						//d3.hcl - create a new HCL color.
+						"caption": "d3.hcl(color)",
+						"command": "insert_snippet", "args": {"contents": "d3.hcl(${1:color})"}
+					}, {
+						"caption": "-",
+					}, {
+						//d3.cubehelix - create a new Cubehelix color.
+						"caption": "d3.cubehelix(h, s, l[, opacity])",
+						"command": "insert_snippet", "args": {"contents": "d3.cubehelix(${1:h}, ${2:s}, ${3:l}${4:[, opacity]})"}
+					}, {
+						//d3.cubehelix - create a new Cubehelix color.
+						"caption": "d3.cubehelix(specifier)",
+						"command": "insert_snippet", "args": {"contents": "d3.cubehelix(${1:specifier})"}
+					}, {
+						//d3.cubehelix - create a new Cubehelix color.
+						"caption": "d3.cubehelix(color)",
+						"command": "insert_snippet", "args": {"contents": "d3.cubehelix(${1:color})"}
+					}
+				]
+			}
+		]
+	}
+]

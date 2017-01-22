@@ -1,0 +1,79 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Axes (d3-axis)
+			//Human-readable reference marks for scales.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Axes (d3-axis)",
+				"children": 
+				[
+					{
+						//d3.axisTop - create a new top-oriented axis generator.
+						"caption": "d3.axisTop()",
+						"command": "insert_snippet", "args": {"contents": "d3.axisTop(${1:scale})"}
+					}, {
+						//d3.axisRight - create a new right-oriented axis generator.
+						"caption": "d3.axisRight()",
+						"command": "insert_snippet", "args": {"contents": "d3.axisRight(${1:scale})"}
+					}, {
+						//d3.axisBottom - create a new bottom-oriented axis generator.
+						"caption": "d3.axisBottom()",
+						"command": "insert_snippet", "args": {"contents": "d3.axisBottom(${1:scale})"}
+					}, {
+						//d3.axisLeft - create a new left-oriented axis generator.
+						"caption": "d3.axisLeft()",
+						"command": "insert_snippet", "args": {"contents": "d3.axisLeft(${1:scale})"}
+					}, {
+						//axis.scale - set the scale.
+						"caption": "    .scale()",
+						"command": "insert_snippet", "args": {"contents": ".scale(${1:[scale]})"}
+					}, {
+						//axis.ticks - customize how ticks are generated and formatted.
+						"caption": "    .ticks(arguments...)",
+						"command": "insert_snippet", "args": {"contents": ".ticks(${1:arguments...})"}
+					}, {
+						"caption": "    .ticks([count[, specifier]])",
+						"command": "insert_snippet", "args": {"contents": ".ticks(${1:[count]}${2:[, specifier]})"}
+					}, {
+						"caption": "    .ticks([interval[, specifier]])",
+						"command": "insert_snippet", "args": {"contents": ".ticks(${1:[interval]}${2:[, specifier]})"}
+					}, {
+						//axis.tickArguments - customize how ticks are generated and formatted.
+						"caption": "    .tickArguments([arguments])",
+						"command": "insert_snippet", "args": {"contents": ".tickArguments(${1:[arguments]})"}
+					}, {
+						//axis.tickValues - set the tick values explicitly.
+						"caption": "    .tickValues([values])",
+						"command": "insert_snippet", "args": {"contents": ".tickValues(${1:[values]})"}
+					}, {
+						//axis.tickFormat - set the tick format explicitly.
+						"caption": "    .tickFormat([format])",
+						"command": "insert_snippet", "args": {"contents": ".tickFormat(${1:[format]})"}
+					}, {
+						//axis.tickSize - set the size of the ticks.
+						"caption": "    .tickSize([size])",
+						"command": "insert_snippet", "args": {"contents": ".tickSize(${1:[size]})"}
+					}, {
+						//axis.tickSizeInner - set the size of inner ticks.
+						"caption": "    .tickSizeInner([size])",
+						"command": "insert_snippet", "args": {"contents": ".tickSizeInner(${1:[size]})"}
+					}, {
+						//axis.tickSizeOuter - set the size of outer (extent) ticks.
+						"caption": "    .tickSizeOuter([size])",
+						"command": "insert_snippet", "args": {"contents": ".tickSizeOuter(${1:[size]})"}
+					}, {
+						//axis.tickPadding - set the padding between ticks and labels.
+						"caption": "    .tickPadding([padding])",
+						"command": "insert_snippet", "args": {"contents": ".tickPadding(${1:[padding]})"}
+					}
+				]
+			}
+		]
+	}
+]

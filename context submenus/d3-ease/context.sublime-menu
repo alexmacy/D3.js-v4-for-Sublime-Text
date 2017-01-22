@@ -1,0 +1,229 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Easings (d3-ease)
+			//Easing functions for smooth animation
+			//////////////////////////////////////////////////////////////////////
+
+			{
+			  "caption": "Easings (d3-ease)",
+			  "children":
+			  [
+					{
+						//ease - ease the given normalized time.
+						"caption": "ease(t)",
+						"command": "insert_snippet", "args": {"contents": "${1:ease}(${2:t})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeLinear - linear easing; the identity function.
+						"caption": "d3.easeLinear",
+						"command": "insert_snippet", "args": {"contents": "d3.easeLinear"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easePoly - polynomial easing; raises time to the given power.
+						"caption": "d3.easePoly",
+						"command": "insert_snippet", "args": {"contents": "d3.easePoly"}
+					}, {
+						//d3.easePolyInOut - symmetric polynomial easing.
+						"caption": "d3.easePolyInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easePolyInOut"}
+					}, {
+						//d3.easePolyIn - polynomial easing; raises time to the given power.
+						"caption": "d3.easePolyIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easePolyIn"}
+					}, {
+						//d3.easePolyOut - reverse polynomial easing.
+						"caption": "d3.easePolyOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easePolyOut"}
+					}, {
+						//poly.exponent - specify the polynomial exponent.
+						"caption": "    .exponent(e)",
+						"command": "insert_snippet", "args": {"contents": ".exponent(${1:e})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeQuad - an alias for easeQuadInOut.
+						"caption": "d3.easeQuad",
+						"command": "insert_snippet", "args": {"contents": "d3.easeQuad"}
+					}, {
+						//d3.easeQuadInOut - symmetric quadratic easing.
+						"caption": "d3.easeQuadInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeQuadInOut"}
+					}, {
+						//d3.easeQuadIn - quadratic easing; squares time.
+						"caption": "d3.easeQuadIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeQuadIn"}
+					}, {
+						//d3.easeQuadOut - reverse quadratic easing.
+						"caption": "d3.easeQuadOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeQuadOut"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeCubic - an alias for easeCubicInOut.
+						"caption": "d3.easeCubic",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCubic"}
+					}, {
+						//d3.easeCubicInOut - symmetric cubic easing.
+						"caption": "d3.easeCubicInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCubicInOut"}
+					}, {
+						//d3.easeCubicIn - cubic easing; cubes time.
+						"caption": "d3.easeCubicIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCubicIn"}
+					}, {
+						//d3.easeCubicOut - reverse cubic easing.
+						"caption": "d3.easeCubicOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCubicOut"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeSin - an alias for easeSinInOut.
+						"caption": "d3.easeSin",
+						"command": "insert_snippet", "args": {"contents": "d3.easeSin"}
+					}, {
+						//d3.easeSinInOut - symmetric sinusoidal easing.
+						"caption": "d3.easeSinInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeSinInOut"}
+					}, {
+						//d3.easeSinIn - sinusoidal easing.
+						"caption": "d3.easeSinIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeSinIn"}
+					}, {
+						//d3.easeSinOut - reverse sinusoidal easing.
+						"caption": "d3.easeSinOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeSinOut"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeExp - an alias for easeExpInOut.
+						"caption": "d3.easeExp",
+						"command": "insert_snippet", "args": {"contents": "d3.easeExp"}
+					}, {
+						//d3.easeExpInOut - symmetric exponential easing.
+						"caption": "d3.easeExpInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeExpInOut"}
+					}, {
+						//d3.easeExpIn - exponential easing.
+						"caption": "d3.easeExpIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeExpIn"}
+					}, {
+						//d3.easeExpOut - reverse exponential easing.
+						"caption": "d3.easeExpOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeExpOut"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeCircle - an alias for easeCircleInOut.
+						"caption": "d3.easeCircle",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCircle"}
+					}, {
+						//d3.easeCircleInOut - symmetric circular easing.
+						"caption": "d3.easeCircleInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCircleInOut"}
+					}, {
+						//d3.easeCircleIn - circular easing.
+						"caption": "d3.easeCircleIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCircleIn"}
+					}, {
+						//d3.easeCircleOut - reverse circular easing.
+						"caption": "d3.easeCircleOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeCircleOut"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeElastic - an alias for easeElasticOut.
+						"caption": "d3.easeElastic",
+						"command": "insert_snippet", "args": {"contents": "d3.easeElastic"}
+					}, {
+						//d3.easeElasticInOut - symmetric elastic easing.
+						"caption": "d3.easeElasticInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeElasticInOut"}
+					}, {
+						//d3.easeElasticIn - elastic easing, like a rubber band.
+						"caption": "d3.easeElasticIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeElasticIn"}
+					}, {
+						//d3.easeElasticOut - reverse elastic easing.
+						"caption": "d3.easeElasticOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeElasticOut"}
+					}, {
+						//elastic.amplitude - specify the elastic amplitude.
+						"caption": "    .amplitude(a)",
+						"command": "insert_snippet", "args": {"contents": ".amplitude({1:a})"}
+					}, {
+						//elastic.period - specify the elastic period.
+						"caption": "    .period(p)",
+						"command": "insert_snippet", "args": {"contents": ".period({1:p})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeBack - an alias for easeBackInOut.
+						"caption": "d3.easeBack",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBack"}
+					}, {
+						//d3.easeBackInOut - symmetric anticipatory easing.
+						"caption": "d3.easeBackInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBackInOut"}
+					}, {
+						//d3.easeBackIn - anticipatory easing, like a dancer bending his knees before jumping.
+						"caption": "d3.easeBackIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBackIn"}
+					}, {
+						//d3.easeBackOut - reverse anticipatory easing.
+						"caption": "d3.easeBackOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBackOut"}
+					}, {
+						//back.overshoot - specify the amount of overshoot.
+						"caption": "    .overshoot(s)",
+						"command": "insert_snippet", "args": {"contents": ".overshoot({1:s})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.easeBounce - an alias for easeBounceOut.
+						"caption": "d3.easeBounce",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBounce"}
+					}, {
+						//d3.easeBounceInOut - symmetric bounce easing.
+						"caption": "d3.easeBounceInOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBounceInOut"}
+					}, {
+						//d3.easeBounceIn - bounce easing, like a rubber ball.
+						"caption": "d3.easeBounceIn",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBounceIn"}
+					}, {
+						//d3.easeBounceOut - reverse bounce easing.
+						"caption": "d3.easeBounceOut",
+						"command": "insert_snippet", "args": {"contents": "d3.easeBounceOut"}
+					}
+				]
+			}
+		]
+	}
+]

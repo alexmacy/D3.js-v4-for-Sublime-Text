@@ -1,0 +1,41 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Queues (d3-queue)
+			//Evaluate asynchronous tasks with configurable concurrency.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Queues (d3-queue)",
+				"children":
+				[
+					{
+						//d3.queue - manage the concurrent evaluation of asynchronous tasks.
+						"caption": "d3.queue([concurrency])",
+						"command": "insert_snippet", "args": {"contents": "d3.queue(${1:[concurrency]})"}
+					}, {
+						//queue.defer - register a task for evaluation.
+						"caption": "    .defer(task[, arguments...])",
+						"command": "insert_snippet", "args": {"contents": ".defer(${1:task}${2:[, arguments...]})"}
+					}, {
+						//queue.abort - abort any active tasks and cancel any pending ones.
+						"caption": "    .abort()",
+						"command": "insert_snippet", "args": {"contents": ".abort()"}
+					}, {
+						//queue.await - register a callback for when tasks complete.
+						"caption": "    .await(callback)",
+						"command": "insert_snippet", "args": {"contents": ".await(${1:callback})"}
+					}, {
+						//queue.awaitAll - register a callback for when tasks complete.
+						"caption": "    .awaitAll(callback)",
+						"command": "insert_snippet", "args": {"contents": ".awaitAll(${1:callback})"}
+					}
+				]
+			}
+		]
+	}
+]

@@ -111,8 +111,8 @@
 			"contents": "d3.geoAlbersUsa()"
 		}, {
 			//d3.geoAlbers - the Albers equal-area conic projection.
-			"trigger": "geoAlbersUsa()\td3.geoAlbersUsa()",
-			"contents": "d3.geoAlbersUsa()"
+			"trigger": "geoAlbers()\td3.geoAlbers()",
+			"contents": "d3.geoAlbers()"
 		}, {
 			//conic.parallels - set the two standard parallels.
 			"trigger": "parallels()\td3-conicProjection.parallels()",
@@ -155,8 +155,8 @@
 			"contents": "d3.geoProjectionMutator($1)"
 		}, {
 			//d3.geoAzimuthalEqualAreaRaw -
-			"trigger": "geoProjectionMutator()\td3.geoProjectionMutator()",
-			"contents": "d3.geoProjectionMutator($1)"
+			"trigger": "geoAzimuthalEqualAreaRaw\td3.geoAzimuthalEqualAreaRaw",
+			"contents": "d3.geoAzimuthalEqualAreaRaw"
 		},
 
 		//Spherical Math

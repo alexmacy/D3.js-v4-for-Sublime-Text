@@ -1,0 +1,313 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Hierarchies (d3-hierarchy)
+			//Layout algorithms for visualizing hierarchical data.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Hierarchies (d3-hierarchy)",
+				"children":
+				[
+					{
+						//Hierarchy
+						"caption": "Hierarchy",
+						"children": 
+						[
+							{
+								//d3.hierarchy - constructs a root node from hierarchical data.
+								"caption": "d3.hierarchy(data[, children])",
+								"command": "insert_snippet", "args": {"contents": "d3.hierarchy(${1:data}${2:[, children]})"}
+							}, {
+								//node.ancestors - generate an array of ancestors.
+								"caption": "    .ancestors()",
+								"command": "insert_snippet", "args": {"contents": ".ancestors()"}
+							}, {
+								//node.descendants - generate an array of descendants.
+								"caption": "    .descendants()",
+								"command": "insert_snippet", "args": {"contents": ".descendants()"}
+							}, {
+								//node.leaves - generate an array of leaves.
+								"caption": "    .leaves()",
+								"command": "insert_snippet", "args": {"contents": ".leaves()"}
+							}, {
+								//node.path - generate the shortest path to another node.
+								"caption": "    .path(target)",
+								"command": "insert_snippet", "args": {"contents": ".path(${1:target})"}
+							}, {
+								//node.links - generate an array of links.
+								"caption": "    .links()",
+								"command": "insert_snippet", "args": {"contents": ".links()"}
+							}, {
+								//node.sum - evaluate and aggregate quantitative values.
+								"caption": "    .sum(value)",
+								"command": "insert_snippet", "args": {"contents": ".sum(${1:value})"}
+							}, {
+								//node.count
+								"caption": "    .count()",
+								"command": "insert_snippet", "args": {"contents": ".count()"}
+							}, {
+								//node.sort - sort all descendant siblings.
+								"caption": "    .sort(compare)",
+								"command": "insert_snippet", "args": {"contents": ".sort(${1:compare})"}
+							}, {
+								//node.each - breadth-first traversal.
+								"caption": "    .each(function)",
+								"command": "insert_snippet", "args": {"contents": ".each(function(d, i) {return $1}) "}
+							}, {
+								//node.eachAfter - post-order traversal.
+								"caption": "    .eachAfter(function)",
+								"command": "insert_snippet", "args": {"contents": ".eachAfter(function(d, i) {return $1}) "}
+							}, {
+								//node.eachBefore - pre-order traversal.
+								"caption": "    .eachBefore(function)",
+								"command": "insert_snippet", "args": {"contents": ".eachBefore(function(d, i) {return $1}) "}
+							}, {
+								//node.copy - copy a hierarchy.
+								"caption": "    .copy()",
+								"command": "insert_snippet", "args": {"contents": ".copy()"}
+							}, {
+
+								"caption": "-",
+
+							}, {
+								//Stratify
+								//d3.stratify - create a new stratify operator.
+								"caption": "d3.stratify()",
+								"command": "insert_snippet", "args": {"contents": "d3.stratify()"}
+							}, {
+								"caption": "  stratify(data)",
+								"command": "insert_snippet", "args": {"contents": "${1:stratify}(${2:data})"}
+							}, {
+								//stratify.id - set the node id accessor.
+								"caption": "    .id([id])",
+								"command": "insert_snippet", "args": {"contents": ".id(${1:[id]})"}
+							}, {
+								//stratify.parentId - set the parent node id accessor.
+								"caption": "    .parentId([parentId])",
+								"command": "insert_snippet", "args": {"contents": ".parentId(${1:[parentId]})"}
+							}, 
+						]
+					}, {
+						//Cluster
+						"caption": "Cluster",
+						"children": 
+						[
+							{
+								//d3.cluster - create a new cluster (dendrogram) layout.
+								"caption": "d3.cluster()",
+								"command": "insert_snippet", "args": {"contents": "d3.cluster()"}
+							}, {
+								"caption": "  cluster(root)",
+								"command": "insert_snippet", "args": {"contents": "${1:cluster}(${2:root})"}
+							}, {
+								//cluster.size - set the layout size.
+								"caption": "    .size([size])",
+								"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+							}, {
+								//cluster.nodeSize - set the node size.
+								"caption": "    .nodeSize([size])",
+								"command": "insert_snippet", "args": {"contents": ".nodeSize(${1:[size]})"}
+							}, {
+								//cluster.separation - set the separation between leaves.
+								"caption": "    .separation([separation])",
+								"command": "insert_snippet", "args": {"contents": ".separation(${1:[separation]})"}
+							},
+						]
+					}, {
+						//Tree
+						"caption": "Tree",
+						"children": 
+						[
+							{
+								//d3.tree - create a new tidy tree layout.
+								"caption": "d3.tree()",
+								"command": "insert_snippet", "args": {"contents": "d3.tree()"}
+							}, {
+								"caption": "  tree(root)",
+								"command": "insert_snippet", "args": {"contents": "${1:tree}(${2:root})"}
+							}, {
+								//tree.size - set the layout size.
+								"caption": "    .size([size])",
+								"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+							}, {
+								//tree.nodeSize - set the node size.
+								"caption": "    .nodeSize([size])",
+								"command": "insert_snippet", "args": {"contents": ".nodeSize(${1:[size]})"}
+							}, {
+								//tree.separation - set the separation between nodes.
+								"caption": "    .separation([separation])",
+								"command": "insert_snippet", "args": {"contents": ".separation(${1:[separation]})"}
+							}
+						]
+					}, {
+						//Treemap
+						"caption": "Treemap",
+						"children":
+						[
+							{
+								//d3.treemap - create a new treemap layout.
+								"caption": "d3.treemap()",
+								"command": "insert_snippet", "args": {"contents": "d3.treemap()"}
+							}, {
+								"caption": "  treemap(root)",
+								"command": "insert_snippet", "args": {"contents": "${1:treemap}(${2:root})"}
+							}, {
+								//treemap.tile - set the tiling method.
+								"caption": "    .tile([tile])",
+								"command": "insert_snippet", "args": {"contents": ".tile(${1:[tile]})"}
+							}, {
+								//Treemap Tiling
+								"caption": "        Treemap Tiling",
+								"children": 
+								[
+									{
+										//d3.treemapBinary - tile using a balanced binary tree.
+										"caption": "d3.treemapBinary(node, x0, y0, x1, y1)",
+										"command": "insert_snippet", "args": {"contents": "d3.treemapBinary(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"}
+									}, {
+										//d3.treemapDice - tile into a horizontal row.
+										"caption": "d3.treemapDice(node, x0, y0, x1, y1)",
+										"command": "insert_snippet", "args": {"contents": "d3.treemapDice(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"}
+									}, {
+										//d3.treemapSlice - tile into a vertical column.
+										"caption": "d3.treemapSlice(node, x0, y0, x1, y1)",
+										"command": "insert_snippet", "args": {"contents": "d3.treemapSlice(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"}
+									}, {
+										//d3.treemapSliceDice - alternate between slicing and dicing.
+										"caption": "d3.treemapSliceDice(node, x0, y0, x1, y1)",
+										"command": "insert_snippet", "args": {"contents": "d3.treemapSliceDice(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"}
+									}, {
+										//d3.treemapSquarify - tile using squarified rows per Bruls et. al.
+										"caption": "d3.treemapSquarify(node, x0, y0, x1, y1)",
+										"command": "insert_snippet", "args": {"contents": "d3.treemapSquarify(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"}
+									}, {
+										//d3.treemapResquarify - like d3.treemapSquarify, but performs stable updates.
+										"caption": "d3.treemapResquarify(node, x0, y0, x1, y1)",
+										"command": "insert_snippet", "args": {"contents": "d3.treemapResquarify(${1:node}, ${2:x0}, ${3:y0}, ${4:x1}, ${5:y1})"}
+									}, {
+
+										"caption": "-"
+
+									}, {
+										//squarify.ratio - set the desired rectangle aspect ratio.
+										"caption": "  squarify.ratio(ratio)",
+										"command": "insert_snippet", "args": {"contents": "ratio(${1:ratio})"}
+									}
+								]
+							}, {
+								//treemap.size - set the layout size.
+								"caption": "    .size([size])",
+								"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+							}, {
+								//treemap.round - set whether the output coordinates are rounded.
+								"caption": "    .round([round])",
+								"command": "insert_snippet", "args": {"contents": ".round(${1:[round]})"}
+							}, {
+								//treemap.padding - set the padding.
+								"caption": "    .padding([padding])",
+								"command": "insert_snippet", "args": {"contents": ".padding(${1:[padding]})"}
+							}, {
+								//treemap.paddingInner - set the padding between siblings.
+								"caption": "    .paddingInner([padding])",
+								"command": "insert_snippet", "args": {"contents": ".paddingInner(${1:[padding]})"}
+							}, {
+								//treemap.paddingOuter - set the padding between parent and children.
+								"caption": "    .paddingOuter([padding])",
+								"command": "insert_snippet", "args": {"contents": ".paddingOuter(${1:[padding]})"}
+							}, {
+								//treemap.paddingTop - set the padding between the parent’s top edge and children.
+								"caption": "    .paddingTop([padding])",
+								"command": "insert_snippet", "args": {"contents": ".paddingTop(${1:[padding]})"}
+							}, {
+								//treemap.paddingRight - set the padding between the parent’s right edge and children.
+								"caption": "    .paddingRight([padding])",
+								"command": "insert_snippet", "args": {"contents": ".paddingRight(${1:[padding]})"}
+							}, {
+								//treemap.paddingBottom - set the padding between the parent’s bottom edge and children.
+								"caption": "    .paddingBottom([padding])",
+								"command": "insert_snippet", "args": {"contents": ".paddingBottom(${1:[padding]})"}
+							}, {
+								//treemap.paddingLeft - set the padding between the parent’s left edge and children.
+								"caption": "    .paddingLeft([padding])",
+								"command": "insert_snippet", "args": {"contents": ".paddingLeft(${1:[padding]})"}
+							},
+						]
+					}, {
+						//Partition
+						"caption": "Partition",
+						"children":
+						[
+							{
+								//d3.partition - create a new partition (icicle or sunburst) layout.
+								"caption": "d3.partition()",
+								"command": "insert_snippet", "args": {"contents": "d3.partition()"}
+							}, {
+								"caption": "  partition(root)",
+								"command": "insert_snippet", "args": {"contents": "${1:partition}(${2:root})"}
+							}, {
+								//partition.size - set the layout size.
+								"caption": "    .size([size])",
+								"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+							}, {
+								//partition.round - set whether the output coordinates are rounded.
+								"caption": "    .round([round])",
+								"command": "insert_snippet", "args": {"contents": ".round(${1:[round]})"}
+							}, {
+								//partition.padding - set the padding.
+								"caption": "    .padding([padding])",
+								"command": "insert_snippet", "args": {"contents": ".padding(${1:[padding]})"}
+							},
+						]
+					}, {
+						//Pack
+						"caption": "Pack",
+						"children": 
+						[
+							{
+								//d3.pack - create a new circle-packing layout.
+								"caption": "d3.pack()",
+								"command": "insert_snippet", "args": {"contents": "d3.pack()"}
+							}, {
+								"caption": "  pack(root)",
+								"command": "insert_snippet", "args": {"contents": "${1:pack}(${2:root})"}
+							}, {
+								//pack.radius - set the radius accessor.
+								"caption": "    .radius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".radius(${1:[radius]})"}
+							}, {
+								//pack.size - set the layout size.
+								"caption": "    .size([size])",
+								"command": "insert_snippet", "args": {"contents": ".size(${1:[size]})"}
+							}, {
+								//pack.padding - set the padding.
+								"caption": "    .padding([padding])",
+								"command": "insert_snippet", "args": {"contents": ".padding(${1:[padding]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.packSiblings - pack the specified array of circles.
+								"caption": "d3.packSiblings(circles)",
+								"command": "insert_snippet", "args": {"contents": "d3.packSiblings(${1:circles})"}
+							}, {
+
+								"caption": "-"
+
+							}, {	
+								//d3.packEnclose - enclose the specified array of circles.			
+								"caption": "d3.packEnclose(circles)",
+								"command": "insert_snippet", "args": {"contents": "d3.packEnclose(${1:circles})"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

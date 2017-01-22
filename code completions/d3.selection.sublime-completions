@@ -36,11 +36,11 @@
 		}, {
 			//selection.merge - merge this selection with another.
 			"trigger": "merge()\td3-selection.merge()",
-			"contents": "merge(${1:other selection})"
+			"contents": "merge(${1:other})"
 		}, {
 			//d3.matcher - test whether an element matches a selector.
-			"trigger": "merge()\td3-selection.merge()",
-			"contents": "merge(${1:other selection})"
+			"trigger": "matcher()\td3-selection.matcher()",
+			"contents": "matcher(${1:selector})"
 		}, {
 			//d3.selector - select an element.
 			"trigger": "selector()\td3.selector()",
@@ -112,7 +112,7 @@
 		}, {
 			//d3.creator - create an element by name.
 			"trigger": "creator()\td3.creator()",
-			"contents": "d3.creator(${1:compare})"
+			"contents": "d3.creator(${1:name})"
 		},
 
 		//Joining Data
@@ -140,11 +140,11 @@
 		{
 			//selection.on - add or remove event listeners.
 			"trigger": "on()\td3-selection.on()",
-			"contents": "on(${1:[typenames]})"
+			"contents": "on(${1:typenames})"
 		}, {
 			//selection.dispatch - dispatch a custom event.
 			"trigger": "dispatch()\td3-selection.dispatch()",
-			"contents": "dispatch(${1:[typen]})"
+			"contents": "dispatch(${1:type})"
 		}, {
 			//d3.event - the current user event, during interaction.
 			"trigger": "event\td3.event",

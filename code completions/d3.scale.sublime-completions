@@ -33,7 +33,7 @@
 		}, {
 			//continuous.interpolate - set the output interpolator.
 			"trigger": "interpolate()\td3-scale.interpolate()",
-			"contents": "interpolate(${1:interpolate})"
+			"contents": "interpolate(${1:interpolator})"
 		}, {
 			//continuous.ticks - compute representative values from the domain.
 			"trigger": "ticks()\td3-scale.ticks()",

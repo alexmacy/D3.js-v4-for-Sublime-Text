@@ -1,0 +1,157 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Transitions (d3-transition)
+			//Animated transitions for selections.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Transitions (d3-transition)",
+				"children":
+				[
+					{
+						"caption": "  selection",
+						"command": null
+					}, {
+						//selection.transition - schedule a transition for the selected elements.
+						"caption": "    .transition([name])",
+						"command": "insert_snippet", "args": {"contents": ".transition(${1:[name]})"}
+					}, {
+						//selection.interrupt - interrupt and cancel transitions on the selected elements.
+						"caption": "    .interrupt([name])",
+						"command": "insert_snippet", "args": {"contents": ".interrupt(${1:[name]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.interrupt -
+						"caption": "d3.interrupt(node[, name])",
+						"command": "insert_snippet", "args": {"contents": "d3.interrupt(${1:node}${2:[, name]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.transition - schedule a transition on the root document element.
+						"caption": "d3.transition([name])",
+						"command": "insert_snippet", "args": {"contents": "d3.transition(${1:[name]})"}
+					}, {
+						//transition.select - schedule a transition on the selected elements.
+						"caption": "    .select(selector)",
+						"command": "insert_snippet", "args": {"contents": ".select(${1:selector})"}
+					}, {
+						//transition.selectAll - schedule a transition on the selected elements.
+						"caption": "    .selectAll(selector)",
+						"command": "insert_snippet", "args": {"contents": ".selectAll(${1:selector})"}
+					}, {
+						//transition.filter - filter elements based on data.
+						"caption": "    .filter(filter)",
+						"command": "insert_snippet", "args": {"contents": ".filter(${1:filter})"}
+					}, {
+						//transition.merge - merge this transition with another.
+						"caption": "    .merge(other)",
+						"command": "insert_snippet", "args": {"contents": ".merge(${1:other})"}
+					}, {
+						//transition.transition - schedule a new transition following this one.
+						"caption": "    .transition()",
+						"command": "insert_snippet", "args": {"contents": ".transition()"}
+					}, {
+						//transition.selection - returns a selection for this transition.
+						"caption": "    .selection()",
+						"command": "insert_snippet", "args": {"contents": ".selection()"}
+					}, {
+						"caption": "Modifying Elements",
+						"command": null
+					}, {
+						//transition.attr - tween the given attribute using the default interpolator.
+						"caption": "    .attr(name, value)",
+						"command": "insert_snippet", "args": {"contents": ".attr(${1:name}, ${2:value})"}
+					}, {
+						//transition.attrTween - tween the given attribute using a custom interpolator.
+						"caption": "    .attrTween(name[, factory])",
+						"command": "insert_snippet", "args": {"contents": ".attrTween(${1:name}${2:[, factory]})"}
+					}, {
+						//transition.style - tween the given style property using the default interpolator.
+						"caption": "    .style(name, value[, priority])",
+						"command": "insert_snippet", "args": {"contents": ".style(${1:name}, ${2:value}${3:[, priority]})"}
+					}, {
+						//transition.styleTween - tween the given style property using a custom interpolator.
+						"caption": "    .styleTween(name[, factory[, priority]])",
+						"command": "insert_snippet", "args": {"contents": ".styleTween(${1:name}${2:[, factory]}${3:[, priority]})"}
+					}, {
+						//transition.text - set the text content when the transition starts.
+						"caption": "    .text(value)",
+						"command": "insert_snippet", "args": {"contents": ".text(${1:value})"}
+					}, {
+						//transition.remove - remove the selected elements when the transition ends.
+						"caption": "    .remove()",
+						"command": "insert_snippet", "args": {"contents": ".remove()"}
+					}, {
+						//transition.tween - run custom code during the transition.
+						"caption": "    .tween(name[, value])",
+						"command": "insert_snippet", "args": {"contents": ".tween(${1:name}${2:[, value]})"}
+					}, {
+						"caption": "Timing",
+						"command": null
+					}, {
+						//transition.delay - specify per-element delay in milliseconds.
+						"caption": "    .delay([value])",
+						"command": "insert_snippet", "args": {"contents": ".delay(${1:[value]})"}
+					}, {
+						//transition.duration - specify per-element duration in milliseconds.
+						"caption": "    .duration([value])",
+						"command": "insert_snippet", "args": {"contents": ".duration(${1:[value]})"}
+					}, {
+						//transition.ease - specify the easing function.
+						"caption": "    .ease([value])",
+						"command": "insert_snippet", "args": {"contents": ".ease(${1:[value]})"}
+					}, {
+						"caption": "Control Flow",
+						"command": null
+					}, {
+						//transition.on - add or remove transition event listeners.
+						"caption": "    .on(typenames[, listener])",
+						"command": "insert_snippet", "args": {"contents": ".on(${1:typenames}${2:[, listener]})"}
+					}, {
+						//transition.each - call a function for each element.
+						"caption": "    .each(function)",
+						"command": "insert_snippet", "args": {"contents": ".each(${1:function})"}
+					}, {
+						//transition.call - call a function with this transition.
+						"caption": "    .call(function[, arguments...])",
+						"command": "insert_snippet", "args": {"contents": ".call(${1:function}${2:[, arguments...]})"}
+					}, {
+						//transition.empty - returns true if this transition is empty.
+						"caption": "    .empty()",
+						"command": "insert_snippet", "args": {"contents": ".empty()"}
+					}, {
+						//transition.nodes - returns an array of all selected elements.
+						"caption": "    .nodes()",
+						"command": "insert_snippet", "args": {"contents": ".nodes()"}
+					}, {
+						//transition.node - returns the first (non-null) element.
+						"caption": "    .node()",
+						"command": "insert_snippet", "args": {"contents": ".node()"}
+					}, {
+						//transition.size - returns the count of elements.
+						"caption": "    .size()",
+						"command": "insert_snippet", "args": {"contents": ".size()"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.active - select the active transition for a given node.
+						"caption": "d3.active()",
+						"command": "insert_snippet", "args": {"contents": "d3.active(${1:[node]})"}
+					}
+				]
+			}
+		]
+	}
+]

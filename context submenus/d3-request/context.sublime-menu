@@ -1,0 +1,101 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Requests (d3-request)
+			//A convenient alternative to asynchronous XMLHttpRequest.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Requests (d3-request)",
+				"children":
+				[
+					{
+						//d3.request - make an asynchronous request.
+						"caption": "d3.request(url[, callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.request(${1:url}${2:[, callback]})"}
+					}, {
+						//request.header - set a request header.
+						"caption": "    .header(name[, value])",
+						"command": "insert_snippet", "args": {"contents": ".header(${1:name}${2:[, value]})"}
+					}, {
+						//request.mimeType - set the MIME type.
+						"caption": "    .mimeType([type])",
+						"command": "insert_snippet", "args": {"contents": ".mimeType(${1:[type]})"}
+					}, {
+						//request.user - set the user for authentication.
+						"caption": "    .user([value])",
+						"command": "insert_snippet", "args": {"contents": ".user(${1:[value]})"}
+					}, {
+						//request.password - set the password for authentication.
+						"caption": "    .password([value])",
+						"command": "insert_snippet", "args": {"contents": ".password(${1:[value]})"}
+					}, {
+						//request.timeout - set the timeout in milliseconds.
+						"caption": "    .timeout([timeout])",
+						"command": "insert_snippet", "args": {"contents": ".timeout(${1:[timeout]})"}
+					}, {
+						//request.responseType - set the response type.
+						"caption": "    .responseType(type)",
+						"command": "insert_snippet", "args": {"contents": ".responseType(${1:[type]})"}
+					}, {
+						//request.response - set the response function.
+						"caption": "    .response(value)",
+						"command": "insert_snippet", "args": {"contents": ".response(${1:value})"}
+					}, {
+						//request.get - send a GET request.
+						"caption": "    .get([data][, callback])",
+						"command": "insert_snippet", "args": {"contents": ".get(${1:[data]}${2:[, callback]})"}
+					}, {
+						//request.post - send a POST request.
+						"caption": "    .post([data][, callback])",
+						"command": "insert_snippet", "args": {"contents": ".post(${1:[data]}${2:[, callback]})"}
+					}, {
+						//request.send - set the request.
+						"caption": "    .send(method[, data][, callback])",
+						"command": "insert_snippet", "args": {"contents": ".send(${1:method}${2:[, data]}${3:[, callback]})"}
+					}, {
+						//request.abort - abort the request.
+						"caption": "    .abort()",
+						"command": "insert_snippet", "args": {"contents": ".abort()"}
+					}, {
+						//request.on - listen for a request event.
+						"caption": "    .on(type[, listener])",
+						"command": "insert_snippet", "args": {"contents": ".on(${1:type}${2:[, listener]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.json - get a JSON file.
+						"caption": "d3.json((url[, callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.json(${1:url}${2:[, callback]})"}
+					}, {
+						//d3.csv - get a comma-separated values (CSV) file.
+						"caption": "d3.csv(url[[, row], callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.csv(${1:url}${2:[, row]}${3:[, callback]})"}
+					}, {
+						//d3.tsv - get a tab-separated values (TSV) file.
+						"caption": "d3.tsv(url[[, row], callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.tsv(${1:url}${2:[, row]}${3:[, callback]})"}
+					}, {
+						//d3.xml - get an XML file.
+						"caption": "d3.xml((url[, callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.xml(${1:url}${2:[, callback]})"}
+					}, {
+						//d3.html - get an HTML file.
+						"caption": "d3.html(url[, callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.html(${1:url}${2:[, callback]})"}
+					}, {
+						//d3.text - get a plain text file.
+						"caption": "d3.text((url[, callback])",
+						"command": "insert_snippet", "args": {"contents": "d3.text(${1:url}${2:[, callback]})"}
+					}
+				]
+			}
+		]
+	}
+]

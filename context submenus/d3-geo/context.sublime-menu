@@ -1,0 +1,535 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Geographies (d3-geo)
+			//Geographic projections, shapes and math.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Geographies (d3-geo)",
+				"children":
+				[
+					{
+						//Paths
+						"caption": "Paths",
+						"children": 
+						[						
+							{
+								//d3.geoPath - create a new geographic path generator.
+								"caption": "d3.geoPath([projection[, context]])",
+								"command": "insert_snippet", "args": {"contents": "d3.geoPath(${1:[projection]}${2:[, context]})"}
+							}, {
+								"caption": "  path([object[, arguments...]])",
+								"command": "insert_snippet", "args": {"contents": "${1:path}(${2:[object]}${3:[, arguments...]})"}
+							}, {
+								//path.area - compute the projected planar area of a given feature.
+								"caption": "    .area(object)",
+								"command": "insert_snippet", "args": {"contents": ".area(${1:object})"}
+							}, {
+								//path.bounds - compute the projected planar bounding box of a given feature.
+								"caption": "    .bounds(object)",
+								"command": "insert_snippet", "args": {"contents": ".bounds(${1:object})"}
+							}, {
+								//path.centroid - compute the projected planar centroid of a given feature.
+								"caption": "    .centroid(object)",
+								"command": "insert_snippet", "args": {"contents": ".centroid(${1:object})"}
+							}, {
+								//path.projection - set the geographic projection.
+								"caption": "    .projection([projection])",
+								"command": "insert_snippet", "args": {"contents": ".projection(${1:[projection]})"}
+							}, {
+								//path.context - set the render context.
+								"caption": "    .context([context])",
+								"command": "insert_snippet", "args": {"contents": ".context(${1:[context]})"}
+							}, {
+								//path.pointRadius - set the radius to display point features.
+								"caption": "    .pointRadius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".pointRadius(${1:[radius]})"}
+							}
+						]
+					}, {
+						//Projections
+						"caption": "Projections",
+						"children": 
+						[						
+							{
+								//Azimuthal Projections
+								//Azimuthal projections project the sphere directly onto a plane.
+								"caption": "Azimuthal Projections",
+								"children": 
+								[
+									{
+										//d3.geoAzimuthalEqualArea - the azimuthal equal-area projection.
+										"caption": "d3.geoAzimuthalEqualArea()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoAzimuthalEqualArea()"}
+									}, {
+										//d3.geoAzimuthalEqualAreaRaw
+										"caption": "d3.geoAzimuthalEqualAreaRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoAzimuthalEqualAreaRaw"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoAzimuthalEquidistant - the azimuthal equidistant projection.
+										"caption": "d3.geoAzimuthalEquidistant()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoAzimuthalEquidistant()"}
+									}, {
+										//d3.geoAzimuthalEquidistantRaw
+										"caption": "d3.geoAzimuthalEquidistantRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoAzimuthalEquidistantRaw"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoGnomonic - the gnomonic projection.
+										"caption": "d3.geoGnomonic()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoGnomonic()"}
+									}, {
+										//d3.geoGnomonicRaw
+										"caption": "d3.geoGnomonicRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoGnomonicRaw"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoOrthographic - the azimuthal orthographic projection.
+										"caption": "d3.geoOrthographic()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoOrthographic()"}
+									}, {
+										//d3.geoOrthographicRaw
+										"caption": "d3.geoOrthographicRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoOrthographicRaw"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoStereographic - the azimuthal stereographic projection.
+										"caption": "d3.geoStereographic()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoStereographic()"}
+									}, {
+										//d3.geoStereographicRaw
+										"caption": "d3.geoStereographicRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoStereographicRaw"}
+									}
+								]
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//Composite Projections
+								"caption": "Composite Projections",
+								"children": 
+								[
+									{
+										//d3.geoAlbersUsa - a composite Albers projection for the United States.
+										"caption": "d3.geoAlbersUsa()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoAlbersUsa()"}
+									}
+								]
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//Conic Projections
+								"caption": "Conic Projections",
+								"children": 
+								[
+									{	
+										//d3.geoAlbers - the Albers equal-area conic projection.
+										"caption": "d3.geoAlbers()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoAlbersUsa()"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoConicConformal - the conic conformal projection.
+										"caption": "d3.geoConicConformal()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoConicConformal()"}
+									}, {
+										//d3.geoConicConformalRaw
+										"caption": "d3.geoConicConformalRaw(phi0, phi1)",
+										"command": "insert_snippet", "args": {"contents": "d3.geoConicConformalRaw(${1:phi0}, ${2:phi1})"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoConicEqualArea - the conic equal-area (Albers) projection.
+										"caption": "d3.geoConicEqualArea()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoConicEqualArea()"}
+									}, {
+										//d3.geoConicEqualAreaRaw
+										"caption": "d3.geoConicEqualAreaRaw(phi0, phi1)",
+										"command": "insert_snippet", "args": {"contents": "d3.geoConicEqualAreaRaw(${1:phi0}, ${2:phi1})"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoConicEquidistant - the conic equidistant projection.
+										"caption": "d3.geoConicEquidistant()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoConicEquidistant()"}
+									}, {
+										//d3.geoConicEquidistantRaw
+										"caption": "d3.geoConicEquidistant(phi0, phi1)",
+										"command": "insert_snippet", "args": {"contents": "d3.geoConicEquidistant(${1:phi0}, ${2:phi1})"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//conic.parallels - set the two standard parallels.
+										"caption": "conic.parallels([parallels])",
+										"command": "insert_snippet", "args": {"contents": "${1:conic}(${2:[parallels]})"}
+									}
+								]
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//Cylindrical Projections
+								"caption": "Cylindrical Projections",
+								"children": 
+								[
+									{
+										//d3.geoEquirectangular - the equirectangular (plate carreé) projection.
+										"caption": "d3.geoEquirectangular()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoEquirectangular()"}
+									}, {
+										//d3.geoEquirectangularRaw
+										"caption": "d3.geoEquirectangularRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoEquirectangularRaw"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoMercator - the spherical Mercator projection.
+										"caption": "d3.geoMercator()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoMercator()"}
+									}, {
+										//d3.geoMercatorRaw
+										"caption": "d3.geoMercatorRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoMercatorRaw"}
+									}, {
+
+										"caption": "-",
+
+									}, {
+										//d3.geoTransverseMercator - the transverse spherical Mercator projection.
+										"caption": "d3.geoTransverseMercator()",
+										"command": "insert_snippet", "args": {"contents": "d3.geoTransverseMercator()"}
+									}, {
+										//d3.geoTransverseMercatorRaw
+										"caption": "d3.geoTransverseMercatorRaw",
+										"command": "insert_snippet", "args": {"contents": "d3.geoTransverseMercatorRaw"}
+									}
+								]
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//Raw Projections
+								"caption": "Raw Projections",
+								"children": 
+								[
+									{
+										//d3.geoProjection - create a custom projection.
+										"caption": "d3.geoProjection(project)",
+										"command": "insert_snippet", "args": {"contents": "d3.geoProjection(${1:project})"}
+									}, {
+										//d3.geoProjectionMutator - create a custom configurable projection.
+										"caption": "d3.geoProjectionMutator(factory)",
+										"command": "insert_snippet", "args": {"contents": "d3.geoProjectionMutator(${1:factory})"}
+									}, {
+										//project
+										"caption": "  project(lambda, phi)",
+										"command": "insert_snippet", "args": {"contents": "invert(${1:lambda}, ${2:phi})"}
+									}, {
+										//project.invert - unproject the specified point from the plane to the sphere.
+										"caption": "    .invert(x, y)",
+										"command": "insert_snippet", "args": {"contents": "invert(${1:x}, ${2:y})"}
+									}
+								]
+							}, {
+
+								"caption": "-"
+
+							}, {
+								"caption": "  projection(point)",
+								"command": "insert_snippet", "args": {"contents": "${1:projection}(${2:point})"}
+							}, {
+								//projection.invert - unproject the specified point from the plane to the sphere.
+								"caption": "    .invert(point)",
+								"command": "insert_snippet", "args": {"contents": ".invert(${1:point})"}
+							}, {
+								//projection.stream - wrap the specified stream to project geometry.
+								"caption": "    .stream(stream)",
+								"command": "insert_snippet", "args": {"contents": ".stream(${1:stream})"}
+							}, {
+								//projection.clipAngle - set the radius of the clip circle.
+								"caption": "    .clipAngle([angle])",
+								"command": "insert_snippet", "args": {"contents": ".clipAngle(${1:[angle]})"}
+							}, {
+								//projection.clipExtent - set the viewport clip extent, in pixels.
+								"caption": "    .clipExtent([extent])",
+								"command": "insert_snippet", "args": {"contents": ".clipExtent(${1:[extent]})"}
+							}, {
+								//projection.scale - set the scale factor.
+								"caption": "    .scale([scale])",
+								"command": "insert_snippet", "args": {"contents": ".scale(${1:[scale]})"}
+							}, {
+								//projection.translate - set the translation offset.
+								"caption": "    .translate([translate])",
+								"command": "insert_snippet", "args": {"contents": ".translate(${1:[translate]})"}
+							}, {
+								//projection.center - set the center point.
+								"caption": "    .center([center])",
+								"command": "insert_snippet", "args": {"contents": ".center(${1:[center]})"}
+							}, {
+								//projection.rotate - set the three-axis spherical rotation angles.
+								"caption": "    .rotate([angles])",
+								"command": "insert_snippet", "args": {"contents": ".rotate(${1:[angles]})"}
+							}, {
+								//projection.precision - set the precision threshold for adaptive sampling.
+								"caption": "    .precision([precision])",
+								"command": "insert_snippet", "args": {"contents": ".precision(${1:[precision]})"}
+							}, {
+								//projection.fitExtent - set the scale and translate to fit a GeoJSON object.
+								"caption": "    .fitExtent(extent, object)",
+								"command": "insert_snippet", "args": {"contents": ".fitExtent(${1:extent}, ${2:object})"}
+							}, {
+								//projection.fitSize - set the scale and translate to fit a GeoJSON object.
+								"caption": "    .fitSize(size, object)",
+								"command": "insert_snippet", "args": {"contents": ".fitSize(${1:size}, ${2:object})"}
+							}
+						]
+					}, {
+						//Spherical Math
+						"caption": "Spherical Math",
+						"children":
+						[
+							{
+								//d3.geoArea - compute the spherical area of a given feature.
+								"caption": "d3.geoArea(feature)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoArea(${1:feature})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoBounds - compute the latitude-longitude bounding box for a given feature.
+								"caption": "d3.geoBounds(feature)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoBounds(${1:feature})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoCentroid - compute the spherical centroid of a given feature.
+								"caption": "d3.geoCentroid(feature)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoCentroid(${1:feature})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoDistance - compute the great-arc distance between two points.
+								"caption": "d3.geoDistance(a, b)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoDistance(${1:a}, ${2:b})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoLength - compute the length of a line string or the perimeter of a polygon.
+								"caption": "d3.geoLength(feature)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoLength(${1:feature})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoInterpolate - interpolate between two points along a great arc.
+								"caption": "d3.geoInterpolate(a, b)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoInterpolate(${1:a}, ${2:b})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoRotation - create a rotation function for the specified angles.
+								"caption": "d3.geoRotation(angles)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoRotation(${1:angles})"}
+							}, {
+								//rotation
+								"caption": "  rotation(point)",
+								"command": "insert_snippet", "args": {"contents": "${1:rotation}(${2:point})"}
+							}, {
+								//rotation.invert - unrotate the given point around the sphere.
+								"caption": "    .invert(point)",
+								"command": "insert_snippet", "args": {"contents": ".invert(${1:point})"}
+							}
+						]
+					}, {
+						//Spherical Shapes
+						"caption": "Spherical Shapes",
+						"children":
+						[
+							{
+								//d3.geoCircle - create a circle generator.
+								"caption": "d3.geoCircle()",
+								"command": "insert_snippet", "args": {"contents": "d3.geoCircle()"}
+							}, {
+								"caption": "  circle(arguments...)",
+								"command": "insert_snippet", "args": {"contents": "${1:circle}(${2:arguments...})"}
+							}, {
+								//circle.center - specify the circle center in latitude and longitude.
+								"caption": "   .center([center])",
+								"command": "insert_snippet", "args": {"contents": ".center(${1:[center]})"}
+							}, {
+								//circle.radius - specify the angular radius in degrees.
+								"caption": "   .radius([radius])",
+								"command": "insert_snippet", "args": {"contents": ".radius(${1:[radius]})"}
+							}, {
+								//circle.precision - specify the precision of the piecewise circle.
+								"caption": "   .precision([angle])",
+								"command": "insert_snippet", "args": {"contents": ".precision(${1:[angle]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoGraticule - create a graticule generator.
+								"caption": "d3.geoGraticule()",
+								"command": "insert_snippet", "args": {"contents": "d3.geoGraticule()"}
+							}, {
+								"caption": "  graticule()",
+								"command": "insert_snippet", "args": {"contents": "${1:graticule}"}
+							}, {
+								//graticule.lines - generate an array of LineStrings of meridians and parallels.
+								"caption": "    .lines()",
+								"command": "insert_snippet", "args": {"contents": ".lines()"}
+							}, {
+								//graticule.outline - generate a Polygon of the graticule’s extent.
+								"caption": "    .outline()",
+								"command": "insert_snippet", "args": {"contents": ".outline()"}
+							}, {
+								//graticule.extent - get or set the major & minor extents.
+								"caption": "    .extent([extent])",
+								"command": "insert_snippet", "args": {"contents": ".extent(${1:[extent]})"}
+							}, {
+								//graticule.extentMajor - get or set the major extent.
+								"caption": "    .extentMajor([extent])",
+								"command": "insert_snippet", "args": {"contents": ".extentMajor(${1:[extent]})"}
+							}, {
+								//graticule.extentMinor - get or set the minor extent.
+								"caption": "    .extentMinor([extent])",
+								"command": "insert_snippet", "args": {"contents": ".extentMinor(${1:[extent]})"}
+							}, {
+								//graticule.step - get or set the major & minor step intervals.
+								"caption": "    .step([step])",
+								"command": "insert_snippet", "args": {"contents": ".step(${1:[step]})"}
+							}, {
+								//graticule.stepMajor - get or set the major step intervals.
+								"caption": "    .stepMajor([step])",
+								"command": "insert_snippet", "args": {"contents": ".stepMajor(${1:[step]})"}
+							}, {
+								//graticule.stepMinor - get or set the minor step intervals.
+								"caption": "    .stepMinor([step])",
+								"command": "insert_snippet", "args": {"contents": ".stepMinor(${1:[step]})"}
+							}, {
+								//graticule.precision - get or set the latitudinal precision.
+								"caption": "    .precision([angle])",
+								"command": "insert_snippet", "args": {"contents": ".precision(${1:[angle]})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoGraticule10 - generate the default 10° global graticule.
+								"caption": "d3.geoGraticule10()",
+								"command": "insert_snippet", "args": {"contents": "d3.geoGraticule10()"}
+							},
+						]
+					}, {
+						//Streams
+						"caption": "Streams",
+						"children":
+						[
+							{
+								//d3.geoStream - convert a GeoJSON object to a geometry stream.
+								"caption": "d3.geoStream(object, stream)",
+								"command": "insert_snippet", "args": {"contents": "geoStream(${1:object}, ${2:stream})"}
+							}, {
+								//stream.point -
+								"caption": "    .point(x, y[, z])",
+								"command": "insert_snippet", "args": {"contents": ".point(${1:x}, ${2:y}${3:[, z]})"}
+							}, {
+								//stream.lineStart -
+								"caption": "    .lineStart()",
+								"command": "insert_snippet", "args": {"contents": ".lineStart()"}
+							}, {
+								//stream.lineEnd -
+								"caption": "    .lineEnd()",
+								"command": "insert_snippet", "args": {"contents": ".lineEnd()"}
+							}, {
+								//stream.polygonStart -
+								"caption": "    .polygonStart()",
+								"command": "insert_snippet", "args": {"contents": ".polygonStart()"}
+							}, {
+								//stream.polygonEnd -
+								"caption": "    .polygonEnd()",
+								"command": "insert_snippet", "args": {"contents": ".polygonEnd()"}
+							}, {
+								//stream.sphere -
+								"caption": "    .sphere()",
+								"command": "insert_snippet", "args": {"contents": ".sphere()"}
+							},
+						]
+					}, {
+						//Transforms
+						"caption": "Transforms",
+						"children":
+						[
+							{
+								//d3.geoTransform - define a custom geometry transform.	
+								"caption": "d3.geoTransform(methods)",
+								"command": "insert_snippet", "args": {"contents": "d3.geoTransform(${1:methods})"}
+							}, {
+
+								"caption": "-"
+
+							}, {
+								//d3.geoIdentity - scale, translate or clip planar geometry.
+								"caption": "d3.geoIdentity()",
+								"command": "insert_snippet", "args": {"contents": "d3.geoIdentity()"}
+							}, {
+								//geoIdentity.reflectX
+								"caption": "    .reflectX([reflect])",
+								"command": "insert_snippet", "args": {"contents": ".reflectX(${[reflect]})"}
+							}, {
+								//geoIdentity.reflectY
+								"caption": "    .reflectY([reflect])",
+								"command": "insert_snippet", "args": {"contents": ".reflectY(${[reflect]})"}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

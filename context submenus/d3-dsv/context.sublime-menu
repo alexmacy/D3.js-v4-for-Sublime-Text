@@ -1,0 +1,77 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Delimiter-Separated Values (d3-dsv)
+			//Parse and format delimiter-separated values, most commonly CSV and TSV.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+			    "caption": "Delimiter-Separated Values (d3-dsv)",
+			    "children":
+			    [
+			    	{
+						//d3.dsvFormat - create a new parser and formatter for the given delimiter.
+						"caption": "d3.dsvFormat(delimiter)",
+						"command": "insert_snippet", "args": {"contents": "d3.dsvFormat(${1:delimiter})"}
+					}, {
+						//dsv.parse - parse the given string, returning an array of objects.
+						"caption": "    .parse(string[, row])",
+						"command": "insert_snippet", "args": {"contents": ".parse(${1:string}${2:[, row]})"}
+					}, {
+						//dsv.parseRows - parse the given string, returning an array of rows.
+						"caption": "    .parseRows(string[, row])",
+						"command": "insert_snippet", "args": {"contents": ".parseRows(${1:string}${2:[, row]})"}
+					}, {
+						//dsv.format - format the given array of objects.
+						"caption": "    .format(rows[, columns])",
+						"command": "insert_snippet", "args": {"contents": ".format(${1:rows}${2:[, columns]})"}
+					}, {
+						//dsv.formatRows - format the given array of rows.
+						"caption": "    .formatRows(rows)",
+						"command": "insert_snippet", "args": {"contents": ".formatRows(${1:rows})"}
+					}, {
+						"caption": "-"
+					}, {
+						//d3.csvParse - parse the given CSV string, returning an array of objects.
+						"caption": "d3.csvParse(string[, row])",
+						"command": "insert_snippet", "args": {"contents": "d3.csvParse(${1:string}${2:[, row]})"}
+					}, {
+						//d3.csvParseRows - parse the given CSV string, returning an array of rows.
+						"caption": "d3.csvParseRows(string[, row])",
+						"command": "insert_snippet", "args": {"contents": "d3.csvParseRows(${1:string}${2:[, row]})"}
+					}, {
+						//d3.csvFormat - format the given array of objects as CSV.
+						"caption": "d3.csvFormat(rows[, columns])",
+						"command": "insert_snippet", "args": {"contents": "d3.csvFormat(${1:rows}${2:[, columns]})"}
+					}, {
+						//d3.csvFormatRows - format the given array of rows as CSV.
+						"caption": "d3.csvFormatRows(rows)",
+						"command": "insert_snippet", "args": {"contents": "d3.csvFormatRows(${1:rows})"}
+					}, {
+						"caption": "-"
+					}, {
+						//d3.tsvParse - parse the given TSV string, returning an array of objects.
+						"caption": "d3.tsvParse(string[, row])",
+						"command": "insert_snippet", "args": {"contents": "d3.tsvParse(${1:string}${2:[, row]})"}
+					}, {
+						//d3.tsvParseRows - parse the given TSV string, returning an array of rows.
+						"caption": "d3.tsvParseRows(string[, row])",
+						"command": "insert_snippet", "args": {"contents": "d3.tsvParseRows(${1:string}${2:[, row]})"}
+					}, {
+						//d3.tsvFormat - format the given array of objects as TSV.
+						"caption": "d3.tsvFormat(rows[, columns])",
+						"command": "insert_snippet", "args": {"contents": "d3.tsvFormat(${1:rows}${2:[, columns]})"}
+					}, {
+						//d3.tsvFormatRows - format the given array of rows as TSV.
+						"caption": "d3.tsvFormatRows(rows)",
+						"command": "insert_snippet", "args": {"contents": "d3.tsvFormatRows(${1:rows})"}
+					}			
+				]
+			}
+		]
+	}
+]

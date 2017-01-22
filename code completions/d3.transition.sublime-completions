@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////
-//Time Intervals (d3-time)
-//A calculator for humanity’s peculiar conventions of time.
+//Transitions (d3-transition)
+//Animated transitions for selections.
 //////////////////////////////////////////////////////////////////////
 
 {
@@ -114,11 +114,11 @@
 		}, {
 			//d3.active - select the active transition for a given node.
 			"trigger": "active()\td3.active()",
-			"contents": "d3.active(${1:[node]})"
+			"contents": "d3.active(${1:node})"
 		}, {
 			//d3.interrupt -
 			"trigger": "interrupt()\td3.interrupt()",
-			"contents": "d3.interrupt(${1:[node]})"
+			"contents": "d3.interrupt(${1:node})"
 		}
 	]
 }

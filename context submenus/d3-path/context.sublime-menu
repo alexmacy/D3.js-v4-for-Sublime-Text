@@ -1,0 +1,61 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Paths (d3-path)
+			//Serialize Canvas path commands to SVG.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Paths (d3-path)",
+				"children":
+				[
+					{
+						//d3.path - create a new path serializer.
+						"caption": "d3.path()",
+						"command": "insert_snippet", "args": {"contents": "d3.path()"}
+					}, {
+						//path.moveTo - move to the given point.
+						"caption": "    .moveTo(x, y)",
+						"command": "insert_snippet", "args": {"contents": ".moveTo(${1:x}, ${2:y})"}
+					}, {
+						//path.closePath - close the current subpath.
+						"caption": "    .closePath()",
+						"command": "insert_snippet", "args": {"contents": ".closePath()"}
+					}, {
+						//path.lineTo - draw a straight line segment.
+						"caption": "    .lineTo(x, y)",
+						"command": "insert_snippet", "args": {"contents": ".lineTo(${1:x}, ${2:y})"}
+					}, {
+						//path.quadraticCurveTo - draw a quadratic Bézier segment.
+						"caption": "    .quadraticCurveTo(cpx, cpy, x, y)",
+						"command": "insert_snippet", "args": {"contents": ".quadraticCurveTo(${1:cpx}, ${2:cpy}, ${3:x}, ${4:y})"}
+					}, {
+						//path.bezierCurveTo - draw a cubic Bézier segment.
+						"caption": "    .bezierCurveTo(cpx1, cpy1, cpx2, cpy2, x, y)",
+						"command": "insert_snippet", "args": {"contents": ".bezierCurveTo(${1:cpx1}, ${2:cpy1}, ${3:cpx2}, ${4:cpy2}, ${5:x}, ${6:y})"}
+					}, {
+						//path.arcTo - draw a circular arc segment.
+						"caption": "    .arcTo(x1, y1, x2, y2, radius)",
+						"command": "insert_snippet", "args": {"contents": ".arcTo(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:radius})"}
+					}, {
+						//path.arc - draw a circular arc segment.
+						"caption": "    .arc(x, y, radius, startAngle, endAngle[, anticlockwise])",
+						"command": "insert_snippet", "args": {"contents": ".arc(${1:x}, ${2:y}, ${3:radius}, ${4:startAngle}, ${5:endAngle}${6:[, anticlockwise]})"}
+					}, {
+						//path.rect - draw a rectangle.
+						"caption": "    .rect(x, y, w, h)",
+						"command": "insert_snippet", "args": {"contents": ".rect(${1:x}, ${2:y}, ${3:w}, ${4:h})"}
+					}, {
+						//path.toString - serialize to an SVG path data string.
+						"caption": "    .toString()",
+						"command": "insert_snippet", "args": {"contents": ".toString()"}
+					}
+				]
+			}
+		]
+	}
+]

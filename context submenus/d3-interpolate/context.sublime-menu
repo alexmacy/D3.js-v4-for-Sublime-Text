@@ -1,0 +1,216 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Interpolators (d3-interpolate)
+			//Interpolate numbers, colors, strings, arrays, objects, whatever!
+			//////////////////////////////////////////////////////////////////////
+
+			{
+				"caption": "Interpolators (d3-interpolate)",
+				"children":
+				[
+					{
+						//d3.interpolate - interpolate arbitrary values.
+						"caption": "d3.interpolate(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolate(${1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateArray - interpolate arrays of arbitrary values.
+						"caption": "d3.interpolateArray(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateArray({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateDate - interpolate dates.
+						"caption": "d3.interpolateDate(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateDate({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateNumber - interpolate numbers.
+						"caption": "d3.interpolateNumber(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateNumber({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateObject - interpolate arbitrary objects.
+						"caption": "d3.interpolateObject(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateObject({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateRound - interpolate integers.
+						"caption": "d3.interpolateRound(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateRound({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateString - interpolate strings with embedded numbers.
+						"caption": "d3.interpolateString(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateString({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateTransformCss - interpolate 2D CSS transforms.
+						"caption": "d3.interpolateTransformCss(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateTransformCss({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateTransformSvg - interpolate 2D SVG transforms.
+						"caption": "d3.interpolateTransformSvg(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateTransformSvg({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateZoom - zoom and pan between two views.
+						"caption": "d3.interpolateZoom(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateZoom({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+
+
+
+
+
+
+						
+						//d3.interpolateRgb - interpolate RGB colors.
+						"caption": "d3.interpolateRgb(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateRgb({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateRgbBasis - generate a B-spline through a set of colors.
+						"caption": "d3.interpolateRgbBasis(colors)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateRgbBasis({1:colors})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateRgbBasisClosed - generate a closed B-spline through a set of colors.
+						"caption": "d3.interpolateRgbBasisClosed(colors)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateRgbBasisClosed({1:colors})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateHsl - interpolate HSL colors.
+						"caption": "d3.interpolateHsl(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateHsl({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateHslLong - interpolate HSL colors, the long way.
+						"caption": "d3.interpolateHslLong(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateHslLong({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateLab - interpolate Lab colors.
+						"caption": "d3.interpolateLab(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateLab({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateHcl - interpolate HCL colors.
+						"caption": "d3.interpolateHcl(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateHcl({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateHclLong - interpolate HCL colors, the long way.
+						"caption": "d3.interpolateHclLong(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateHclLong({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateCubehelix - interpolate Cubehelix colors.
+						"caption": "d3.interpolateCubehelix(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateCubehelix({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateCubehelixLong - interpolate Cubehelix colors, the long way.
+						"caption": "d3.interpolateCubehelixLong(a, b)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateCubehelixLong({1:a}, ${2:b})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//interpolate.gamma - apply gamma correction during interpolation.
+						"caption": "  interpolate.gamma(gamma)",
+						"command": "insert_snippet", "args": {"contents": ".gamma({1:gamma})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateBasis - generate a B-spline through a set of values.
+						"caption": "d3.interpolateBasis(values)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateBasis({1:values})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.interpolateBasisClosed - generate a closed B-spline through a set of values.
+						"caption": "d3.interpolateBasisClosed(values)",
+						"command": "insert_snippet", "args": {"contents": "d3.interpolateBasisClosed({1:values})"}
+					}, {
+
+						"caption": "-",
+
+					}, {
+						//d3.quantize - generate uniformly-spaced samples from an interpolator.
+						"caption": "d3.quantize(interpolator, n)",
+						"command": "insert_snippet", "args": {"contents": "d3.quantize(${1:interpolator}, ${2:n})"}
+					}
+				]
+			}
+		]
+	}
+]

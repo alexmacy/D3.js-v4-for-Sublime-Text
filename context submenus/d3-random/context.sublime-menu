@@ -1,0 +1,66 @@
+[
+	{
+		"id": "D3.js",
+		"caption": "D3.js",
+		"children": 
+		[
+			//////////////////////////////////////////////////////////////////////
+			//Random Numbers (d3-random)
+			//Generate random numbers from various distributions.
+			//////////////////////////////////////////////////////////////////////
+
+			{
+
+				"caption": "Random Numbers (d3-random)",
+				"children":
+				[
+					{
+						//d3.randomUniform - from a uniform distribution.
+						"caption": "d3.randomUniform([min, ][max])",
+						"command": "insert_snippet", "args": {"contents": "d3.randomUniform(${1:[min, ]}${2:[max]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.randomNormal - from a normal distribution.
+						"caption": "d3.randomNormal([mu][, sigma])",
+						"command": "insert_snippet", "args": {"contents": "d3.randomNormal(${1:[mu]}${2:[, sigma]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.randomLogNormal - from a log-normal distribution.
+						"caption": "d3.randomLogNormal([mu][, sigma])",
+						"command": "insert_snippet", "args": {"contents": "d3.randomLogNormal(${1:[mu]}${2:[, sigma]})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.randomBates - from a Bates distribution.
+						"caption": "d3.randomBates(n)",
+						"command": "insert_snippet", "args": {"contents": "d3.randomBates(${1:n})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.randomIrwinHall - from an Irwin–Hall distribution.
+						"caption": "d3.randomIrwinHall(n)",
+						"command": "insert_snippet", "args": {"contents": "d3.randomIrwinHall(${1:n})"}
+					}, {
+
+						"caption": "-"
+
+					}, {
+						//d3.randomExponential - from an exponential distribution.
+						"caption": "d3.randomExponential(lambda)",
+						"command": "insert_snippet", "args": {"contents": "d3.randomExponential(${1:lambda})"}
+					}
+				]
+			}
+		]
+	}
+]
